@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/layout/navbar.css" />
+    <link rel="stylesheet" href="./css/layout/footer.css" />
+    <link rel="stylesheet" href="./css/corporate.css" />
+    <link rel="stylesheet" href="./css/heading.css" />
+    <link rel="stylesheet" href="./css/common.css" />
+    <script
+      src="https://kit.fontawesome.com/cf2146b72f.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <title>Corporate</title>
+  </head>
+  <body>
+    <navbar-page></navbar-page>
+
+    <section id="banner">
+      <div class="banner-bg">
+        <div class="banner-heading">รู้จักองค์กร</div>
+      </div>
+    </section>
+
+    <section id="profile">
+      <div class="container">
+        <div class="profile-wrapper">
+          <div class="profile-info-left">
+            <div class="heading-underline">
+              ประวัติผู้บริหาร <span class="line"></span>
+            </div>
+            <div class="profile-info-wrapper">
+              <div class="profile-info-name">คุณ ธนกร เฉิน</div>
+              <div class="profile-info-position">ประธานกรรมการผู้จัดการ</div>
+              <div class="profile-info-company">
+                บริษัท เดอะวัน เอสเตท ดีเวลลอปเม้นท์ จำกัด
+              </div>
+              <button onclick="openProfileMore()">ดูเพิ่มเติม</button>
+            </div>
+          </div>
+          <div class="profile-image-right">
+            <img src="./assets/corporate/person.png" alt="Person" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="profile-more-modal">
+      <div class="profile-more-icon-close-modal" onclick="closeProfileMore()">
+        <div class="line1"><div class="line2"></div></div>
+      </div>
+      <div class="profile-more-profile-wrapper">
+        <div class="profile-more-modal-left">
+          <div class="profile-more-heading">คุณธนกร เฉิน</div>
+          <div class="profile-more-position">ประธานกรรมการผู้จัดการ</div>
+          <div class="profile-more-company">
+            บริษัท เดอะวัน เอสเตท ดีเวลลอปเม้นท์ จำกัด
+          </div>
+          <div class="profile-more-edu-wrapper">
+            <h5>การศึกษา</h5>
+            <p>
+              ปริญญาตรีมหาวิทยาลัยทัมคัง ประเทศไต้หวัน ปริญาโท Master Degree
+              Executive MBA National Taipei University of TechnologyPresident
+              และ กรรมการผู้จัดการ บริษัท เดอะ วัน เอสเตท ดีเวลลอปเม้นท์
+              จำกัดนาย ธนกร เฉิน
+            </p>
+          </div>
+          <div class="profile-more-exp">
+            <h5>ประสบการณ์การทำงาน</h5>
+            <ul class="profile-more-exp-items">
+              <li class="exp-item">
+                <span>ปี พ.ศ. 2536 - พ.ศ. 2546</span>
+                <p>ดำเนินธุรกิจรับเหมาก่อสร้างที่จังหวัดเชียงใหม่</p>
+              </li>
+              <li class="exp-item">
+                <span>ปี พ.ศ. 2545 - ปัจจุบัน</span>
+                <p>
+                  ดำรงตำแหน่งกรรมการผู้จัดการ บริษัทดานูบ อินเตอร์เนชั่นแนล
+                  เอ็นเตอร์ไพร์ส จำกัด ทุนจดทะเบียน 5,000,000 บาท
+                  ซึ่งดำเนินธุรกิจร้านกาแฟสด และจำหน่ายเมล็ดกาแฟ
+                </p>
+              </li>
+              <li class="exp-item">
+                <span>ปี พ.ศ. 2547 - ปัจจุบัน</span>
+                <p>
+                  ดำรงตำแหน่งกรรมการผู้จัดการ บริษัทเท็น ไทย ดีเวลลอปเม้นท์
+                  จำกัด ทุนจดทะเบียน 80,000,000 บาท
+                  ซึ่งดำเนินธุรกิจอสังหาริมทรัพย์และอพาร์ทเม้นท์ให้เช่า 3 แห่ง
+                </p>
+              </li>
+              <li class="exp-item">
+                <span>ปี พ.ศ. 2549 - ปัจจุบัน</span>
+                <p>
+                  ดำรงตำแหน่งกรรมการผู้จัดการ บริษัท บิลเลี่ยน ไทย กรุ๊ป จำกัด
+                  ทุนจดทะเบียน 2,000,000 บาท
+                  ซึ่งดำเนินธุรกิจรับเหมาก่อสร้าง,บริหารนิติบุคคล อาคารชุด
+                </p>
+              </li>
+              <li class="exp-item">
+                <span>ปี พ.ศ. 2554 - ปัจจุบัน</span>
+                <p>
+                  ดำรงตำแหน่งกรรมการผู้จัดการ บริษัท อี้ ไทย ดีเวลลอปเม้นท์
+                  จำกัด ทุนจดทะเบียน 33,000,000 บาท ซึ่งดำเนินธุรกิจอพาร์ทเม้นท์
+                </p>
+              </li>
+              <li class="exp-item">
+                <span>ปี พ.ศ. 2561 - ปัจจุบัน</span>
+                <p>
+                  ดำรงตำแหน่งกรรมการผู้จัดการ บริษัท เดอะวัน เอสเตท
+                  ดีเวลลอปเม้นท์ จำกัด ทุนจดทะเบียน 200,000,000 บาท
+                  ในธุรกิจอสังหาริมทรัพย์ ภายใต้การอาคารชุด ขนาดสูง
+                  และบ้านเดี่ยวระดับ Luxury
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="profile-more-modal-right">
+          <div class="profile-more-modal-image">
+            <img src="./assets/corporate/modal/person.png" alt="Person" />
+          </div>
+          <div class="profile-more-modal-company-items">
+            <div class="profile-more-company-item">
+              <img src="./assets/corporate/modal/1.png" alt="Logo" />
+            </div>
+            <div class="profile-more-company-item">
+              <img src="./assets/corporate/modal/2.png" alt="Logo" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="profile-more-bg-bottom">
+        <img src="./assets/corporate/modal/bg-bottom.png" alt="Bg Bottom" />
+      </div>
+    </div>
+
+    <div class="bg-all">
+      <section id="history-company">
+        <div class="history-company-wrapper-1">
+          <div class="history-company-image-left">
+            <img src="./assets/corporate/history-1.png" alt="History" />
+          </div>
+          <div class="history-company-right">
+            <div class="history-company-heading">ประวัติบริษัท</div>
+            <p>
+              THE ONE GROUP. ก่อตั้งขึ้นเมื่อวันที่ 29 กรกฎาคม 2547
+              สำนักงานใหญ่ตั้งอยู่ที่ 403/76 ถ.สุคนธสวัสดิ์ ลาดพร้าว
+              กรุงเทพมหานคร
+              เราเริ่มต้นธุรกิจอสังหาริมทรัพย์โดยเปิดอพาร์ทเม้นท์ให้เช่าในปี
+              2552 ในชื่อบริษัท เท็นไทย ดีเวลลอปเมนท์ จำกัด
+              และก้าวสู่ธุรกิจคอนโดมิเนียมในปี 2555 โดยเปิด “เดอะ ยูนีค ลาดพร้าว
+              26” คอนโดมิเนียม 8 ชั้น 62 ยูนิต ซึ่งได้รับ
+              การตอบรับเป็นอย่างดีจากลูกค้า ในเดือนธันวาคม 2555
+              เราเปิดตัวโครงการอีกโครงการหนึ่งชื่อว่า "เดอะ ยูนีค ลาดพร้าว 10"
+              คอนโดมิเนียม 10 ชั้น จำนวน 125 ยูนิต และปิดโครงการภายใน 3
+              เดือนหลังช่วงพรีเซลล์
+            </p>
+          </div>
+        </div>
+        <div class="history-company-wrapper-2">
+          <div class="history-company-left">
+            <p>
+              และหลังจากนั้น มีการเปิดโครงการอย่างต่อเนื่อง เช่น The Unique
+              สุขุมวิท62 , The Unique เกษตร-นวมินทร์ , The Unique
+              เอกมัย-รามอินทรา , Totnes เกษตร-นวมินทร์ และยังขยายอีก 2 โครงการ
+              ในนามบริษัท เดอะ วัน เอสเตท ดีเวลลอปเม้นท์ จำกัด คือ โครงการ KEN
+              Attitude รัตนาธิเบศร์ คอนโดมิเนียม High-Rise วิวแม่น้ำเจ้าพระยา
+              แต่ห่างเพียง 100 เมตรจากสถานี MRT และโครงการ BIBURY Village
+              ศรีนครินทร์ บ้านเดี่ยวระดับ Super Luxury ใกล้สวนหลวง ร.9
+            </p>
+          </div>
+          <div class="history-company-image-right">
+            <img src="./assets/corporate/history-2.png" alt="History" />
+          </div>
+        </div>
+      </section>
+
+      <section id="vision">
+        <div class="container">
+          <div class="vision-wrapper">
+            <div class="vision-heading">วิสัยทัศน์</div>
+            <p>
+              มุ่งพัฒนาโครงการ พัฒนาการอยู่อาศัย และคำนึงถึงอนาคต
+              โดยส่งมอบผลิตภัณฑ์ที่ดีที่สุด
+              เพื่อให้ลูกค้าได้รับความคุ้มค่าทั้งการอยู่อาศัยและการลงทุน
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <div class="verticle-line-wrapper mt-5 mb-3">
+        <div class="verticle-line-animate"></div>
+      </div>
+
+      <section id="vdo-company">
+        <div class="container">
+          <div class="vdo-company-heading">วิดีโอบริษัท</div>
+          <div class="vdo"></div>
+        </div>
+      </section>
+    </div>
+
+    <footer-page></footer-page>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./components/Navbar.js"></script>
+    <script src="./components/Footer.js"></script>
+    <script src="./js/corporate.js"></script>
+    <script src="./js/lineOutsideContainer.js"></script>
+  </body>
+</html>

@@ -1,0 +1,136 @@
+#banner {
+  padding-top: 120px;
+}
+.banner-bg {
+  width: 100%;
+  height: 250px;
+  background-image: url('../assets/career/banner.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.banner-heading {
+  color: #fff;
+  font-size: 38px;
+  font-weight: 500;
+}
+
+#career {
+  background: #272727;
+}
+.career-wrapper {
+  padding: 5rem 0 2rem 0;
+}
+
+.career-position-name {
+  display: flex;
+  justify-content: space-between;
+  color: #dc8983;
+  font-size: 18px;
+  cursor: pointer;
+  padding: 1rem 0;
+}
+.career-position-name i {
+  font-size: 22px !important;
+}
+.career-position-wrapper {
+  margin-top: 3rem;
+}
+.career-position-info-wrapper-1,
+.career-position-info-wrapper-2,
+.career-position-info-wrapper-3,
+.career-position-info-wrapper-4,
+.career-position-info-wrapper-5,
+.career-position-info-wrapper-6,
+.career-position-info-wrapper-7,
+.career-position-info-wrapper-8,
+.career-position-info-wrapper-9 {
+  overflow: hidden;
+  height: 0;
+  transition: 0.4s;
+}
+/* .career-position-open {
+
+} */
+.career-responsibility {
+  padding-bottom: 2rem;
+  padding-top: 1rem;
+}
+.career-responsibility h5,
+.career-property h5 {
+  color: #dc8983;
+  font-size: 15px;
+  font-weight: 400;
+  margin-bottom: 1.5rem;
+}
+.career-responsibility ul li,
+.career-property ul li {
+  color: #fff;
+  font-size: 15px;
+  list-style: disc;
+  line-height: 2.5;
+  font-weight: 300;
+}
+.career-form-button {
+  padding: 2rem 0 3rem 0;
+  text-align: center;
+}
+.career-form-button a {
+  background: #dc8983;
+  border: 1px solid #dc8983;
+  outline: none;
+  color: #fff;
+  font-size: 14px;
+  padding: 4px 1rem;
+  transition: 0.4s;
+  margin-top: 2rem;
+  text-decoration: none;
+}
+.career-form-button a:hover {
+  color: #dc8983;
+  border: 1px solid #dc8983;
+  background: none;
+}
+#hr-contact {
+  background: #272727;
+  padding: 0 24rem;
+  position: relative;
+}
+.linear-line-under {
+  width: 100%;
+  height: 4px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(
+    90deg,
+    rgba(219, 154, 140, 1) 0%,
+    rgba(220, 167, 146, 1) 50%,
+    rgba(219, 154, 140, 1) 100%
+  );
+}
+.hr-contact-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 1rem;
+  padding-bottom: 1rem;
+}
+.hr-contact-info-wrapper {
+  text-align: center;
+}
+.hr-contact-info-wrapper span {
+  font-family: 'Roboto';
+  font-size: 60px;
+  color: #463a37;
+  font-weight: 500;
+}
+.hr-contact-info-wrapper p {
+  color: #e8e7e5;
+}
+.hr-contact-image img {
+  width: 100%;
+}

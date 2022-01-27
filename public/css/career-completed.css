@@ -1,0 +1,45 @@
+#banner {
+  padding-top: 120px;
+}
+.banner-bg {
+  width: 100%;
+  height: 250px;
+  background-image: url('../assets/career/banner.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.banner-heading {
+  color: #fff;
+  font-size: 38px;
+  font-weight: 500;
+}
+
+#completed {
+  height: 65vh;
+  background: #272727;
+}
+.completed-wrapper {
+  height: 65vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+.completed-wrapper h6 {
+  font-size: 26px;
+  font-weight: 400;
+}
+.completed-wrapper .line {
+  width: 120px;
+  height: 2px;
+  background: linear-gradient(0.25turn, #b57782, #fad1d0, #b57782);
+  margin: 0.5rem 0 0.8rem 0;
+}
+.completed-wrapper p {
+  font-weight: 300;
+}

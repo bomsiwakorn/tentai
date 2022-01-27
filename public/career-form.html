@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/layout/navbar.css" />
+    <link rel="stylesheet" href="./css/layout/footer.css" />
+    <link rel="stylesheet" href="./css/career-form.css" />
+    <link rel="stylesheet" href="./css/heading.css" />
+    <title>Career Form</title>
+    <script
+      src="https://kit.fontawesome.com/cf2146b72f.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <navbar-page></navbar-page>
+
+    <section id="banner">
+      <div class="banner-bg">
+        <div class="banner-heading">ร่วมงานกับเรา</div>
+      </div>
+    </section>
+
+    <section id="career-form">
+      <div class="container">
+        <div class="career-form-wrapper">
+          <div class="heading-underline">
+            โอกาสร่วมงานกับเรา <span class="line"></span>
+          </div>
+          <div class="career-form-position">ตำแหน่ง <span>บัญชี</span></div>
+
+          <form action="/career-completed.html">
+            <div class="form-items-wrapper">
+              <div class="form-item">
+                <label for="">ชื่อ</label>
+                <input type="text" />
+              </div>
+              <div class="form-item">
+                <label for="">นามสกุล</label>
+                <input type="text" />
+              </div>
+            </div>
+            <div class="form-items-wrapper">
+              <div class="form-item">
+                <label for="">อีเมล</label>
+                <input type="text" />
+              </div>
+              <div class="form-item">
+                <label for="">เบอร์โทรศัพท์</label>
+                <input type="text" />
+              </div>
+            </div>
+            <div class="form-item">
+              <label for="">ข้อความแนะนำตัวเองสั้นๆ</label>
+              <textarea rows="3"></textarea>
+            </div>
+            <div class="form-item mt-4">
+              <label for=""
+                >ประวัติการทำงาน (ไฟล์งานมีขนาดไม่เกิน 10 Mb. นามสกุล .pdf, .jpg
+                และ .zip file เท่านั้น)</label
+              >
+              <div class="resume-upload-input">
+                <input type="file" name="resume" />
+                <button>แนบไฟล์</button>
+              </div>
+            </div>
+
+            <div class="form-submit">
+              <button>ส่ง</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <footer-page></footer-page>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./components/Navbar.js"></script>
+    <script src="./components/Footer.js"></script>
+    <script src="./js/lineOutsideContainer.js"></script>
+  </body>
+</html>

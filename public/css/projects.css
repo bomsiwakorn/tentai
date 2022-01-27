@@ -1,0 +1,104 @@
+#banner {
+  padding-top: 120px;
+}
+.banner-bg {
+  width: 100%;
+  height: 250px;
+  background-image: url('../assets/projects/banner.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.banner-heading {
+  color: #fff;
+  font-size: 38px;
+  font-weight: 500;
+}
+
+#all-project {
+  background: #272727;
+  padding: 4rem 0;
+}
+
+.all-project-items-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 3%;
+  padding: 3rem 0 9rem 0;
+}
+.all-project-items-wrapper .project-item {
+  background: #404042;
+}
+.all-project-items-wrapper .project-item .project-item-img img {
+  width: 100%;
+}
+.all-project-items-wrapper .project-item .project-item-info {
+  padding: 1rem 10px;
+  text-align: center;
+}
+.all-project-items-wrapper .project-item .project-item-info .project-name {
+  color: #dc8983;
+  font-weight: 500;
+  font-size: 18px;
+  max-width: 180px;
+  margin: 0 auto;
+  height: 65px;
+}
+.all-project-items-wrapper .project-item .project-item-info .project-by {
+  color: #fff;
+  font-size: 13px;
+}
+.view-more-btn {
+  text-align: center;
+}
+.view-more-btn a {
+  font-size: 15px;
+  text-decoration: none;
+  padding: 4px 2rem;
+  background-color: #dc8983;
+  border: 1px solid #dc8983;
+  color: #fff;
+  transition: 0.4s;
+}
+.view-more-btn a:hover {
+  border: 1px solid #dc8983;
+  background-color: transparent;
+  color: #dc8983;
+}
+
+#past-project {
+  background: #404042;
+  padding: 4rem 0;
+}
+
+.past-project-items-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 3%;
+  padding: 3rem 0 9rem 0;
+}
+.past-project-items-wrapper .project-item {
+  background: #272727;
+}
+.past-project-items-wrapper .project-item .project-item-img img {
+  width: 100%;
+}
+.past-project-items-wrapper .project-item .project-item-info {
+  padding: 1rem 10px;
+  text-align: center;
+}
+.past-project-items-wrapper .project-item .project-item-info .project-name {
+  color: #dc8983;
+  font-weight: 500;
+  font-size: 18px;
+  max-width: 180px;
+  margin: 0 auto;
+  height: 65px;
+}
+.past-project-items-wrapper .project-item .project-item-info .project-by {
+  color: #fff;
+  font-size: 13px;
+}

@@ -1,0 +1,113 @@
+#banner {
+  padding-top: 120px;
+}
+.banner-bg {
+  width: 100%;
+  height: 250px;
+  background-image: url('../assets/land-selling/banner.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.banner-heading {
+  color: #fff;
+  font-size: 38px;
+  font-weight: 500;
+}
+
+#land-for-sale {
+  background: #272727;
+}
+.land-for-sale-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 3%;
+}
+.land-for-sale-left {
+  padding: 4rem 0 8rem 0;
+}
+
+.land-for-sale-image img {
+  width: 100%;
+}
+.land-for-sale-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.land-for-sale-right h3 {
+  color: #dc8983;
+  font-size: 22px;
+}
+.land-for-sale-topic {
+  color: #dc8983;
+  font-size: 16px;
+  font-weight: 500;
+}
+.land-for-sale-info ul p {
+  color: #e8e7e5;
+  margin-bottom: 0px;
+  font-size: 16px;
+  font-weight: 300;
+}
+.land-for-sale-info ul li {
+  font-size: 16px;
+  color: #e8e7e5;
+  list-style: disc !important;
+  font-weight: 300;
+  margin-left: 2rem;
+}
+
+.form-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 4%;
+  padding-bottom: 4rem;
+}
+
+.form-item {
+  margin-bottom: 1.2rem;
+}
+.form-item label {
+  display: block;
+  color: #e8e7e5;
+  font-size: 12px;
+  font-weight: 300;
+  padding-bottom: 5px;
+}
+.form-item input {
+  width: 100%;
+  background: none;
+  outline: none;
+  border: 1px solid #dc8983;
+  color: #e8e7e5;
+  padding: 5px 10px;
+  font-weight: 200;
+  border-radius: 1px;
+}
+.form-submit button {
+  width: 120px;
+  background: #dc8983;
+  border: 1px solid #dc8983;
+  outline: none;
+  color: #fff;
+  font-size: 14px;
+  padding: 8px 1rem;
+  transition: 0.4s;
+  margin-top: 1.5rem;
+}
+.form-submit button:hover {
+  color: #dc8983;
+  border: 1px solid #dc8983;
+  background: none;
+}
+.form-right {
+  display: flex;
+}
+.form-right img {
+  width: 100%;
+  margin: auto;
+}
