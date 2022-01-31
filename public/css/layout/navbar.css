@@ -36,7 +36,7 @@ nav {
 ul.mainpage li a {
   font-size: 1rem;
   font-weight: 500;
-  color: #ecb4a9;
+  color: #dc8983;
   transition: 0.4s;
 }
 ul.mainpage li a:hover {
@@ -71,7 +71,7 @@ ul.language li a {
 }
 ul.language li a:hover,
 ul.language li a:active {
-  color: #ecb4a9;
+  color: #dc8983;
 }
 
 .nav-bottom {
@@ -91,5 +91,5 @@ ul.menu li a {
   transition: 0.4s;
 }
 ul.menu li a:hover {
-  color: #ecb4a9;
+  color: #dc8983;
 }

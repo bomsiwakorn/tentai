@@ -40,25 +40,33 @@
 }
 .land-for-sale-right h3 {
   color: #dc8983;
-  font-size: 22px;
+  font-size: 20px;
 }
 .land-for-sale-topic {
   color: #dc8983;
   font-size: 16px;
   font-weight: 500;
 }
+.land-for-sale-qr {
+  margin-top: 1rem;
+}
+.land-for-sale-qr img {
+  width: 80px;
+}
 .land-for-sale-info ul p {
   color: #e8e7e5;
   margin-bottom: 0px;
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 300;
+  margin: 10px 0;
 }
 .land-for-sale-info ul li {
-  font-size: 16px;
+  font-size: 15px;
   color: #e8e7e5;
   list-style: disc !important;
   font-weight: 300;
   margin-left: 2rem;
+  margin-bottom: 8px;
 }
 
 .form-wrapper {

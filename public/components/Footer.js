@@ -77,7 +77,7 @@ class Footer extends HTMLElement {
         <div class="footer-underline"></div>
         <p class="copyright mb-0">
           © COPYRIGHT 2022 TENTHAI DEVELOPMENT CO.,LTD ALL RIGHTS RESERVED. I
-          Designed by Belong-To
+          Designed by <a href="http://belongto.com" target="_blank">Belong-To</a>
         </p>
       </footer>
     `

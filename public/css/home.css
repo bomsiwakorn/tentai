@@ -132,8 +132,11 @@ section.promotion {
   width: 100%;
   z-index: 1;
   transition: 0.4s;
+  filter: brightness(70%);
+  cursor: pointer;
 }
 .promo-item img:hover {
+  filter: brightness(100%);
   transform: translateY(-10px) translateX(-10px);
 }
 .promo-box {
@@ -186,10 +189,11 @@ section.project {
 .project-grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  gap: 3rem;
 }
 .project-items {
-  padding: 1rem;
   width: 100%;
+  cursor: pointer;
 }
 .project-items img {
   width: 100%;
@@ -289,7 +293,7 @@ section.news {
 .news-items .news-shadowimg {
   /* width: 100%; */
   height: 100%;
-  background-color: #dca792;
+  background-color: #dc8983;
   position: absolute;
   top: 10px;
   left: 10px;
