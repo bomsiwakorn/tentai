@@ -31,12 +31,17 @@ class Navbar extends HTMLElement {
                   </li>
                 </ul>
                 <ul class="language mb-0">
-                  <li><a href="">EN</a></li>
+                  <li onclick="changeLanguage(0)">EN</li>
                   <div></div>
-                  <li><a href="">ไทย</a></li>
+                  <li onclick="changeLanguage(1)">ไทย</li>
                   <div></div>
-                  <li><a href="">中文</a></li>
+                  <li onclick="changeLanguage(2)">中文</li>
                 </ul>
+                <select onchange="changeLanguage(0)" id="change-language">
+                  <option value="en">En</option>
+                  <option value="th">Th</option>
+                  <option value="ch">Ch</option>
+                </select>
               </div>
             </div>
           </div>

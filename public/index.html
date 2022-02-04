@@ -93,7 +93,7 @@
       <div class="banner-title-more-position">
         <div class="container banner-title-wrapper">
           <div class="banner-title">
-            <h2 data-lang="en">THE UNIQUE</h2>
+            <h2>THE UNIQUE</h2>
             <!-- <h2 data-lang="th">เดอะ ยูนีค</h2> -->
             <!-- <select id="change-language">
               <option value="th" selected="selected">Thailand</option>
@@ -120,7 +120,8 @@
     <section class="promotion">
       <div class="container">
         <div class="promotion-heading">
-          <h1 class="heading-underline-short">โปรโมชั่น</h1>
+          <h1 class="heading-underline-short" data-lang="th">โปรโมชั่น</h1>
+          <h1 class="heading-underline-short" data-lang="en">Promotion</h1>
         </div>
         <div class="promo-grid">
           <div class="promo-item">
@@ -212,10 +213,7 @@
           </div>
         </div>
         <div class="news-grid">
-          <div
-            class="news-items"
-            onmouseover="onHoverCardByImage('.news-items', './assets/home/news-1.png')"
-          >
+          <div class="news-items">
             <div class="news-img-box">
               <img src="./assets/home/news-1.png" alt="" />
               <div class="news-shadowimg"></div>
@@ -322,16 +320,17 @@
     <footer-page></footer-page>
 
     <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-      crossorigin="anonymous"
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"
     ></script>
     <script src="./components/Navbar.js"></script>
     <script src="./components/Footer.js"></script>
-    <!-- <script
+    <script src="./js/hoverCardByImage.js"></script>
+    <script src="./js/i18n.js""></script>
+    <script
       type="text/javascript"
       src="https://unpkg.com/i18n-language@1.0.4/i18n-language.js"
-    ></script> -->
-    <script src="./js/hoverCardByImage.js"></script>
+    ></script>
   </body>
 </html>

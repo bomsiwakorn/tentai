@@ -278,6 +278,13 @@ section.news {
 .news-items {
   width: 100%;
   position: relative;
+  cursor: pointer;
+  overflow: hidden;
+  transition: all 0.4s;
+}
+.news-items:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 0 18px rgba(0, 0, 0, 0.6);
 }
 .news-img-box {
   width: 100%;
@@ -288,6 +295,10 @@ section.news {
   position: relative;
   padding-right: 10px;
   z-index: 5;
+  transition: all 0.4s;
+}
+.news-items:hover img {
+  transform: scale(1.1);
 }
 
 .news-items .news-shadowimg {
