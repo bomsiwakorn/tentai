@@ -1,8 +1,8 @@
 class Navbar extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `
-      <nav>
-        <div class="nav-top">
+
+        <header class="nav-top">
           <div class="container">
             <div class="wrapper-nav-top">
               <div class="logo">
@@ -19,34 +19,29 @@ class Navbar extends HTMLElement {
                 </ul>
                 <ul class="socials mb-0 ps-2">
                   <li>
-                    <a href=""><img src="./assets/home/facebook.png" alt="" /></a>
+                    <a href="" class="social-item"><img src="./assets/home/facebook.png" alt="" /></a>
+                    <a href="" class="social-item-hover"><img src="./assets/home/facebook-pink.png" alt="" /></a>
                   </li>
                   <li>
-                    <a href=""
-                      ><img src="./assets/home/instagram.png" alt=""
-                    /></a>
+                    <a href="" class="social-item"><img src="./assets/home/instagram.png" alt=""</a>
+                    <a href="" class="social-item-hover"><img src="./assets/home/instagram-pink.png" alt=""</a>
                   </li>
                   <li>
-                    <a href=""><img src="./assets/home/line.png" alt="" /></a>
+                    <a href="" class="social-item"><img src="./assets/home/line.png" alt="" /></a>
+                    <a href="" class="social-item-hover"><img src="./assets/home/line-pink.png" alt="" /></a>
                   </li>
                 </ul>
-                <ul class="language mb-0">
-                  <li onclick="changeLanguage(0)">EN</li>
-                  <div></div>
-                  <li onclick="changeLanguage(1)">ไทย</li>
-                  <div></div>
-                  <li onclick="changeLanguage(2)">中文</li>
-                </ul>
-                <select onchange="changeLanguage(0)" id="change-language">
-                  <option value="en">En</option>
-                  <option value="th">Th</option>
-                  <option value="ch">Ch</option>
+
+                <select class="dropdown-language" id="change-language">
+                  <option value="en">EN</option>
+                  <option value="th">ไทย</option>
+                  <option value="ch">中文</option>
                 </select>
               </div>
             </div>
           </div>
-        </div>
-        <div class="nav-bottom">
+        </header>
+        <nav class="nav-bottom">
           <div class="container">
             <ul class="menu mb-0 ps-0">
               <li><a href="/projects.html">โครงการ</a></li>
@@ -59,8 +54,8 @@ class Navbar extends HTMLElement {
               <li><a href="/map.html" target="_blank">แผนที่โครงการ</a></li>
             </ul>
           </div>
-        </div>
-      </nav>
+        </nav>
+
     `
   }
 }
