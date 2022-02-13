@@ -1,7 +1,7 @@
 .banner-bg {
   width: 100%;
   height: 250px;
-  background-image: url('../assets/after-sale/banner.png');
+  background-image: url("../assets/after-sale/banner.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -69,7 +69,7 @@
   color: #dc8983;
 }
 .vision-info-heading:after {
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
   right: 0;
@@ -91,8 +91,13 @@
 .mission-wrapper {
   margin-top: 3rem;
 }
+.mission-info-para {
+  display: flex;
+  justify-content: end;
+  width: 100%;
+}
 .mission-info-left {
-  padding-left: 22rem;
+  padding-left: 1rem;
   padding-right: 1rem;
 }
 .mission-info-left p {
@@ -101,6 +106,10 @@
   margin-top: 3rem;
   line-height: 2;
   font-size: 15px;
+  width: 500px;
+}
+.mission-info-left p span {
+  font-weight: 500;
 }
 .mission-info-heading {
   position: relative;
@@ -108,9 +117,11 @@
   font-size: 32px;
   font-weight: 500;
   color: #dc8983;
+  width: 100%;
+  text-align: right;
 }
 .mission-info-heading:after {
-  content: '';
+  content: "";
   position: absolute;
   left: -22rem;
   right: 0;
@@ -132,7 +143,7 @@
   color: #dc8983;
 }
 .project-heading:after {
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
   right: 0;
@@ -177,7 +188,7 @@
   margin-top: 6rem;
 }
 .project-mail:after {
-  content: '';
+  content: "";
   position: absolute;
   left: 90px;
   right: 90px;
@@ -193,4 +204,59 @@
   font-size: 20px;
   color: #fff;
   font-weight: 300;
+}
+
+@media only screen and (max-width: 991px) {
+  .vision-wrapper {
+    grid-template-columns: 1fr;
+  }
+  .vision-info-right {
+    padding-top: 3rem;
+    text-align: center;
+  }
+  .vision-info-right p {
+    width: auto;
+    padding: 0 3rem;
+  }
+  .mission-wrapper {
+    grid-template-columns: 1fr;
+  }
+  .mission-image-right {
+    grid-row: 1/2;
+  }
+  .mission-info-left {
+    text-align: center;
+  }
+  .mission-info-heading {
+    text-align: center;
+  }
+  .mission-info-left {
+    margin-top: 3rem;
+    padding: 0;
+  }
+  .mission-info-left p {
+    width: auto;
+    padding: 0 3rem;
+  }
+  .mission-line-center {
+    display: none;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .heading-box {
+    text-align: center;
+  }
+  .heading-underline .line {
+    left: 0 !important;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .banner-bg {
+    height: 90vh;
+    background-position: 3%;
+  }
+  .project-items-wrapper {
+    grid-template-columns: 1fr 1fr;
+  }
 }

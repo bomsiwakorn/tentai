@@ -1,7 +1,7 @@
 .banner-bg {
   width: 100%;
   height: 250px;
-  background-image: url('../assets/career/banner.png');
+  background-image: url("../assets/career/banner.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -39,4 +39,16 @@
 }
 .completed-wrapper p {
   font-weight: 300;
+}
+
+@media only screen and (max-width: 575px) {
+  .banner-bg {
+    height: 90vh;
+  }
+  #completed {
+    height: 90vh;
+  }
+  .completed-wrapper {
+    height: 90vh;
+  }
 }

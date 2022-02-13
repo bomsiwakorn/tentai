@@ -37,7 +37,7 @@
   color: #dc8983;
 }
 .heading-underline-short:after {
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
   right: 0;

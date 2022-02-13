@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./css/layout/footer.css" />
     <link rel="stylesheet" href="./css/project.css" />
     <link rel="stylesheet" href="./css/heading.css" />
+    <link rel="stylesheet" href="./css/common.css" />
     <script
       src="https://kit.fontawesome.com/cf2146b72f.js"
       crossorigin="anonymous"
@@ -24,6 +25,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <title>โครงการ</title>
   </head>
   <body>
@@ -41,7 +43,12 @@
           </div>
           <div class="register-right">
             <div class="heading-underline-right">
-              ลงทะเบียนเพื่อรับสิทธิพิเศษ <span class="line"></span>
+              ลงทะเบียนเพื่อรับสิทธิพิเศษ
+              <span
+                data-aos="fade-left"
+                data-aos-duration="1700"
+                class="line"
+              ></span>
             </div>
             <form class="register-form">
               <div class="form-item">
@@ -91,8 +98,15 @@
       <div class="container">
         <div class="project-info-wrapper">
           <div class="project-info-left">
-            <div class="heading-underline">
-              ข้อมูลโครงการ <span class="line"></span>
+            <div class="heading-box">
+              <div class="heading-underline">
+                ข้อมูลโครงการ
+                <span
+                  data-aos="fade-right"
+                  data-aos-duration="1700"
+                  class="line"
+                ></span>
+              </div>
             </div>
             <div class="project-items-wrapper">
               <div class="project-info-item">ชื่อโครงการ :</div>
@@ -104,6 +118,12 @@
               <div class="project-info-item">พื้นที่ใช้สอย :</div>
               <div class="project-info-item">จำนวนยูนิต :</div>
             </div>
+          </div>
+          <div class="download-file">
+            <a href=""
+              ><i class="fa-solid fa-file-arrow-down"></i>
+              <p>ดาวน์โหลด โบรชัว</p></a
+            >
           </div>
           <div class="project-info-right">
             <img src="./assets/project/info.png" alt="Info" />
@@ -237,6 +257,12 @@
     </section>
 
     <section id="gallery">
+      <div class="verticle-line-wrapper">
+        <div
+          class="verticle-line-animate"
+          style="position: relative; top: -50px"
+        ></div>
+      </div>
       <div class="container">
         <div class="gallery-wrapper">
           <div class="heading-underline-short">แกลเลอรี่</div>
@@ -312,6 +338,12 @@
     </section>
 
     <section id="project-location">
+      <div class="verticle-line-wrapper">
+        <div
+          class="verticle-line-animate"
+          style="position: relative; top: -50px"
+        ></div>
+      </div>
       <div class="container">
         <div class="project-location-wrapper">
           <div class="heading-underline-short">ที่ตั้งโครงการ</div>
@@ -394,6 +426,10 @@
 
     <footer-page></footer-page>
 
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"

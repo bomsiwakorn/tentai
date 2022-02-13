@@ -35,7 +35,7 @@ header.banner {
   padding: 3rem 4rem 3rem 3rem;
 }
 .banner-title h2 {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 4rem;
 }
@@ -45,7 +45,7 @@ header.banner {
   letter-spacing: 6px;
 }
 .banner-title h3 {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 2rem;
   line-height: 1.5;
@@ -82,13 +82,13 @@ header.banner {
   background-size: cover;
 }
 .banner-img-1 {
-  background-image: url('../assets/home/banner.png');
+  background-image: url("../assets/home/banner.png");
 }
 .banner-img-2 {
-  background-image: url('../assets/home/bg-promotion.png');
+  background-image: url("../assets/home/bg-promotion.png");
 }
 .banner-img-3 {
-  background-image: url('../assets/home/banner.png');
+  background-image: url("../assets/home/banner.png");
 }
 .banner-underline {
   position: absolute;
@@ -384,6 +384,9 @@ section.maps .maps-vertical-line {
 }
 section.maps img {
   width: 100vw;
+}
+.google-map-address {
+  filter: grayscale(10%) invert(90%) contrast(88%);
 }
 
 /* end map */

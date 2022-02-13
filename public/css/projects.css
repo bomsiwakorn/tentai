@@ -1,7 +1,7 @@
 .banner-bg {
   width: 100%;
   height: 250px;
-  background-image: url('../assets/projects/banner.png');
+  background-image: url("../assets/projects/banner.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -23,16 +23,40 @@
 .all-project-items-wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  gap: 3%;
-  padding: 3rem 0 9rem 0;
+  gap: 1rem;
+  padding: 3rem 0;
+}
+.heading-underline-right {
+  display: flex;
+  flex-direction: row;
+  font-size: 18px !important;
+  margin-top: 2rem;
+}
+.heading-underline-right span {
+  padding-right: 2rem;
+  color: #dc8983;
+}
+.heading-underline-right p {
+  color: #fff;
+  padding-right: 1rem;
 }
 .all-project-items-wrapper .project-item {
   background: #404042;
   cursor: pointer;
   text-decoration: none;
+  overflow: hidden;
+  transition: 0.4s;
+}
+.all-project-items-wrapper .project-item:hover {
+  box-shadow: 0 0 18px rgba(0, 0, 0, 0.4);
+  transform: translateY(-5px);
 }
 .all-project-items-wrapper .project-item .project-item-img img {
+  transition: 0.4s;
   width: 100%;
+}
+.all-project-items-wrapper .project-item:hover .project-item-img img {
+  transform: scale(1.1);
 }
 .all-project-items-wrapper .project-item .project-item-info {
   padding: 1rem 10px;
@@ -76,16 +100,26 @@
 .past-project-items-wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  gap: 3%;
-  padding: 3rem 0 9rem 0;
+  gap: 2rem 1rem;
+  padding: 3rem 0;
 }
 .past-project-items-wrapper .project-item {
   background: #272727;
   cursor: pointer;
   text-decoration: none;
+  transition: all 0.4s;
+  overflow: hidden;
+}
+.past-project-items-wrapper .project-item:hover {
+  box-shadow: 0 0 18 rgba(0, 0, 0, 0.4);
+  transform: translateY(-5px);
 }
 .past-project-items-wrapper .project-item .project-item-img img {
+  transition: all 0.4s;
   width: 100%;
+}
+.past-project-items-wrapper .project-item:hover .project-item-img img {
+  transform: scale(1.1);
 }
 .past-project-items-wrapper .project-item .project-item-info {
   padding: 1rem 10px;
@@ -102,4 +136,47 @@
 .past-project-items-wrapper .project-item .project-item-info .project-by {
   color: #fff;
   font-size: 13px;
+}
+
+@media only screen and (max-width: 991px) {
+  .all-project-items-wrapper,
+  .past-project-items-wrapper {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .line-outside {
+    display: block !important;
+  }
+  .heading-box {
+    text-align: center;
+  }
+  .heading-underline {
+    width: 100%;
+  }
+  .heading-underline .line {
+    display: none;
+  }
+  .heading-underline-right {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+  }
+  .heading-underline-right span {
+    padding-bottom: 1rem;
+  }
+  .heading-underline-right span,
+  .heading-underline-right p {
+    padding-right: 0;
+  }
+}
+@media only screen and (max-width: 575px) {
+  .banner-bg {
+    height: 90vh;
+    background-position: 84%;
+  }
+  .all-project-items-wrapper,
+  .past-project-items-wrapper {
+    grid-template-columns: 1fr;
+  }
 }

@@ -10,6 +10,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   column-gap: 5%;
+  align-items: center;
 }
 .register-left img {
   width: 100%;
@@ -63,6 +64,7 @@
   text-align: center;
 }
 #project-idea img {
+  height: 450px;
   width: 100%;
 }
 .project-idea-wrapper {
@@ -91,6 +93,7 @@
   display: grid;
   grid-template-columns: 40% 1fr;
   column-gap: 3%;
+  align-items: center;
 }
 .project-items-wrapper {
   line-height: 2;
@@ -102,6 +105,25 @@
 }
 .project-info-right img {
   width: 100%;
+}
+.download-file {
+  margin: 0 auto;
+  padding-top: 1rem;
+  display: none;
+}
+.download-file a {
+  text-decoration: none;
+}
+.download-file a i {
+  color: #dc8983;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+}
+.download-file a p {
+  color: #dc8983;
+  font-size: 15px;
 }
 
 #facilities {
@@ -175,7 +197,7 @@
 
 #gallery {
   background: #272727;
-  padding: 5rem 0;
+  padding: 0 0 1rem 0;
 }
 .gallery-wrapper {
   text-align: center;
@@ -186,7 +208,6 @@
 }
 
 #project-location {
-  padding: 5rem 0;
   background: #404042;
 }
 .project-location-wrapper {
@@ -254,4 +275,72 @@
   padding: 5px 10px;
   font-weight: 200;
   border-radius: 1px;
+}
+
+@media only screen and (max-width: 991px) {
+  .download-file {
+    display: block !important;
+  }
+  .heading-box {
+    text-align: center;
+  }
+  .heading-underline .line {
+    left: 0 !important;
+  }
+  .project-idea-wrapper {
+    width: 80%;
+  }
+  .register-wrapper {
+    grid-template-columns: 1fr;
+  }
+  .register-right {
+    padding-top: 2rem;
+  }
+  .heading-underline-right {
+    text-align: center;
+  }
+  .heading-underline-right .line {
+    right: 0 !important;
+    width: 274px !important;
+    margin: 0 auto;
+  }
+  .project-info-wrapper {
+    grid-template-columns: 1fr;
+  }
+  .project-info-right {
+    padding-top: 2rem;
+  }
+  #facilities {
+    padding: 0 0 5rem 0;
+  }
+  .plan-result,
+  .gallery-carousel-container {
+    width: 100%;
+  }
+  .facilities-wrapper p,
+  .project-location-wrapper p {
+    width: 100%;
+  }
+  .facilities-items-wrapper {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .project-contact-wrapper {
+    grid-template-columns: 1fr;
+  }
+  .form-item-wrapper {
+    flex-direction: column;
+    gap: 0;
+  }
+  .form-submit {
+    text-align: center !important;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  #project-idea img {
+    height: 600px;
+  }
+  .facilities-items-wrapper {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }

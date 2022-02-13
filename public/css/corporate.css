@@ -1,7 +1,7 @@
 .banner-bg {
   width: 100%;
   height: 250px;
-  background-image: url('../assets/corporate/banner.png');
+  background-image: url("../assets/corporate/banner.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -16,7 +16,7 @@
 }
 
 #profile {
-  background-image: url('../assets/corporate/bg-profile.png');
+  background-image: url("../assets/corporate/bg-profile.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -69,7 +69,7 @@
 
 .bg-all {
   width: 100%;
-  background-image: url('../assets/corporate/bg.png');
+  background-image: url("../assets/corporate/bg.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -93,7 +93,7 @@
   color: #dc8983;
 }
 .history-company-heading:after {
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
   right: 0;
@@ -143,7 +143,7 @@
   color: #dc8983;
 }
 .vision-heading:after {
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
   right: 0;
@@ -182,7 +182,7 @@
   color: #dc8983;
 }
 .vdo-company-heading:after {
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
   right: 0;
@@ -197,7 +197,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background-image: url('../assets/corporate/modal/bg.png');
+  background-image: url("../assets/corporate/modal/bg.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -267,7 +267,7 @@
   margin-bottom: 1rem;
 }
 .profile-more-heading:after {
-  content: '';
+  content: "";
   position: absolute;
   left: -26.5rem;
   right: 0;
@@ -310,7 +310,7 @@
   border-left: 2px solid transparent;
 }
 .exp-item:after {
-  content: '';
+  content: "";
   width: 18px;
   height: 18px;
   border-radius: 50%;
@@ -353,4 +353,60 @@
   width: 80%;
   margin: 0 auto;
   margin-top: 3rem;
+}
+
+@media only screen and (max-width: 991px) {
+  .profile-wrapper {
+    padding-top: 3rem;
+    grid-template-columns: 1fr;
+  }
+  .profile-info-left {
+    width: 100%;
+    text-align: center;
+  }
+  .profile-image-right img {
+    width: 50%;
+  }
+  .history-company-wrapper-1,
+  .history-company-wrapper-2 {
+    grid-template-columns: 1fr;
+  }
+  .profile-image-right {
+    padding-top: 2rem;
+  }
+  .history-company-image-left img {
+    margin-top: 2rem;
+  }
+  .history-company-right {
+    padding-left: 0;
+    text-align: center;
+  }
+  .history-company-right p {
+    width: auto;
+    padding: 0 3rem;
+  }
+  .history-company-image-right {
+    grid-row: 1/2;
+  }
+  .history-company-left p {
+    width: auto;
+    text-align: center;
+    padding: 0 3rem;
+  }
+  .vision-wrapper {
+    margin: 3rem 0;
+    padding: 3rem;
+  }
+  .vdo-wrapper {
+    width: auto;
+  }
+  .heading-underline .line {
+    left: 0 !important;
+  }
+}
+@media only screen and (max-width: 575px) {
+  .banner-bg {
+    height: 90vh;
+    background-position: 70%;
+  }
 }

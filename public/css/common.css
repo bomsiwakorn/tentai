@@ -20,3 +20,11 @@
     height: 100px;
   }
 }
+
+.line-outside {
+  position: absolute;
+  height: 1px;
+  background: linear-gradient(0.25turn, #b57782, #fad1d0, #b57782);
+  margin: 1rem 0;
+  display: none;
+}

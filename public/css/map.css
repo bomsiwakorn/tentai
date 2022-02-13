@@ -1,7 +1,7 @@
 .banner-bg {
   width: 100%;
   height: 250px;
-  background-image: url('../assets/map/banner.png');
+  background-image: url("../assets/map/banner.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -28,4 +28,19 @@
   width: 550px;
   line-height: 2;
   font-weight: 300;
+}
+.google-map-address {
+  filter: grayscale(10%) invert(90%) contrast(88%);
+}
+
+@media only screen and (max-width: 575px) {
+  .banner-bg {
+    height: 90vh;
+  }
+  .banner-heading {
+    font-size: 36px;
+  }
+  .map-info-wrapper p {
+    width: auto;
+  }
 }
