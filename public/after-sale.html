@@ -24,6 +24,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <title>After Sales</title>
   </head>
   <body>
@@ -43,7 +44,12 @@
         <div class="grow-wrapper">
           <div class="heading-box">
             <div class="heading-underline">
-              เติบโตไปด้วยกัน <span class="line"></span>
+              เติบโตไปด้วยกัน
+              <span
+                data-aos="fade-right"
+                data-aos-duration="1700"
+                class="line"
+              ></span>
             </div>
           </div>
           <div class="grow-description-wrapper">
@@ -81,7 +87,13 @@
             <img src="./assets/after-sale/vision.png" alt="Vision" />
           </div>
           <div class="vision-info-right">
-            <div class="vision-info-heading">วิสัยทัศน์</div>
+            <div
+              class="vision-info-heading"
+              data-aos="fade-left"
+              data-aos-duration="1700"
+            >
+              วิสัยทัศน์
+            </div>
             <p>
               อยู่ในใจลูกค้าของมืออาชีพด้านการจัดการนิติบุคคล
               การจัดการทรัพย์สินส่วนกลาง และการจัดการชุมชน
@@ -93,7 +105,13 @@
       <section id="mission">
         <div class="mission-wrapper">
           <div class="mission-info-left">
-            <div class="mission-info-heading">พันธกิจ</div>
+            <div
+              class="mission-info-heading"
+              data-aos="fade-right"
+              data-aos-duration="1700"
+            >
+              พันธกิจ
+            </div>
             <div class="mission-info-para">
               <p>
                 <span>Billion Thai Group</span>
@@ -157,6 +175,10 @@
 
     <footer-page></footer-page>
 
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"

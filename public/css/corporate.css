@@ -404,6 +404,28 @@
     left: 0 !important;
   }
 }
+@media only screen and (max-width: 1450px) {
+  .profile-more-modal-left {
+    padding-left: 12rem;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .profile-more-heading:after {
+    left: 0;
+  }
+  .profile-more-profile-wrapper {
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+  .profile-more-modal-left {
+    padding: 2rem 3rem;
+  }
+  .profile-more-modal-right {
+    grid-row: 1/2;
+  }
+}
+
 @media only screen and (max-width: 575px) {
   .banner-bg {
     height: 90vh;

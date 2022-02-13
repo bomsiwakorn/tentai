@@ -17,20 +17,6 @@ class Navbar extends HTMLElement {
                 <ul class="mainpage mb-0">
                   <li><a href="/">หน้าหลัก</a></li>
                 </ul>
-                <ul class="socials mb-0 ps-2">
-                  <li>
-                    <a href="" class="social-item"><img src="./assets/home/facebook.png" alt="" /></a>
-                    <a href="" class="social-item-hover"><img src="./assets/home/facebook-pink.png" alt="" /></a>
-                  </li>
-                  <li>
-                    <a href="" class="social-item"><img src="./assets/home/instagram.png" alt=""</a>
-                    <a href="" class="social-item-hover"><img src="./assets/home/instagram-pink.png" alt=""</a>
-                  </li>
-                  <li>
-                    <a href="" class="social-item"><img src="./assets/home/line.png" alt="" /></a>
-                    <a href="" class="social-item-hover"><img src="./assets/home/line-pink.png" alt="" /></a>
-                  </li>
-                </ul>
 
                 <select class="dropdown-language" id="change-language">
                   <option value="en">EN</option>
@@ -56,8 +42,8 @@ class Navbar extends HTMLElement {
           </div>
         </nav>
 
-    `
+    `;
   }
 }
 
-customElements.define('navbar-page', Navbar)
+customElements.define("navbar-page", Navbar);

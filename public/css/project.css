@@ -337,10 +337,26 @@
 }
 
 @media only screen and (max-width: 575px) {
+  #banner {
+    height: 90vh;
+    overflow-x: hidden;
+  }
+  #banner img {
+    width: auto;
+    height: 100%;
+    transform: translateX(-15%);
+  }
   #project-idea img {
     height: 600px;
   }
   .facilities-items-wrapper {
     grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media only screen and (max-width: 430px) {
+  #banner {
+    height: 78vh;
+    overflow-x: hidden;
   }
 }
