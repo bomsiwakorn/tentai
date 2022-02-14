@@ -5,11 +5,14 @@ nav {
   z-index: 999;
 }
 .nav-top {
+  /* position: fixed; */
+  /* top: 0; */
   background-color: #fff;
   height: 70px;
   width: 100%;
   display: flex;
   align-items: center;
+  /* z-index: 10000; */
 }
 .wrapper-nav-top {
   display: flex;
@@ -85,13 +88,12 @@ ul.socials li a img {
 }
 
 .nav-bottom {
-  position: sticky;
-  position: -webkit-sticky;
   top: 0px;
   height: 50px;
   background-color: #272727;
   display: flex;
   align-items: center;
+  /* margin-top: 70px; */
 }
 ul.menu {
   display: flex;
@@ -105,4 +107,83 @@ ul.menu li a {
 }
 ul.menu li a:hover {
   color: #dc8983;
+}
+
+/*** nav-moblie ***/
+
+.nav-moblie {
+  padding-bottom: 2rem;
+  padding-left: 1rem;
+  background-color: #272727;
+  display: none;
+}
+nav .menu-moblie li {
+  padding-top: 0.5rem;
+  cursor: pointer;
+}
+nav .menu-moblie li a,
+nav .menu-moblie li {
+  color: #fff;
+  transition: 0.3s;
+}
+nav .menu-moblie li a:hover,
+nav .menu-moblie li:hover,
+nav .theones-menus-moblie a:hover {
+  color: #dc8983;
+}
+.menu-moblie i {
+  padding-left: 1rem;
+}
+nav .menu-moblie a {
+  text-decoration: none;
+}
+nav .menu-moblie div,
+nav .theones-menus-moblie a {
+  color: #939497;
+  transition: 0.3s;
+}
+.theones-menus-moblie div {
+  padding-top: 5px;
+}
+
+.hamberger-menu {
+  /* display: none; */
+  font-size: 30px;
+  padding-left: 1rem;
+  color: #dc8983;
+  cursor: pointer;
+}
+.projects-box {
+  height: 0;
+  overflow: hidden;
+}
+.projects-box a {
+  color: #fff;
+  transition: 0.3s;
+}
+.projects-box a:hover {
+  color: #dc8983;
+}
+
+@media only screen and (max-width: 991px) {
+  .mainpage {
+    display: none;
+  }
+  .nav-bottom {
+    display: none;
+  }
+  .hamberger-menu {
+    display: block;
+  }
+  .nav-moblie {
+    display: block;
+    position: absolute;
+    top: 70px;
+    width: 350px;
+    right: -400px;
+    transition: 0.5s;
+  }
+  .nav-moblie-toggleclass {
+    right: 0;
+  }
 }

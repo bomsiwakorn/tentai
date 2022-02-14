@@ -23,11 +23,12 @@ class Navbar extends HTMLElement {
                   <option value="th">ไทย</option>
                   <option value="ch">中文</option>
                 </select>
+                <div class="hamberger-menu" onClick="hambergerMenu()"><i class="fa-solid fa-ellipsis-vertical"></i></div>
               </div>
             </div>
           </div>
         </header>
-        <nav class="nav-bottom">
+        <nav class="nav-bottom"Í>
           <div class="container">
             <ul class="menu mb-0 ps-0">
               <li><a href="/projects.html">โครงการ</a></li>
@@ -41,6 +42,30 @@ class Navbar extends HTMLElement {
             </ul>
           </div>
         </nav>
+        <nav class="nav-moblie">
+        <ul class="menu-moblie mb-0 ps-0">
+          <li id="project-toggle" onclick="projectToggle(1)">โครงการ<i class="fas fa-caret-down"></i></li>
+          <div class="projects-box" id="projects-box">
+            <a href="/projects.html"><p class="mb-0">The One Estate Developer</p></a>
+            <div class="theones-menus-moblie ms-4">
+              <div><a href="/projects.html"> โครงการล่าสุด</a></div>
+              <div><a href="/projects.html#past-project"> โครงการที่ผ่านมา</a></div>
+            </div>
+            <a href="/projects.html"><p class="mb-0">Tenthai Development</p></a>
+            <div class="theones-menus-moblie ms-4">
+              <div><a href="/projects.html"> โครงการล่าสุด</a></div>
+              <div><a href="/projects.html#past-project"> โครงการที่ผ่านมา</a></div>
+            </div>
+          </div>
+          <li><a href="/corporate.html">เกี่ยวกับองค์กร</a></li>
+          <li><a href="/after-sale.html">บริการหลังการขาย</a></li>
+          <li><a href="/news.html">ข่าวสาร</a></li>
+          <li><a href="/land-selling.html">ขายที่ดิน</a></li>
+          <li><a href="/career.html">ร่วมงานกับเรา</a></li>
+          <li><a href="/contact.html">ติดต่อเรา</a></li>
+          <li><a href="/map.html" target="_blank">แผนที่โครงการ</a></li>
+        </ul>
+      </nav>
 
     `;
   }

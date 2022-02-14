@@ -9,8 +9,7 @@
   letter-spacing: 1px;
 }
 
-html,
-body {
+html {
   overflow-x: hidden;
 }
 

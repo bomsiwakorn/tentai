@@ -14,8 +14,10 @@ footer {
 }
 .wrapper-footer a:hover,
 .services li a h5:hover,
-.works li a h5:hover {
+.works li a h5:hover,
+.abouts li a p:hover {
   color: #ecb4a9;
+  transition: 0.3s;
 }
 .wrapper-footer {
   display: flex;
@@ -34,6 +36,15 @@ footer {
 .theones,
 .abouts {
   line-height: 1.8;
+}
+.theones a {
+  text-decoration: none;
+}
+.theones li a p:hover,
+.theones li a:hover,
+.wrapper-footer p:hover {
+  color: #ecb4a9;
+  transition: 0.3s;
 }
 .theones .theones-menus {
   padding-left: 1.5rem;
@@ -66,6 +77,8 @@ footer {
   text-decoration: none;
 }
 .footer-socials {
+  margin-top: -35px;
+  padding-bottom: 0.5rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -109,6 +122,7 @@ footer {
 }
 .copyright a:hover {
   color: #fff;
+  transition: 0.3s;
 }
 
 /*** mobile ***/
@@ -126,9 +140,12 @@ footer {
   margin-right: 5px;
   width: 8px;
   height: 1px;
-  background-color: #fff;
+  background-color: #be7f88;
   animation-name: animatedLine;
   animation-duration: 0.5s;
+  display: none;
+}
+.wrapper-footer-moblie {
   display: none;
 }
 
@@ -142,20 +159,15 @@ footer {
 }
 
 @media only screen and (max-width: 991px) {
+  .footer-socials {
+    margin-top: 0;
+  }
   .wrapper-footer {
-    justify-content: space-around;
-    padding-top: 1.5rem;
+    display: none;
   }
   .services li:nth-child(3) a h5,
   .works li:nth-child(3) a h5 {
     margin-bottom: 0 !important;
-  }
-  .theones,
-  .abouts,
-  .footer-horizontal-line,
-  .logo-theones,
-  .logo-tenthai {
-    display: none;
   }
   .logo-mobile,
   .tel-mobile {
@@ -163,7 +175,7 @@ footer {
     text-align: center;
   }
   .tel-mobile {
-    padding-bottom: 2rem;
+    padding-bottom: 1rem;
   }
   .logo-mobile a,
   .tel-mobile a {
@@ -172,6 +184,7 @@ footer {
   }
   .tel-mobile a:hover {
     color: #ecb4a9;
+    transition: 0.3s;
   }
   .logo-mobile:nth-child(1) a {
     margin-right: 1rem;
@@ -180,7 +193,31 @@ footer {
     width: 80px;
   }
   .tel-mobile a {
+    font-size: 1.2rem;
     color: #fff;
+  }
+  .wrapper-footer-moblie {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 1rem;
+  }
+  .wrapper-footer-moblie li {
+    padding-top: 0.5rem;
+  }
+  .wrapper-footer-moblie li a {
+    text-decoration: none;
+    color: #fff;
+  }
+  .wrapper-footer-moblie li a:hover {
+    color: #ecb4a9;
+    transition: 0.3s;
+  }
+  .services-1 {
+    width: 150px;
+  }
+  .services-2 {
+    width: 120px;
   }
 }
 @media only screen and (max-width: 575px) {
