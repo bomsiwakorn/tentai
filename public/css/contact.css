@@ -38,17 +38,23 @@
   margin-bottom: 1.5rem;
   gap: 1.2rem;
 }
-.info-company-name-wrapper img {
-  width: 50px;
-}
+
 .info-company h4 {
   font-size: 18px;
 }
 .info-company p {
-  margin-left: 70px;
+  margin-left: 20px;
   font-weight: 300;
   line-height: 1.6;
   font-size: 15px;
+  margin-bottom: 0;
+}
+.info-company-content {
+  display: flex;
+  align-items: center;
+}
+.info-company-content img {
+  width: 60px;
 }
 .info-contact {
   margin-top: 5rem;
@@ -58,7 +64,7 @@
   font-size: 15px;
 }
 .contact-item {
-  margin-left: 70px;
+  margin-left: 22px;
   margin-bottom: 1.5rem;
   display: flex;
   align-items: center;
@@ -118,6 +124,10 @@
   font-size: 20px;
   color: #e8e7e5;
   padding-bottom: 1.5rem;
+}
+.communication-channel-icon:hover span {
+  transition: all 0.3s;
+  color: #dc8983;
 }
 .form-wrapper {
   padding: 6rem 24rem;
@@ -188,6 +198,11 @@
 @media only screen and (max-width: 1400px) {
   .form-wrapper {
     padding: 3rem 0 0 0;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .communication-channel-wrapper {
+    grid-template-columns: 60% 1fr;
   }
 }
 

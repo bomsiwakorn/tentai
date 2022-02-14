@@ -16,7 +16,7 @@ footer {
 .services li a h5:hover,
 .works li a h5:hover,
 .abouts li a p:hover {
-  color: #ecb4a9;
+  color: #dc8983;
   transition: 0.3s;
 }
 .wrapper-footer {
@@ -43,7 +43,7 @@ footer {
 .theones li a p:hover,
 .theones li a:hover,
 .wrapper-footer p:hover {
-  color: #ecb4a9;
+  color: #dc8983;
   transition: 0.3s;
 }
 .theones .theones-menus {
@@ -183,7 +183,7 @@ footer {
     transition: 0.3s;
   }
   .tel-mobile a:hover {
-    color: #ecb4a9;
+    color: #dc8983;
     transition: 0.3s;
   }
   .logo-mobile:nth-child(1) a {
@@ -203,14 +203,14 @@ footer {
     padding-top: 1rem;
   }
   .wrapper-footer-moblie li {
-    padding-top: 0.5rem;
+    padding-top: 1rem;
   }
   .wrapper-footer-moblie li a {
     text-decoration: none;
     color: #fff;
   }
   .wrapper-footer-moblie li a:hover {
-    color: #ecb4a9;
+    color: #dc8983;
     transition: 0.3s;
   }
   .services-1 {
