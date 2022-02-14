@@ -183,9 +183,11 @@
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  gap: 1rem;
   position: relative;
   margin-top: 6rem;
+}
+.project-mail:hover i {
+  transform: translateY(-5px);
 }
 .project-mail:after {
   content: "";
@@ -197,13 +199,21 @@
   background: linear-gradient(0.25turn, #b57782, #fad1d0, #b57782);
 }
 .project-mail i {
+  padding-right: 10px;
   color: #db9d8d;
   font-size: 26px;
+  transition: 0.3s;
 }
-.project-mail span {
+.project-mail p {
+  margin-bottom: 0;
   font-size: 20px;
   color: #fff;
   font-weight: 300;
+}
+.project-mail a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
 }
 
 @media only screen and (max-width: 991px) {

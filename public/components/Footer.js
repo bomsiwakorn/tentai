@@ -70,15 +70,15 @@ class Footer extends HTMLElement {
             </ul>
             <div class="footer-horizontal-line"></div>
             <div class="logo-tenthai">
-              <a href=""><img src="./assets/home/logo2-footer.png" alt="logo" /></a>
+              <a href="/"><img src="./assets/home/logo2-footer.png" alt="logo" /></a>
               <a href="tel:+66 2538 8019">+66 2538 8019</a>
             </div>
           </div>
           <div class="tel-mobile"><a href="tel:+66 2538 8019">+66 2538 8019</a></div>
           <ul class="footer-socials ps-0">
-            <a href=""><img src="./assets/home/facebook-pink.png" alt="" /></a>
-            <a href=""><img src="./assets/home/instagram-pink.png" alt="" /></a>
-            <a href=""><img src="./assets/home/line-pink.png" alt="" /></a>
+            <a href=""><img src="./assets/home/facebook-pink.svg" alt="facebook" /></a>
+            <a href=""><img src="./assets/home/instagram-pink.svg" alt="instagram" /></a>
+            <a href="https://lin.ee/hlS0zzw"><img src="./assets/home/line-pink.svg" alt="line" /></a>
           </ul>
         </div>
         <div class="footer-underline"></div>

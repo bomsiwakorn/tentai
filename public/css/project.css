@@ -64,7 +64,7 @@
   text-align: center;
 }
 #project-idea img {
-  height: 450px;
+  height: 600px;
   width: 100%;
 }
 .project-idea-wrapper {
@@ -336,6 +336,12 @@
   }
 }
 
+@media only screen and (max-width: 690px) {
+  #project-idea img {
+    height: 700px;
+  }
+}
+
 @media only screen and (max-width: 575px) {
   #banner {
     height: 90vh;
@@ -347,7 +353,10 @@
     transform: translateX(-15%);
   }
   #project-idea img {
-    height: 600px;
+    height: 750px;
+  }
+  .project-idea-wrapper p {
+    font-size: 13px;
   }
   .facilities-items-wrapper {
     grid-template-columns: repeat(2, 1fr);

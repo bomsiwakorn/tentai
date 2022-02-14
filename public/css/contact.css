@@ -45,6 +45,7 @@
   font-size: 18px;
 }
 .info-company p {
+  margin-left: 70px;
   font-weight: 300;
   line-height: 1.6;
   font-size: 15px;
@@ -57,6 +58,7 @@
   font-size: 15px;
 }
 .contact-item {
+  margin-left: 70px;
   margin-bottom: 1.5rem;
   display: flex;
   align-items: center;
@@ -67,10 +69,22 @@
 .contact-item:hover span {
   color: #dc8983;
 }
+.contact-item:hover i,
+.contact-item:hover img {
+  transform: translateY(-5px);
+}
+.contact-item img {
+  position: relative;
+  left: -4px;
+  margin-right: 11px;
+  width: 30px;
+  transition: 0.3s;
+}
 .contact-item i {
   width: 40px;
   color: #dc8983;
   font-size: 26px;
+  transition: 0.3s;
 }
 .contact-item span {
   transition: 0.4s;
@@ -91,8 +105,13 @@
   display: flex;
   align-items: end;
   column-gap: 1.2rem;
+  justify-content: center;
+}
+.communication-channel-icon a {
+  text-decoration: none;
 }
 .communication-channel-icon img {
+  margin-right: 20px;
   width: 80px;
 }
 .communication-channel-icon span {
@@ -162,9 +181,13 @@
   background: none;
 }
 
+.google-map-address {
+  filter: grayscale(10%) invert(90%) contrast(88%);
+}
+
 @media only screen and (max-width: 1400px) {
   .form-wrapper {
-    padding: 0px;
+    padding: 3rem 0 0 0;
   }
 }
 
@@ -183,6 +206,9 @@
   }
   .info-contact {
     margin-top: 0;
+  }
+  .communication-channel-right {
+    padding-top: 2rem;
   }
   .communication-channel-icon {
     align-items: center;

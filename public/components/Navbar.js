@@ -7,10 +7,10 @@ class Navbar extends HTMLElement {
             <div class="wrapper-nav-top">
               <div class="logo">
                 <div class="logo-items">
-                  <a href=""><img src="./assets/home/logo1-nav.png" alt="" /></a>
+                  <a href="/"><img src="./assets/home/logo1-nav.png" alt="logo" /></a>
                 </div>
                 <div class="logo-items ms-4">
-                  <a href=""><img src="./assets/home/logo2-nav.png" alt="" /></a>
+                  <a href="/"><img src="./assets/home/logo2-nav.png" alt="logo" /></a>
                 </div>
               </div>
               <div class="home">
