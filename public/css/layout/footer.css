@@ -25,10 +25,10 @@ footer {
   justify-content: space-between;
 }
 .footer-news {
-  width: 120px;
+  width: 130px;
 }
 .footer-services {
-  width: 145px;
+  width: 170px;
 }
 .logo-theones img {
   width: 60px;
@@ -214,10 +214,10 @@ footer {
     transition: 0.3s;
   }
   .services-1 {
-    width: 150px;
+    width: 185px;
   }
   .services-2 {
-    width: 120px;
+    width: 135px;
   }
 }
 @media only screen and (max-width: 575px) {
