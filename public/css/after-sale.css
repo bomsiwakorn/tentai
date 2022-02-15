@@ -16,6 +16,7 @@
 }
 
 #grow {
+  margin-top: -1px;
   background: #272727;
   padding: 2rem 0 2.5rem 0;
 }
