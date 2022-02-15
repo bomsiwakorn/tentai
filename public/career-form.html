@@ -32,14 +32,24 @@
 
     <section id="banner">
       <div class="banner-bg">
-        <div class="banner-heading">ร่วมงานกับเรา</div>
+        <div data-lang="en" class="banner-heading">CAREER</div>
+        <div data-lang="th" class="banner-heading">ร่วมงานกับเรา</div>
+        <div data-lang="ch" class="banner-heading">市场合作</div>
       </div>
     </section>
 
     <section id="career-form">
       <div class="container">
         <div class="career-form-wrapper">
-          <div class="heading-underline">
+          <div data-lang="en" class="heading-underline">
+            Job Opportunities
+            <span
+              data-aos="fade-right"
+              data-aos-duration="1700"
+              class="line"
+            ></span>
+          </div>
+          <div data-lang="th" class="heading-underline">
             โอกาสร่วมงานกับเรา
             <span
               data-aos="fade-right"
@@ -47,34 +57,100 @@
               class="line"
             ></span>
           </div>
-          <div class="career-form-position">ตำแหน่ง <span>บัญชี</span></div>
+          <div data-lang="ch" class="heading-underline">
+            Job Opportunities
+            <span
+              data-aos="fade-right"
+              data-aos-duration="1700"
+              class="line"
+            ></span>
+          </div>
+          <div data-lang="en" class="career-form-position">
+            Account Payable Officer
+          </div>
+          <div data-lang="th" class="career-form-position">
+            ตำแหน่ง <span>บัญชี</span>
+          </div>
+          <div data-lang="ch" class="career-form-position">
+            Account Payable Officer
+          </div>
 
           <form action="/career-completed.html">
             <div class="form-items-wrapper">
-              <div class="form-item">
+              <div data-lang="en" class="form-item">
+                <label for="">Name</label>
+                <input type="text" />
+              </div>
+              <div data-lang="th" class="form-item">
                 <label for="">ชื่อ</label>
                 <input type="text" />
               </div>
-              <div class="form-item">
+              <div data-lang="ch" class="form-item">
+                <label for="">Name</label>
+                <input type="text" />
+              </div>
+              <div data-lang="en" class="form-item">
+                <label for="">Surname</label>
+                <input type="text" />
+              </div>
+              <div data-lang="th" class="form-item">
                 <label for="">นามสกุล</label>
+                <input type="text" />
+              </div>
+              <div data-lang="ch" class="form-item">
+                <label for="">Surname</label>
                 <input type="text" />
               </div>
             </div>
             <div class="form-items-wrapper">
-              <div class="form-item">
+              <div data-lang="en" class="form-item">
+                <label for="">E-mail</label>
+                <input type="text" />
+              </div>
+              <div data-lang="th" class="form-item">
                 <label for="">อีเมล</label>
                 <input type="text" />
               </div>
-              <div class="form-item">
+              <div data-lang="ch" class="form-item">
+                <label for="">E-mail</label>
+                <input type="text" />
+              </div>
+              <div data-lang="en" class="form-item">
+                <label for="">Phone</label>
+                <input type="text" />
+              </div>
+              <div data-lang="th" class="form-item">
                 <label for="">เบอร์โทรศัพท์</label>
                 <input type="text" />
               </div>
+              <div data-lang="ch" class="form-item">
+                <label for="">Phone</label>
+                <input type="text" />
+              </div>
             </div>
-            <div class="form-item">
+            <div data-lang="en" class="form-item">
+              <label for="">Your Message</label>
+              <textarea rows="3"></textarea>
+            </div>
+            <div data-lang="th" class="form-item">
               <label for="">ข้อความแนะนำตัวเองสั้นๆ</label>
               <textarea rows="3"></textarea>
             </div>
-            <div class="form-item mt-4">
+            <div data-lang="ch" class="form-item">
+              <label for="">Your Message</label>
+              <textarea rows="3"></textarea>
+            </div>
+            <div data-lang="en" class="form-item mt-4">
+              <label for=""
+                >Resume (The file size does not exceed 10 Mb. File extension
+                .pdf, .jpg และ .zip file Only)</label
+              >
+              <div class="resume-upload-input">
+                <input type="file" name="resume" />
+                <button>Choose File</button>
+              </div>
+            </div>
+            <div data-lang="th" class="form-item mt-4">
               <label for=""
                 >ประวัติการทำงาน (ไฟล์งานมีขนาดไม่เกิน 10 Mb. นามสกุล .pdf, .jpg
                 และ .zip file เท่านั้น)</label
@@ -84,9 +160,25 @@
                 <button>แนบไฟล์</button>
               </div>
             </div>
+            <div data-lang="ch" class="form-item mt-4">
+              <label for=""
+                >Resume (The file size does not exceed 10 Mb. File extension
+                .pdf, .jpg และ .zip file Only)</label
+              >
+              <div class="resume-upload-input">
+                <input type="file" name="resume" />
+                <button>Choose File</button>
+              </div>
+            </div>
 
-            <div class="form-submit">
+            <div data-lang="en" class="form-submit">
+              <button>Submit</button>
+            </div>
+            <div data-lang="th" class="form-submit">
               <button>ส่ง</button>
+            </div>
+            <div data-lang="ch" class="form-submit">
+              <button>Submit</button>
             </div>
           </form>
         </div>
@@ -109,5 +201,9 @@
     <script src="./components/Navbar.js"></script>
     <script src="./components/Footer.js"></script>
     <script src="./js/lineOutsideContainer.js"></script>
+    <script
+      type="text/javascript"
+      src="https://unpkg.com/i18n-language@1.0.4/i18n-language.js"
+    ></script>
   </body>
 </html>

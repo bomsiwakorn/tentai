@@ -100,6 +100,7 @@
   margin-top: 3rem;
 }
 .project-info-item {
+  padding-bottom: 0.5rem;
   font-size: 15px;
   color: #fff;
 }
@@ -202,7 +203,9 @@
 .gallery-wrapper {
   text-align: center;
 }
-.gallery-carousel-container {
+.gallery-carousel-container,
+.design-carousel-container,
+.layout-carousel-container {
   width: 80%;
   margin: 5rem auto;
 }
@@ -277,6 +280,12 @@
   border-radius: 1px;
 }
 
+/*** Switch ***/
+
+.design-carousel-container {
+  display: none;
+}
+
 @media only screen and (max-width: 991px) {
   .download-file {
     display: block !important;
@@ -314,7 +323,9 @@
     padding: 0 0 5rem 0;
   }
   .plan-result,
-  .gallery-carousel-container {
+  .gallery-carousel-container,
+  .design-carousel-container,
+  .layout-carousel-container {
     width: 100%;
   }
   .facilities-wrapper p,

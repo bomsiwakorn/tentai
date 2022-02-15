@@ -5,14 +5,14 @@ nav {
   z-index: 999;
 }
 .nav-top {
-  /* position: fixed; */
-  /* top: 0; */
+  position: fixed;
+  top: 0;
   background-color: #fff;
   height: 70px;
   width: 100%;
   display: flex;
   align-items: center;
-  /* z-index: 10000; */
+  z-index: 990;
 }
 .wrapper-nav-top {
   display: flex;
@@ -88,12 +88,13 @@ ul.socials li a img {
 }
 
 .nav-bottom {
+  z-index: 1;
   top: 0px;
   height: 50px;
   background-color: #272727;
   display: flex;
   align-items: center;
-  /* margin-top: 70px; */
+  margin-top: 70px;
 }
 ul.menu {
   display: flex;
@@ -118,8 +119,7 @@ ul.menu li a:hover {
   display: none;
 }
 nav .menu-moblie li {
-  padding-top: 0.5rem;
-  cursor: pointer;
+  padding-top: 1.5rem;
 }
 nav .menu-moblie li a,
 nav .menu-moblie li {
@@ -127,9 +127,10 @@ nav .menu-moblie li {
   transition: 0.3s;
 }
 nav .menu-moblie li a:hover,
-nav .menu-moblie li:hover,
+nav .menu-moblie li span:hover,
 nav .theones-menus-moblie a:hover {
   color: #dc8983;
+  transition: 0.3s;
 }
 .menu-moblie i {
   padding-left: 1rem;
@@ -147,7 +148,7 @@ nav .theones-menus-moblie a {
 }
 
 .hamberger-menu {
-  /* display: none; */
+  display: none;
   font-size: 30px;
   padding-left: 1rem;
   color: #dc8983;
@@ -177,11 +178,14 @@ nav .theones-menus-moblie a {
   }
   .nav-moblie {
     display: block;
-    position: absolute;
+    position: fixed;
     top: 70px;
-    width: 350px;
-    right: -400px;
+    width: 100%;
+    height: 100%;
+    right: -1000px;
+    opacity: 0.95;
     transition: 0.5s;
+    padding: 3rem 0 0 5rem;
   }
   .nav-moblie-toggleclass {
     right: 0;

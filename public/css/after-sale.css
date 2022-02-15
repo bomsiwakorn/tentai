@@ -16,6 +16,7 @@
 }
 
 #grow {
+  margin-top: -1px;
   background: #272727;
   padding: 2rem 0 2.5rem 0;
 }
@@ -39,7 +40,7 @@
 }
 
 .vision-and-mission-wrapper {
-  padding: 4rem 0;
+  padding-top: 4rem;
   background: #404041;
 }
 .vision-wrapper {
@@ -53,7 +54,7 @@
 }
 .mission-wrapper {
   display: grid;
-  grid-template-columns: 1fr 1px 1fr;
+  grid-template-columns: 1fr 1fr;
   column-gap: 2.5%;
 }
 .mission-line-center {
@@ -186,6 +187,9 @@
   position: relative;
   margin-top: 6rem;
 }
+.project-mail:hover p {
+  color: #db9d8d;
+}
 .project-mail:hover i {
   transform: translateY(-5px);
 }
@@ -209,6 +213,7 @@
   font-size: 20px;
   color: #fff;
   font-weight: 300;
+  transition: all 0.3s;
 }
 .project-mail a {
   display: flex;

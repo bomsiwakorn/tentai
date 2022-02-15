@@ -426,6 +426,12 @@
   }
 }
 
+@media only screen and (max-width: 768px) {
+  .vdo-wrapper iframe {
+    height: 400px;
+  }
+}
+
 @media only screen and (max-width: 575px) {
   .banner-bg {
     height: 90vh;

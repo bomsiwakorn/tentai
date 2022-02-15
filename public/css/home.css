@@ -82,13 +82,13 @@ header.banner {
   background-size: cover;
 }
 .banner-img-1 {
-  background-image: url("../assets/home/banner.png");
+  background-image: url("../assets/home/banner1.png");
 }
 .banner-img-2 {
-  background-image: url("../assets/home/bg-promotion.png");
+  background-image: url("../assets/home/banner2.jpg");
 }
 .banner-img-3 {
-  background-image: url("../assets/home/banner.png");
+  background-image: url("../assets/home/banner3.jpg");
 }
 .banner-underline {
   position: absolute;

@@ -1,6 +1,8 @@
 function hambergerMenu() {
+  const bodyEl = document.querySelector("body");
   const navMoblie = document.querySelector(".nav-moblie");
   navMoblie.classList.toggle("nav-moblie-toggleclass");
+  bodyEl.classList.toggle("toggleBodyEl");
 }
 
 let runNumber = -1;

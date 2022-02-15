@@ -8,6 +8,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: -1px;
 }
 .banner-heading {
   color: #fff;
@@ -16,6 +17,7 @@
 }
 
 #career {
+  margin-top: -1px;
   background: #272727;
 }
 .career-wrapper {
@@ -101,7 +103,7 @@
   width: 100%;
   height: 4px;
   position: absolute;
-  bottom: 0;
+  bottom: -3px;
   left: 0;
   background: linear-gradient(
     90deg,
@@ -126,8 +128,15 @@
   color: #463a37;
   font-weight: 500;
 }
+.hr-contact-info-wrapper a {
+  text-decoration: none;
+}
 .hr-contact-info-wrapper p {
   color: #e8e7e5;
+  transition: all 0.3s;
+}
+.hr-contact-info-wrapper p:hover {
+  color: #dc8983;
 }
 .hr-contact-image img {
   width: 100%;

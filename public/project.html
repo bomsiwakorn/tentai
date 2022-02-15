@@ -164,91 +164,151 @@
             เพื่อให้ห้องของคุณ คือโลกส่วนตัวแห่งความสงบสุขที่แท้จริง
           </p>
           <div class="facilities-items-wrapper">
-            <div class="facilities-item">
+            <div
+              class="facilities-item"
+              data-aos="flip-up"
+              data-aos-duration="1000"
+            >
               <div class="item-icon-img">
                 <img src="./assets/project/i1.png" alt="Facilities" />
               </div>
               <span>ฟิตเนส</span>
             </div>
-            <div class="facilities-item">
+            <div
+              class="facilities-item"
+              data-aos="flip-up"
+              data-aos-duration="1200"
+            >
               <div class="item-icon-img">
                 <img src="./assets/project/i2.png" alt="Facilities" />
               </div>
               <span>สระว่ายน้ำ</span>
             </div>
-            <div class="facilities-item">
+            <div
+              class="facilities-item"
+              data-aos="flip-up"
+              data-aos-duration="1400"
+            >
               <div class="item-icon-img">
                 <img src="./assets/project/i3.png" alt="Facilities" />
               </div>
               <span>ล็อบบี้</span>
             </div>
-            <div class="facilities-item">
+            <div
+              class="facilities-item"
+              data-aos="flip-up"
+              data-aos-duration="1600"
+            >
               <div class="item-icon-img">
                 <img src="./assets/project/i4.png" alt="Facilities" />
               </div>
               <span>สกายเลานจ์</span>
             </div>
-            <div class="facilities-item">
+            <div
+              class="facilities-item"
+              data-aos="flip-up"
+              data-aos-duration="1800"
+            >
               <div class="item-icon-img">
                 <img src="./assets/project/i5.png" alt="Facilities" />
               </div>
               <span>กล้องวงจรปิด</span>
             </div>
-            <div class="facilities-item">
+            <div
+              class="facilities-item"
+              data-aos="flip-up"
+              data-aos-duration="1000"
+            >
               <div class="item-icon-img">
                 <img src="./assets/project/i6.png" alt="Facilities" />
               </div>
               <span>ซักผ้า</span>
             </div>
-            <div class="facilities-item">
+            <div
+              class="facilities-item"
+              data-aos="flip-up"
+              data-aos-duration="1200"
+            >
               <div class="item-icon-img">
                 <img src="./assets/project/i7.png" alt="Facilities" />
               </div>
               <span>ที่จอดรถออโต้เมติค</span>
             </div>
-            <div class="facilities-item">
+            <div
+              class="facilities-item"
+              data-aos="flip-up"
+              data-aos-duration="1400"
+            >
               <div class="item-icon-img">
                 <img src="./assets/project/i8.png" alt="Facilities" />
               </div>
               <span>ร้านค้าบ้าน</span>
             </div>
-            <div class="facilities-item">
+            <div
+              class="facilities-item"
+              data-aos="flip-up"
+              data-aos-duration="1600"
+            >
               <div class="item-icon-img">
                 <img src="./assets/project/i2.png" alt="Facilities" />
               </div>
               <span>สระว่ายน้ำครอบครัว</span>
             </div>
-            <div class="facilities-item">
+            <div
+              class="facilities-item"
+              data-aos="flip-up"
+              data-aos-duration="1800"
+            >
               <div class="item-icon-img">
                 <img src="./assets/project/i9.png" alt="Facilities" />
               </div>
               <span>รถตู้รับส่ง</span>
             </div>
-            <div class="facilities-item">
+            <div
+              class="facilities-item"
+              data-aos="flip-up"
+              data-aos-duration="1000"
+            >
               <div class="item-icon-img">
                 <img src="./assets/project/i10.png" alt="Facilities" />
               </div>
               <span>ระบบป้องกันน้ำท่วม</span>
             </div>
-            <div class="facilities-item">
+            <div
+              class="facilities-item"
+              data-aos="flip-up"
+              data-aos-duration="1200"
+            >
               <div class="item-icon-img">
                 <img src="./assets/project/i11.png" alt="Facilities" />
               </div>
               <span>รักษาความปลอดภัย</span>
             </div>
-            <div class="facilities-item">
+            <div
+              class="facilities-item"
+              data-aos="flip-up"
+              data-aos-duration="1400"
+            >
               <div class="item-icon-img">
                 <img src="./assets/project/i12.png" alt="Facilities" />
               </div>
               <span>ห้องประชุม</span>
             </div>
-            <div class="facilities-item">
+            <div
+              class="facilities-item"
+              data-aos="flip-up"
+              data-aos-duration="1600"
+            >
               <div class="item-icon-img">
                 <img src="./assets/project/i13.png" alt="Facilities" />
               </div>
               <span>กล่องจดหมาย</span>
             </div>
-            <div class="facilities-item">
+            <div
+              class="facilities-item"
+              data-aos="flip-up"
+              data-aos-duration="1800"
+            >
               <div class="item-icon-img">
                 <img src="./assets/project/i14.png" alt="Facilities" />
               </div>
@@ -266,11 +326,179 @@
             <div class="heading-underline-short">แบบแปลน</div>
           </div>
           <div class="plan-switch-wrapper">
-            <button class="active">แผนผัง</button>
-            <button>แบบห้อง</button>
+            <button
+              id="layoutSwitch"
+              class="active"
+              onclick="layoutBtnSwicth()"
+            >
+              แผนผัง
+            </button>
+            <button id="designSwicth" onclick="designBtnSwicth()">
+              แบบห้อง
+            </button>
           </div>
-          <div class="plan-result">
-            <img src="./assets/project/plan.png" alt="Plan" />
+          <div class="layout-carousel-container">
+            <div
+              id="carouselExampleControls"
+              class="carousel slide"
+              data-bs-ride="carousel"
+            >
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img
+                    src="./assets/project/plan.png"
+                    class="d-block w-100"
+                    alt="Gallery"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="./assets/project/plan.png"
+                    class="d-block w-100"
+                    alt="Gallery"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="./assets/project/plan.png"
+                    class="d-block w-100"
+                    alt="Gallery"
+                  />
+                </div>
+              </div>
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#carouselExampleControls"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#carouselExampleControls"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+          <div class="design-carousel-container">
+            <!-- <div
+              id="carouselExampleControls"
+              class="carousel slide"
+              data-bs-ride="carousel"
+            >
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img
+                    src="./assets/project/gallery1.png"
+                    class="d-block w-100"
+                    alt="Gallery"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="./assets/project/gallery1.png"
+                    class="d-block w-100"
+                    alt="Gallery"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="./assets/project/gallery1.png"
+                    class="d-block w-100"
+                    alt="Gallery"
+                  />
+                </div>
+              </div>
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#carouselExampleControls"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#carouselExampleControls"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div> -->
+            <div
+              id="carouselExampleControls"
+              class="carousel slide"
+              data-bs-ride="carousel"
+            >
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img
+                    src="./assets/project/bg-idea.png"
+                    class="d-block w-100"
+                    alt="Gallery"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="./assets/project/bg-idea.png"
+                    class="d-block w-100"
+                    alt="Gallery"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="./assets/project/bg-idea.png"
+                    class="d-block w-100"
+                    alt="Gallery"
+                  />
+                </div>
+              </div>
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#carouselExampleControls"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#carouselExampleControls"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
           </div>
         </div>
       </div>
@@ -457,10 +685,15 @@
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
       crossorigin="anonymous"
     ></script>
+    <script src="./js/project.js"></script>
     <script src="./js/navbar.js"></script>
     <script src="./js/footer.js"></script>
     <script src="./components/Navbar.js"></script>
     <script src="./components/Footer.js"></script>
     <script src="./js/lineOutsideContainer.js"></script>
+    <script
+      type="text/javascript"
+      src="https://unpkg.com/i18n-language@1.0.4/i18n-language.js"
+    ></script>
   </body>
 </html>
