@@ -8,6 +8,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: -1px;
 }
 .banner-heading {
   color: #fff;
@@ -21,6 +22,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   border-bottom: 5px solid #dc8983;
+  margin-top: -1px;
 }
 .profile-wrapper {
   display: grid;
