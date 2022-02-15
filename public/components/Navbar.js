@@ -77,7 +77,9 @@ class Navbar extends HTMLElement {
               <div data-lang="th"><a href="/projects.html#past-project">โครงการที่ผ่านมา</a></div>
               <div data-lang="ch"><a href="/projects.html#past-project">Past Project</a></div>
             </div>
-            <a href="/projects.html"><p class="mb-0">Tenthai Development</p></a>
+            <a href="/projects.html"><p data-lang="en" class="mb-0">Tenthai Development</p></a>
+            <a href="/projects.html"><p data-lang="th" class="mb-0">เท็นไทย ดีเวลลอปเม้นท์</p></a>
+            <a href="/projects.html"><p data-lang="ch" class="mb-0">Tenthai Development</p></a>
             <div class="theones-menus-moblie ms-4">
             <div data-lang="en"><a href="/projects.html">Latest Projects</a></div>
             <div data-lang="th"><a href="/projects.html">โครงการล่าสุด</a></div>

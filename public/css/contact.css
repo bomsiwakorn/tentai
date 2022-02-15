@@ -8,6 +8,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: -1px;
 }
 .banner-heading {
   color: #fff;
@@ -31,6 +32,25 @@
 }
 
 .info-company {
+  display: flex;
+  align-items: center;
+  padding-bottom: 2rem;
+}
+.info-company img {
+  width: 60px;
+  margin-right: 1rem;
+}
+.info-company-content h4 {
+  font-size: 18px;
+  color: #fff;
+}
+.info-company-content p {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+/* .info-company {
   color: #e8e7e5;
   margin-bottom: 2.5rem;
 }
@@ -57,9 +77,9 @@
 }
 .info-company-content img {
   width: 60px;
-}
+} */
 .info-contact {
-  margin-top: 5rem;
+  margin-top: 1rem;
 }
 .info-contact a {
   text-decoration: none;
@@ -101,36 +121,12 @@
   font-size: 18px;
 }
 .communication-channel-right {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
+  margin: auto 0;
 }
 .communication-channel-map img {
   width: 100%;
 }
-.communication-channel-icon {
-  margin-top: 2.5rem;
-  display: flex;
-  align-items: end;
-  column-gap: 1.2rem;
-  justify-content: center;
-}
-.communication-channel-icon a {
-  text-decoration: none;
-}
-.communication-channel-icon img {
-  margin-right: 20px;
-  width: 80px;
-}
-.communication-channel-icon span {
-  font-size: 20px;
-  color: #e8e7e5;
-  padding-bottom: 1.5rem;
-}
-.communication-channel-icon:hover span {
-  transition: all 0.3s;
-  color: #dc8983;
-}
+
 .form-wrapper {
   padding: 6rem 24rem;
 }
