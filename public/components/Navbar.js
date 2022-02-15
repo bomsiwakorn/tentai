@@ -67,8 +67,8 @@ class Navbar extends HTMLElement {
         </ul>
       </nav>
 
-    `;
+    `
   }
 }
 
-customElements.define("navbar-page", Navbar);
+customElements.define('navbar-page', Navbar)
