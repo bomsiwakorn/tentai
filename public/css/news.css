@@ -8,6 +8,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: -1px;
 }
 .banner-heading {
   color: #fff;
@@ -19,6 +20,7 @@ section.news {
   width: 100vw;
   padding-top: 1rem;
   background: #6d6e70;
+  margin-top: -1px;
 }
 .news-grid {
   display: grid;
@@ -81,10 +83,11 @@ section.news {
 .pagination {
   display: flex;
   justify-content: center;
-  gap: 4rem;
+  gap: 3rem;
   padding-bottom: 5rem;
 }
 .pagination a {
+  font-size: 13px;
   color: #dc8983;
   text-decoration: none;
   transition: 0.4s;

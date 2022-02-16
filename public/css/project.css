@@ -1,10 +1,10 @@
 #banner img {
   width: 100%;
 }
-
 #register {
   background: #272727;
   padding: 5rem 0;
+  margin-top: -1px;
 }
 .register-wrapper {
   display: grid;
@@ -344,6 +344,18 @@
   }
   .form-submit {
     text-align: center !important;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .vdo-wrapper {
+    width: auto;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .vdo-wrapper iframe {
+    height: 400px;
   }
 }
 

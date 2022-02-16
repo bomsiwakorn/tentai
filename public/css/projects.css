@@ -145,7 +145,11 @@
   }
 }
 @media only screen and (max-width: 768px) {
-  .line-outside {
+  .vertical-line {
+    width: 100%;
+    height: 1px;
+    background: linear-gradient(0.25turn, #b57782, #fad1d0, #b57782);
+    margin: 1rem 0;
     display: block !important;
   }
   .heading-box {
