@@ -367,6 +367,7 @@ section.maps {
   width: 100vw;
   background: #6d6e70;
   padding-top: 2.5rem;
+  margin-bottom: -1px;
 }
 .maps-heading {
   text-align: center;

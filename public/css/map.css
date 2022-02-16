@@ -18,6 +18,8 @@
 #map-info {
   background: #272727;
   padding-top: 4rem;
+  margin-top: -1px;
+  margin-bottom: -1px;
 }
 .map-info-wrapper {
   padding-bottom: 4rem;

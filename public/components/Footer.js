@@ -185,9 +185,9 @@ class Footer extends HTMLElement {
           </div>
           <div class="tel-mobile"><a href="tel:+66 2538 8019">+66 2538 8019</a></div>
           <ul class="footer-socials ps-0">
-            <a href=""><img src="./assets/home/facebook-pink.svg" alt="facebook" /></a>
-            <a href=""><img src="./assets/home/instagram-pink.svg" alt="instagram" /></a>
-            <a href="https://lin.ee/hlS0zzw"><img src="./assets/home/line-pink.svg" alt="line" /></a>
+            <a href="https://www.facebook.com/tenthai.info" target="_blank"><img src="./assets/home/facebook-pink.svg" alt="facebook" /></a>
+            <a href="https://www.instagram.com/explore/tags/tenthai/?hl=en" target="_blank"><img src="./assets/home/instagram-pink.svg" alt="instagram" /></a>
+            <a href="https://lin.ee/hlS0zzw" target="_blank"><img src="./assets/home/line-pink.svg" alt="line" /></a>
           </ul>
         </div>
         <div class="footer-underline"></div>

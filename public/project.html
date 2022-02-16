@@ -32,7 +32,71 @@
     <navbar-page></navbar-page>
 
     <section id="banner">
-      <img src="./assets/project/banner.png" alt="Banner" />
+      <!-- <img src="./assets/projects/2.png" alt="Banner" /> -->
+      <div
+        id="carouselExampleIndicators"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="2000">
+            <div class="banner-img-1"></div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <div class="banner-img-2"></div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <div class="banner-img-3"></div>
+          </div>
+        </div>
+
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev"
+        >
+          <span
+            class="carousel-control-prev-icon btn-prev"
+            aria-hidden="true"
+          ></span>
+          <span class="visually-hidden btn-prev">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next"
+        >
+          <span
+            class="carousel-control-next-icon btn-next"
+            aria-hidden="true"
+          ></span>
+          <span class="visually-hidden btn-next">Next</span>
+        </button>
+      </div>
     </section>
 
     <section id="register">
@@ -56,24 +120,58 @@
               ></span>
             </div>
             <form class="register-form">
-              <div class="form-item">
+              <div data-lang="en" class="form-item">
+                <label for="">Name</label>
+                <input type="text" />
+              </div>
+              <div data-lang="th" class="form-item">
                 <label for="">ชื่อ</label>
                 <input type="text" />
               </div>
-              <div class="form-item">
+              <div data-lang="ch" class="form-item">
+                <label for="">Name</label>
+                <input type="text" />
+              </div>
+              <div data-lang="en" class="form-item">
+                <label for="">Surname</label>
+                <input type="text" />
+              </div>
+              <div data-lang="th" class="form-item">
                 <label for="">นามสกุล</label>
                 <input type="text" />
               </div>
-              <div class="form-item">
-                <label for="">เบอร์โทรศัพท์</label>
+              <div data-lang="ch" class="form-item">
+                <label for="">Surname</label>
                 <input type="text" />
               </div>
-              <div class="form-item">
+              <div data-lang="en" class="form-item">
+                <label for="">E-mail</label>
+                <input type="text" />
+              </div>
+              <div data-lang="th" class="form-item">
                 <label for="">อีเมล</label>
                 <input type="text" />
               </div>
+              <div data-lang="ch" class="form-item">
+                <label for="">E-mail</label>
+                <input type="text" />
+              </div>
+              <div data-lang="en" class="form-item">
+                <label for="">Phone</label>
+                <input type="text" />
+              </div>
+              <div data-lang="th" class="form-item">
+                <label for="">เบอร์โทรศัพท์</label>
+                <input type="text" />
+              </div>
+              <div data-lang="ch" class="form-item">
+                <label for="">Phone</label>
+                <input type="text" />
+              </div>
               <div class="form-submit">
-                <button type="submit">ส่ง</button>
+                <button data-lang="en" type="submit">Send</button>
+                <button data-lang="th" type="submit">ส่ง</button>
+                <button data-lang="ch" type="submit">Send</button>
               </div>
             </form>
           </div>
@@ -516,7 +614,9 @@
               </button>
             </div>
           </div>
-          <div class="heading-underline-short">วิดีโอ</div>
+          <div data-lang="en" class="heading-underline-short">VDO</div>
+          <div data-lang="th" class="heading-underline-short">วิดีโอ</div>
+          <div data-lang="ch" class="heading-underline-short">VDO</div>
           <div class="gallery-carousel-container vdo-wrapper">
             <iframe
               width="100%"
@@ -571,7 +671,7 @@
         </div>
         <div class="project-contact-wrapper">
           <div class="project-contact-left">
-            <h3>บริษัทเท็น ไทย ดีเวลลอปเม้นท์ จำกัด</h3>
+            <h3>บริษัท เท็น ไทย ดีเวลลอปเม้นท์ จำกัด</h3>
             <p>
               403/76 ถนนสุคนธสวัสดิ์ แขวงลาดพร้าว เขตลาดพร้าว กรุงเทพฯ 10230
             </p>
@@ -589,27 +689,67 @@
           <div class="project-contact-right">
             <form action="">
               <div class="form-item-wrapper">
-                <div class="form-item">
+                <div data-lang="en" class="form-item">
+                  <label for="">Name</label>
+                  <input type="text" />
+                </div>
+                <div data-lang="th" class="form-item">
                   <label for="">ชื่อ</label>
                   <input type="text" />
                 </div>
-                <div class="form-item">
+                <div data-lang="ch" class="form-item">
+                  <label for="">Name</label>
+                  <input type="text" />
+                </div>
+                <div data-lang="en" class="form-item">
+                  <label for="">Surname</label>
+                  <input type="text" />
+                </div>
+                <div data-lang="th" class="form-item">
                   <label for="">นามสกุล</label>
+                  <input type="text" />
+                </div>
+                <div data-lang="ch" class="form-item">
+                  <label for="">Surname</label>
                   <input type="text" />
                 </div>
               </div>
               <div class="form-item-wrapper">
-                <div class="form-item">
+                <div data-lang="en" class="form-item">
+                  <label for="">Phone</label>
+                  <input type="text" />
+                </div>
+                <div data-lang="th" class="form-item">
                   <label for="">เบอร์โทรศัพท์</label>
                   <input type="text" />
                 </div>
-                <div class="form-item">
+                <div data-lang="ch" class="form-item">
+                  <label for="">Phone</label>
+                  <input type="text" />
+                </div>
+                <div data-lang="en" class="form-item">
+                  <label for="">E-mail</label>
+                  <input type="text" />
+                </div>
+                <div data-lang="th" class="form-item">
                   <label for="">อีเมล</label>
                   <input type="text" />
                 </div>
+                <div data-lang="ch" class="form-item">
+                  <label for="">E-mail</label>
+                  <input type="text" />
+                </div>
               </div>
-              <div class="form-item">
+              <div data-lang="en" class="form-item">
+                <label for="">Your Message</label>
+                <textarea rows="3"></textarea>
+              </div>
+              <div data-lang="th" class="form-item">
                 <label for="">ข้อความ</label>
+                <textarea rows="3"></textarea>
+              </div>
+              <div data-lang="ch" class="form-item">
+                <label for="">Your Message</label>
                 <textarea rows="3"></textarea>
               </div>
               <div class="form-submit" style="text-align: left">

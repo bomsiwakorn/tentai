@@ -19,6 +19,7 @@
 #land-for-sale {
   background: #272727;
   margin-top: -2px;
+  margin-bottom: -2px;
 }
 .land-for-sale-wrapper {
   display: grid;

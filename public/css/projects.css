@@ -18,6 +18,7 @@
 #all-project {
   background: #272727;
   padding: 4rem 0;
+  margin-top: -1px;
 }
 
 .all-project-items-wrapper {
@@ -33,12 +34,20 @@
   margin-top: 2rem;
 }
 .heading-underline-right span {
-  padding-right: 2rem;
-  color: #dc8983;
+  margin-right: 2rem;
+  cursor: pointer;
 }
 .heading-underline-right p {
   color: #fff;
-  padding-right: 1rem;
+  margin-right: 1rem;
+  cursor: pointer;
+}
+.heading-underline-right p:hover {
+  color: #dc8983;
+  transition: all 0.3s;
+}
+.heading-underline-right .active {
+  color: #dc8983;
 }
 .all-project-items-wrapper .project-item {
   background: #404042;

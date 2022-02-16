@@ -60,7 +60,7 @@ class Navbar extends HTMLElement {
           <a href="/map.html" target="_blank">PROJECTS LOCATION</a>
         </li>
         <li data-lang="th">
-          <a href="/map.html" target="_blank">แผนที่โครงการ</a>
+          <a href="/map.html" target="_blank">ทำเลโครงการ</a>
         </li>
         <li data-lang="ch"><a href="/map.html" target="_blank">项目地图</a></li>
       </ul>
@@ -155,7 +155,7 @@ class Navbar extends HTMLElement {
         <a href="/map.html" target="_blank">PROJECTS LOCATION</a>
       </li>
       <li data-lang="th">
-        <a href="/map.html" target="_blank">แผนที่โครงการ</a>
+        <a href="/map.html" target="_blank">ทำเลโครงการ</a>
       </li>
       <li data-lang="ch"><a href="/map.html" target="_blank">项目地图</a></li>
     </ul>

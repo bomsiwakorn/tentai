@@ -33,7 +33,9 @@
 
     <section id="banner">
       <div class="banner-bg">
-        <div class="banner-heading">โครงการ</div>
+        <div data-lang="en" class="banner-heading">PROJECTS</div>
+        <div data-lang="th" class="banner-heading">โครงการ</div>
+        <div data-lang="ch" class="banner-heading">项目介绍</div>
       </div>
     </section>
 
@@ -41,8 +43,24 @@
       <div class="all-project-wrapper">
         <div class="container">
           <div class="heading-box">
-            <div class="heading-underline">
+            <div data-lang="en" class="heading-underline">
+              All Project
+              <span
+                data-aos="fade-right"
+                data-aos-duration="1700"
+                class="line"
+              ></span>
+            </div>
+            <div data-lang="th" class="heading-underline">
               รวมทุกโครงการ
+              <span
+                data-aos="fade-right"
+                data-aos-duration="1700"
+                class="line"
+              ></span>
+            </div>
+            <div data-lang="ch" class="heading-underline">
+              All Project
               <span
                 data-aos="fade-right"
                 data-aos-duration="1700"
@@ -51,9 +69,36 @@
             </div>
           </div>
           <div class="heading-underline-right">
-            <span>ทั้งหมด</span>
-            <p>THE ONE ESTATE DEVELOPMENT</p>
-            <p>TENTAI DEVELOPMENT</p>
+            <p
+              data-lang="en"
+              id="allProject"
+              class="active"
+              onclick="allProjectBtnActive()"
+            >
+              ALL
+            </p>
+            <p
+              data-lang="th"
+              id="allProject"
+              class="active"
+              onclick="allProjectBtnActive()"
+            >
+              ทั้งหมด
+            </p>
+            <p
+              data-lang="ch"
+              id="allProject"
+              class="active"
+              onclick="allProjectBtnActive()"
+            >
+              ALL
+            </p>
+            <p id="allTheOne" onclick="allTheoneBtnActive()">
+              THE ONE ESTATE DEVELOPMENT
+            </p>
+            <p id="allTenTai" onclick="allTentaiBtnActive()">
+              TENTHAI DEVELOPMENT
+            </p>
           </div>
         </div>
         <div class="vertical-line"></div>
@@ -143,7 +188,9 @@
           </div>
 
           <div class="view-more-btn">
-            <a href="">ดูเพิ่มเติม>></a>
+            <a data-lang="en" href="">See more >></a>
+            <a data-lang="th" href="">ดูเพิ่มเติม >></a>
+            <a data-lang="ch" href="">See more >></a>
           </div>
         </div>
       </div>
@@ -153,8 +200,24 @@
       <div class="past-project-wrapper">
         <div class="container">
           <div class="heading-box">
-            <div class="heading-underline">
+            <div data-lang="en" class="heading-underline">
+              Past Project
+              <span
+                data-aos="fade-right"
+                data-aos-duration="1700"
+                class="line"
+              ></span>
+            </div>
+            <div data-lang="th" class="heading-underline">
               โครงการที่ผ่านมา
+              <span
+                data-aos="fade-right"
+                data-aos-duration="1700"
+                class="line"
+              ></span>
+            </div>
+            <div data-lang="ch" class="heading-underline">
+              Past Project
               <span
                 data-aos="fade-right"
                 data-aos-duration="1700"
@@ -163,9 +226,36 @@
             </div>
           </div>
           <div class="heading-underline-right">
-            <span>ทั้งหมด</span>
-            <p>THE ONE ESTATE DEVELOPMENT</p>
-            <p>TENTAI DEVELOPMENT</p>
+            <p
+              data-lang="en"
+              id="pastProject"
+              class="active"
+              onclick="pastProjectBtnActive()"
+            >
+              ALL
+            </p>
+            <p
+              data-lang="th"
+              id="pastProject"
+              class="active"
+              onclick="pastProjectBtnActive()"
+            >
+              ทั้งหมด
+            </p>
+            <p
+              data-lang="ch"
+              id="pastProject"
+              class="active"
+              onclick="pastProjectBtnActive()"
+            >
+              ALL
+            </p>
+            <p id="pastTenone" onclick="pastTenoneBtnActive()">
+              THE ONE ESTATE DEVELOPMENT
+            </p>
+            <p id="pastTentai" onclick="pastTentaiBtnActive()">
+              TENTHAI DEVELOPMENT
+            </p>
           </div>
         </div>
         <div class="vertical-line"></div>
@@ -256,7 +346,9 @@
           </div>
 
           <div class="view-more-btn">
-            <a href="">ดูเพิ่มเติม>></a>
+            <a data-lang="en" href="">See more >></a>
+            <a data-lang="th" href="">ดูเพิ่มเติม >></a>
+            <a data-lang="ch" href="">See more >></a>
           </div>
         </div>
       </div>
@@ -273,6 +365,7 @@
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
       crossorigin="anonymous"
     ></script>
+    <script src="./js/projects.js"></script>
     <script src="./js/navbar.js"></script>
     <script src="./components/Navbar.js"></script>
     <script src="./components/Footer.js"></script>

@@ -20,9 +20,9 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  padding: 6rem 0;
-  margin-bottom: -1px;
-  margin-top: -1px;
+  padding: 4rem 0 1rem 0;
+  margin-bottom: -2px;
+  margin-top: -2px;
 }
 .communication-channel-wrapper {
   display: grid;
@@ -103,8 +103,8 @@
 .contact-item img {
   position: relative;
   left: -4px;
-  margin-right: 11px;
-  width: 30px;
+  margin-right: 8px;
+  width: 33px;
   transition: 0.3s;
 }
 .contact-item i {
@@ -127,7 +127,8 @@
 }
 
 .form-wrapper {
-  padding: 6rem 24rem;
+  margin-top: 2rem;
+  padding: 0rem 22rem;
 }
 .form-wrapper h4 {
   font-size: 20px;
