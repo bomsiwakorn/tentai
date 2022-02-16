@@ -3,12 +3,12 @@ class Footer extends HTMLElement {
     this.innerHTML = `
       <footer>
         <div class="container">
-          <div class="logo-mobile">
+          <a href="/" class="logo-mobile" style="text-decoration: none;">
             <div style="cursor:pointer">
-            <a href="/"><img src="./assets/home/logo1-footer.png" alt="logo" /></a>
-            <a href="/"><img src="./assets/home/logo2-footer.png" alt="logo" /></a>
+              <img class="me-3" src="./assets/home/logo1-footer.png" alt="logo" />
+              <img src="./assets/home/logo2-footer.png" alt="logo" />
             </div>
-          </div>
+          </a>
           <div class="wrapper-footer">
             <div class="logo-theones">
               <a href="/"><img src="./assets/home/logo1-footer.png" alt="logo" /></a>

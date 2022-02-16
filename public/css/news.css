@@ -8,7 +8,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: -1px;
 }
 .banner-heading {
   color: #fff;
@@ -99,6 +98,7 @@ section.news {
 @media only screen and (max-width: 991px) {
   .news-grid {
     grid-template-columns: 1fr 1fr;
+    grid-gap: 2rem;
   }
 }
 @media only screen and (max-width: 575px) {

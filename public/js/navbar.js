@@ -1,8 +1,14 @@
-function hambergerMenu() {
+function hambergerMenuOpen() {
   const bodyEl = document.querySelector("body");
   const navMoblie = document.querySelector(".nav-moblie");
-  navMoblie.classList.toggle("nav-moblie-toggleclass");
-  bodyEl.classList.toggle("toggleBodyEl");
+  navMoblie.style.right = "0px";
+  bodyEl.style.height = "100vh";
+}
+
+function hambergerMenuClose() {
+  const bodyEl = document.querySelector("body");
+  const navMoblie = document.querySelector(".nav-moblie");
+  navMoblie.style.right = "-1000px";
 }
 
 let runNumber = -1;
