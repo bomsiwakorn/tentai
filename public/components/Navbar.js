@@ -17,7 +17,7 @@ class Navbar extends HTMLElement {
           <ul class="mainpage mb-0">
             <li data-lang="en"><a href="/">HOME</a></li>
             <li data-lang="th"><a href="/">หน้าหลัก</a></li>
-            <li data-lang="ch"><a href="/">HOME</a></li>
+            <li data-lang="ch"><a href="/">首页</a></li>
           </ul>
   
           <select class="dropdown-language" id="change-language">
@@ -94,12 +94,12 @@ class Navbar extends HTMLElement {
           ><p class="mb-0">เดอะ วัน เอสเตท ดีเวลลอปเม้นท์</p></a
         >
         <a data-lang="ch" href="/projects.html"
-          ><p class="mb-0">The One Estate Developer</p></a
+          ><p class="mb-0">力萬房地产开发有限公司</p></a
         >
         <div class="theones-menus-moblie ms-4">
           <div data-lang="en"><a href="/projects.html">Latest Projects</a></div>
           <div data-lang="th"><a href="/projects.html">โครงการล่าสุด</a></div>
-          <div data-lang="ch"><a href="/projects.html">Latest Projects</a></div>
+          <div data-lang="ch"><a href="/projects.html">最新项目</a></div>
           <div data-lang="en">
             <a href="/projects.html#past-project">Past Project</a>
           </div>
@@ -107,7 +107,7 @@ class Navbar extends HTMLElement {
             <a href="/projects.html#past-project">โครงการที่ผ่านมา</a>
           </div>
           <div data-lang="ch">
-            <a href="/projects.html#past-project">Past Project</a>
+            <a href="/projects.html#past-project">历史项目</a>
           </div>
         </div>
         <a href="/projects.html"
@@ -117,12 +117,12 @@ class Navbar extends HTMLElement {
           ><p data-lang="th" class="mb-0">เท็นไทย ดีเวลลอปเม้นท์</p></a
         >
         <a href="/projects.html"
-          ><p data-lang="ch" class="mb-0">Tenthai Development</p></a
+          ><p data-lang="ch" class="mb-0">天泰发展有限公司</p></a
         >
         <div class="theones-menus-moblie ms-4">
           <div data-lang="en"><a href="/projects.html">Latest Projects</a></div>
           <div data-lang="th"><a href="/projects.html">โครงการล่าสุด</a></div>
-          <div data-lang="ch"><a href="/projects.html">Latest Projects</a></div>
+          <div data-lang="ch"><a href="/projects.html">最新项目</a></div>
           <div data-lang="en">
             <a href="/projects.html#past-project">Past Project</a>
           </div>
@@ -130,7 +130,7 @@ class Navbar extends HTMLElement {
             <a href="/projects.html#past-project">โครงการที่ผ่านมา</a>
           </div>
           <div data-lang="ch">
-            <a href="/projects.html#past-project">Past Project</a>
+            <a href="/projects.html#past-project">历史项目</a>
           </div>
         </div>
       </div>
