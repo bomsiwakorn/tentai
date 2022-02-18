@@ -82,11 +82,11 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 2rem;
 }
 .footer-socials a {
   text-decoration: none;
   display: flex;
-  margin-left: 2rem;
 }
 .footer-socials a i {
   color: #dc8983;

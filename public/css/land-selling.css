@@ -160,6 +160,6 @@
 @media only screen and (max-width: 575px) {
   .banner-bg {
     height: 90vh;
-    background-position: left;
+    background-image: url("../assets/land-selling/banner-moblie.png");
   }
 }

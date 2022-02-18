@@ -38,6 +38,7 @@
 @media only screen and (max-width: 575px) {
   .banner-bg {
     height: 90vh;
+    background-image: url("../assets/map/banner-moblie.png");
   }
   .banner-heading {
     font-size: 36px;

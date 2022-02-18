@@ -1,3 +1,13 @@
+.carousel-indicators button {
+  width: 12px !important;
+  height: 12px !important;
+  border-radius: 50%;
+  margin: 0 0.8rem !important;
+  opacity: 1 !important;
+}
+.carousel-indicators button.active {
+  background-color: #dc8983;
+}
 .banner-img-1,
 .banner-img-2,
 .banner-img-3 {
@@ -229,6 +239,8 @@
 }
 
 #project-location {
+  margin-top: -1px;
+  margin-bottom: -1px;
   background: #404042;
 }
 .project-location-wrapper {
@@ -250,6 +262,7 @@
 }
 
 #project-contact {
+  margin-bottom: -1px;
   padding: 5rem 0;
   background: #404042;
 }

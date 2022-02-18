@@ -112,7 +112,7 @@ section.news {
 @media only screen and (max-width: 575px) {
   .banner-bg {
     height: 90vh;
-    background-position: 25%;
+    background-image: url("../assets/news/banner-moblie.png");
   }
   .news-grid {
     grid-template-columns: 1fr;
