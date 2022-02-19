@@ -420,10 +420,13 @@
     justify-items: center;
   }
   .profile-more-modal-left {
-    padding: 2rem 3rem;
+    padding: 2rem 2rem;
   }
   .profile-more-modal-right {
     grid-row: 1/2;
+  }
+  .profile-more-profile-wrapper {
+    padding: 7rem 0;
   }
 }
 
