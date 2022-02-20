@@ -92,10 +92,12 @@
   text-align: center;
 }
 #project-idea img {
+  border: 5px solid #dc8983;
   height: 600px;
   width: 100%;
 }
 .project-idea-wrapper {
+  width: 90%;
   position: absolute;
   top: 50%;
   left: 50%;
