@@ -27,6 +27,7 @@ function projectToggle(idx) {
 
 function acitveMenu() {
   let pathName = window.location.pathname.split("/")[1].split(".")[0];
+
   if (pathName === undefined) {
     return;
   }
@@ -34,9 +35,6 @@ function acitveMenu() {
   let menuItemProject = document.querySelectorAll(`.menuItem-projects`);
   let menuItemCareer = document.querySelectorAll(`.menuItem-career`);
   let menuItemNews = document.querySelectorAll(`.menuItem-news`);
-  // console.log(window.location.pathname.split("/")[2].split(".")[0]);
-  console.log(pathName);
-  console.log(menuItem);
   for (let i = 0; i < menuItem.length; i++) {
     menuItem[i].style.color = "#dc8983";
   }
@@ -49,16 +47,6 @@ function acitveMenu() {
       menuItemNews[i].style.color = "#dc8983";
     }
   }
-  // for (let i = 0; i < menuItemProject.length; i++) {
-  //   if (pathName === "career-form" || pathName === "career-completed") {
-  //     menuItemCareer[i].style.color = "#dc8983";
-  //   }
-  // }
-  // for (let i = 0; i < menuItemProject.length; i++) {
-  //   if (pathName === "news-info") {
-  //     menuItemNews[i].style.color = "#dc8983";
-  //   }
-  // }
 }
 acitveMenu();
 

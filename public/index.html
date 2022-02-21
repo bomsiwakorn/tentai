@@ -394,8 +394,46 @@
     </section>
 
     <!-- end maps -->
+
     <messenger-circle></messenger-circle>
     <footer-page></footer-page>
+
+    <section id="cookie-info">
+      <div class="close-cookie">
+        <i onclick="closeCookie()" class="fa-solid fa-xmark"></i>
+      </div>
+      <div class="cookie-heading">
+        <h1 data-lang="en">Cookie Policy</h1>
+        <h1 data-lang="th">นโยบายการใช้คุกกี้</h1>
+        <h1 data-lang="ch">Cookie Policy</h1>
+      </div>
+      <div class="cookie-wrapper">
+          <div class="cookie-content">
+            <p data-lang="en">
+              By clicking “Accept All Cookies”, you agree to the storing of cookies on your device to enhance site navigation, analyze site usage, and assist in our marketing efforts.
+            </p>
+            <p data-lang="th">
+              เราใช้คุกกี้เพื่อช่วยให้ไซต์ของเราทำงานได้อย่างถูกต้อง
+              แสดงเนื้อหาและโฆษณาที่ตรงกับความสนใจของผู้ใช้
+              เปิดให้ใช้คุณสมบัติทางโซเชียลมีเดีย
+              และเพื่อวิเคราะห์การเข้าถึงข้อมูลของเรา
+              เรายังแบ่งปันข้อมูลการใช้งานไซต์กับพาร์ทเนอร์โซเชียลมีเดีย
+              การโฆษณาและพาร์ทเนอร์การวิเคราะห์ของเราอีกด้วย
+            </p>
+            <p data-lang="ch">
+              By clicking “Accept All Cookies”, you agree to the storing of cookies on your device to enhance site navigation, analyze site usage, and assist in our marketing efforts.
+            </p>
+          </div>
+          <div class="cookie-accept">
+            <button onclick="acceptCookie()" class="cookieBtn">
+              <p data-lang="en">Accept All Cookies</p>
+              <p data-lang="th">ยอมรับคุกกี้ทั้งหมด</p>
+              <p data-lang="ch">Accept All Cookies</p>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
@@ -405,6 +443,7 @@
     <script src="./components/Navbar.js"></script>
     <script src="./components/Footer.js"></script>
     <script src="./components/MessengerCircle.js"></script>
+    <script src="./js/home.js"></script>
     <script src="./js/navbar.js"></script>
     <script src="./js/footer.js"></script>
     <script src="./js/hoverCardByImage.js"></script>
