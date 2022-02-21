@@ -21,9 +21,9 @@ class Navbar extends HTMLElement {
           </ul>
   
           <select class="dropdown-language" id="change-language">
-            <option value="en">EN</option>
-            <option value="th">ไทย</option>
-            <option value="ch">中文</option>
+            <option value="en" selected="selected" >EN</option>
+            <option value="th">TH</option>
+            <option value="ch">CN</option>
           </select>
           <div class="hamberger-menu" onClick="hambergerMenuOpen()">
             <i class="fa-solid fa-ellipsis-vertical"></i>
