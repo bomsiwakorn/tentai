@@ -14,10 +14,9 @@ body {
   overflow-x: hidden;
   scroll-behavior: smooth;
 }
-.banner-bg {
+.deak .banner-bg {
   margin-top: -1px;
 }
-
 @media only screen and (max-width: 991px) {
   body {
     padding-top: 70px;

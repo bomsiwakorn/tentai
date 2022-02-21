@@ -35,15 +35,15 @@ class Navbar extends HTMLElement {
   <nav class="nav-bottom">
     <div class="container">
       <ul class="menu mb-0 ps-0">
-        <li data-lang="en"><a href="/projects.html">PROJECTS</a></li>
-        <li data-lang="th"><a href="/projects.html">โครงการ</a></li>
-        <li data-lang="ch"><a href="/projects.html">项目介绍</a></li>
-        <li data-lang="en"><a href="/corporate.html">CORPORATE</a></li>
-        <li data-lang="th"><a href="/corporate.html">เกี่ยวกับองค์กร</a></li>
-        <li data-lang="ch"><a href="/corporate.html">关于力萬</a></li>
-        <li data-lang="en"><a href="/after-sale.html">AFTER SALE SERVICE</a></li>
-        <li data-lang="th"><a href="/after-sale.html">บริการหลังการขาย</a></li>
-        <li data-lang="ch"><a href="/after-sale.html">售后服务</a></li>
+        <li data-lang="en"><a href="/projects.html" id="menuItem-project">PROJECTS</a></li>
+        <li data-lang="th"><a href="/projects.html" id="menuItem-project">โครงการ</a></li>
+        <li data-lang="ch"><a href="/projects.html" id="menuItem-project">项目介绍</a></li>
+        <li data-lang="en" class="menuItem-corporate" onclick="acitveMenu('en',1)"><a href="/corporate.html">CORPORATE</a></li>
+        <li data-lang="th" class="menuItem-corporate" onclick="acitveMenu('th',1)"><a href="/corporate.html">เกี่ยวกับองค์กร</a></li>
+        <li data-lang="ch" class="menuItem-corporate" onclick="acitveMenu('ch',1)"><a href="/corporate.html">关于力萬</a></li>
+        <li data-lang="en" class="menuItem-en" onclick="acitveMenu('en',2)"><a href="/after-sale.html">AFTER SALE SERVICE</a></li>
+        <li data-lang="th" class="menuItem-th" onclick="acitveMenu('th',2)"><a href="/after-sale.html">บริการหลังการขาย</a></li>
+        <li data-lang="ch" class="menuItem-ch" onclick="acitveMenu('ch',2)"><a href="/after-sale.html">售后服务</a></li>
         <li data-lang="en"><a href="/news.html">NEWS</a></li>
         <li data-lang="th"><a href="/news.html">ข่าวสาร</a></li>
         <li data-lang="ch"><a href="/news.html">新闻资讯</a></li>

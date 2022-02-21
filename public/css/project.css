@@ -27,7 +27,8 @@
   background-image: url("../assets/home/banner3.jpg");
 }
 #banner img {
-  width: 100%;
+  height: 100vh;
+  width: 100vw;
 }
 #register {
   background: #272727;
@@ -400,7 +401,6 @@
 
 @media only screen and (max-width: 575px) {
   #banner {
-    height: 90vh;
     overflow-x: hidden;
   }
   #banner img {
@@ -416,12 +416,5 @@
   }
   .facilities-items-wrapper {
     grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-@media only screen and (max-width: 430px) {
-  #banner {
-    height: 78vh;
-    overflow-x: hidden;
   }
 }
