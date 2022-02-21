@@ -35,34 +35,34 @@ class Navbar extends HTMLElement {
   <nav class="nav-bottom">
     <div class="container">
       <ul class="menu mb-0 ps-0">
-        <li data-lang="en"><a href="/projects.html" id="menuItem-project">PROJECTS</a></li>
-        <li data-lang="th"><a href="/projects.html" id="menuItem-project">โครงการ</a></li>
-        <li data-lang="ch"><a href="/projects.html" id="menuItem-project">项目介绍</a></li>
-        <li data-lang="en" class="menuItem-corporate" onclick="acitveMenu('en',1)"><a href="/corporate.html">CORPORATE</a></li>
-        <li data-lang="th" class="menuItem-corporate" onclick="acitveMenu('th',1)"><a href="/corporate.html">เกี่ยวกับองค์กร</a></li>
-        <li data-lang="ch" class="menuItem-corporate" onclick="acitveMenu('ch',1)"><a href="/corporate.html">关于力萬</a></li>
-        <li data-lang="en" class="menuItem-en" onclick="acitveMenu('en',2)"><a href="/after-sale.html">AFTER SALE SERVICE</a></li>
-        <li data-lang="th" class="menuItem-th" onclick="acitveMenu('th',2)"><a href="/after-sale.html">บริการหลังการขาย</a></li>
-        <li data-lang="ch" class="menuItem-ch" onclick="acitveMenu('ch',2)"><a href="/after-sale.html">售后服务</a></li>
-        <li data-lang="en"><a href="/news.html">NEWS</a></li>
-        <li data-lang="th"><a href="/news.html">ข่าวสาร</a></li>
-        <li data-lang="ch"><a href="/news.html">新闻资讯</a></li>
-        <li data-lang="en"><a href="/land-selling.html">LAND SELLING</a></li>
-        <li data-lang="th"><a href="/land-selling.html">ขายที่ดิน</a></li>
-        <li data-lang="ch"><a href="/land-selling.html">土地出售</a></li>
-        <li data-lang="en"><a href="/career.html">CAREER</a></li>
-        <li data-lang="th"><a href="/career.html">ร่วมงานกับเรา</a></li>
-        <li data-lang="ch"><a href="/career.html">市场合作</a></li>
-        <li data-lang="en"><a href="/contact.html">CONTACT</a></li>
-        <li data-lang="th"><a href="/contact.html">ติดต่อเรา</a></li>
-        <li data-lang="ch"><a href="/contact.html">联系我们</a></li>
+        <li data-lang="en"><a href="/projects.html" class="menuItem-projects">PROJECTS</a></li>
+        <li data-lang="th"><a href="/projects.html" class="menuItem-projects">โครงการ</a></li>
+        <li data-lang="ch"><a href="/projects.html" class="menuItem-projects">项目介绍</a></li>
+        <li data-lang="en"><a href="/corporate.html" class="menuItem-corporate">CORPORATE</a></li>
+        <li data-lang="th"><a href="/corporate.html" class="menuItem-corporate">เกี่ยวกับองค์กร</a></li>
+        <li data-lang="ch"><a href="/corporate.html" class="menuItem-corporate">关于力萬</a></li>
+        <li data-lang="en"><a href="/after-sale.html" class="menuItem-after-sale">AFTER SALE SERVICE</a></li>
+        <li data-lang="th"><a href="/after-sale.html" class="menuItem-after-sale">บริการหลังการขาย</a></li>
+        <li data-lang="ch"><a href="/after-sale.html" class="menuItem-after-sale">售后服务</a></li>
+        <li data-lang="en"><a href="/news.html" class="menuItem-news">NEWS</a></li>
+        <li data-lang="th"><a href="/news.html" class="menuItem-news">ข่าวสาร</a></li>
+        <li data-lang="ch"><a href="/news.html" class="menuItem-news">新闻资讯</a></li>
+        <li data-lang="en"><a href="/land-selling.html" class="menuItem-land-selling">LAND SELLING</a></li>
+        <li data-lang="th"><a href="/land-selling.html" class="menuItem-land-selling">ขายที่ดิน</a></li>
+        <li data-lang="ch"><a href="/land-selling.html" class="menuItem-land-selling">土地出售</a></li>
+        <li data-lang="en"><a href="/career.html" class="menuItem-career">CAREER</a></li>
+        <li data-lang="th"><a href="/career.html" class="menuItem-career">ร่วมงานกับเรา</a></li>
+        <li data-lang="ch"><a href="/career.html" class="menuItem-career">市场合作</a></li>
+        <li data-lang="en"><a href="/contact.html" class="menuItem-contact">CONTACT</a></li>
+        <li data-lang="th"><a href="/contact.html" class="menuItem-contact">ติดต่อเรา</a></li>
+        <li data-lang="ch"><a href="/contact.html" class="menuItem-contact">联系我们</a></li>
         <li data-lang="en">
-          <a href="/map.html" target="_blank">PROJECTS LOCATION</a>
+          <a href="/map.html" class="menuItem-map" target="_blank">PROJECTS LOCATION</a>
         </li>
         <li data-lang="th">
-          <a href="/map.html" target="_blank">ทำเลโครงการ</a>
+          <a href="/map.html" class="menuItem-map" target="_blank">ทำเลโครงการ</a>
         </li>
-        <li data-lang="ch"><a href="/map.html" target="_blank">项目地图</a></li>
+        <li data-lang="ch"><a href="/map.html" class="menuItem-map" target="_blank">项目地图</a></li>
       </ul>
     </div>
   </nav>

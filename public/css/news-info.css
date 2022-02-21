@@ -45,12 +45,6 @@
   height: 1px;
   background: linear-gradient(0.25turn, #b57782, #fad1d0, #b57782);
 }
-.footer-socials img {
-  margin-left: 0 !important;
-}
-.footer-socials a {
-  padding-right: 1rem;
-}
 .opening-project-box {
   width: 100%;
   padding: 2rem 6rem;
