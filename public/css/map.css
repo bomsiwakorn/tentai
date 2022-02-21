@@ -18,6 +18,8 @@
 #map-info {
   background: #272727;
   padding-top: 4rem;
+  margin-top: -1px;
+  margin-bottom: -1px;
 }
 .map-info-wrapper {
   padding-bottom: 4rem;
@@ -36,6 +38,7 @@
 @media only screen and (max-width: 575px) {
   .banner-bg {
     height: 90vh;
+    background-image: url("../assets/map/banner-moblie.png");
   }
   .banner-heading {
     font-size: 36px;

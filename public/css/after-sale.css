@@ -269,7 +269,7 @@
 @media only screen and (max-width: 575px) {
   .banner-bg {
     height: 90vh;
-    background-position: 3%;
+    background-image: url("../assets/after-sale/banner-moblie.jpg");
   }
   .project-items-wrapper {
     grid-template-columns: 1fr 1fr;

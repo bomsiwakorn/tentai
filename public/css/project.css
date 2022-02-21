@@ -1,10 +1,39 @@
-#banner img {
-  width: 100%;
+.carousel-indicators button {
+  width: 12px !important;
+  height: 12px !important;
+  border-radius: 50%;
+  margin: 0 0.8rem !important;
+  opacity: 1 !important;
 }
-
+.carousel-indicators button.active {
+  background-color: #dc8983;
+}
+.banner-img-1,
+.banner-img-2,
+.banner-img-3 {
+  width: 100vw;
+  height: 96vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.banner-img-1 {
+  background-image: url("../assets/projects/2.png");
+}
+.banner-img-2 {
+  background-image: url("../assets/home/banner2.jpg");
+}
+.banner-img-3 {
+  background-image: url("../assets/home/banner3.jpg");
+}
+#banner img {
+  height: 100vh;
+  width: 100vw;
+}
 #register {
   background: #272727;
   padding: 5rem 0;
+  margin-top: -1px;
 }
 .register-wrapper {
   display: grid;
@@ -64,10 +93,12 @@
   text-align: center;
 }
 #project-idea img {
+  border: 5px solid #dc8983;
   height: 600px;
   width: 100%;
 }
 .project-idea-wrapper {
+  width: 90%;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -211,6 +242,8 @@
 }
 
 #project-location {
+  margin-top: -1px;
+  margin-bottom: -1px;
   background: #404042;
 }
 .project-location-wrapper {
@@ -232,6 +265,7 @@
 }
 
 #project-contact {
+  margin-bottom: -1px;
   padding: 5rem 0;
   background: #404042;
 }
@@ -347,6 +381,18 @@
   }
 }
 
+@media only screen and (max-width: 991px) {
+  .vdo-wrapper {
+    width: auto;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .vdo-wrapper iframe {
+    height: 400px;
+  }
+}
+
 @media only screen and (max-width: 690px) {
   #project-idea img {
     height: 700px;
@@ -355,7 +401,6 @@
 
 @media only screen and (max-width: 575px) {
   #banner {
-    height: 90vh;
     overflow-x: hidden;
   }
   #banner img {
@@ -371,12 +416,5 @@
   }
   .facilities-items-wrapper {
     grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-@media only screen and (max-width: 430px) {
-  #banner {
-    height: 78vh;
-    overflow-x: hidden;
   }
 }

@@ -1,21 +1,46 @@
-function hambergerMenu() {
+function hambergerMenuOpen() {
   const bodyEl = document.querySelector("body");
   const navMoblie = document.querySelector(".nav-moblie");
-  navMoblie.classList.toggle("nav-moblie-toggleclass");
-  bodyEl.classList.toggle("toggleBodyEl");
+  navMoblie.style.right = "0px";
+  // bodyEl.style.height = "100vh";
+  // bodyEl.style.removeProperty("overflow-x, hidden");
+  // bodyEl.style.setProperty("overflow", "hidden", "important");
 }
 
-let runNumber = -1;
+function hambergerMenuClose() {
+  const bodyEl = document.querySelector("body");
+  const navMoblie = document.querySelector(".nav-moblie");
+  navMoblie.style.right = "-1000px";
+}
+
+let initialNum = -1;
 function projectToggle(idx) {
   const projectBox = document.getElementById("projects-box");
-  if (runNumber === -1) {
+  if (initialNum === -1) {
     projectBox.style.height = `${projectBox.scrollHeight}px`;
-    runNumber = idx;
+    initialNum = idx;
   } else {
     projectBox.style.height = "0px";
-    runNumber = -1;
+    initialNum = -1;
   }
 }
+
+function acitveMenu(lang, index) {
+  const menuItem = document.querySelectorAll("#menuItem-project");
+  console.log(menuItem);
+  console.log(window.location);
+  // for (let i = 0; i < menuItem.length; i++) {
+  //   menuItem[i].style.color = "#dc8983";
+  // }
+  // for (let i = 0; i < 3; i++) {
+  //   if (i === index) {
+  //     menuItem[index].style.color = "#dc8983";
+  //   } else {
+  //     menuItem[i].style.color = "#fff";
+  //   }
+  // }
+}
+acitveMenu();
 
 // addEventListener("scroll", () => {
 //   const navBottom = document.querySelector(".nav-bottom");

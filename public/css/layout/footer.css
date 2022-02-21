@@ -82,19 +82,29 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 2rem;
+}
+.footer-socials a {
+  text-decoration: none;
+  display: flex;
+}
+.footer-socials a i {
+  color: #dc8983;
+  transition: all 0.3s;
+  font-size: 1.2rem;
+}
+.footer-socials a i:hover {
+  transform: translateY(-5px);
 }
 .footer-socials p {
   font-size: 1.5rem;
   font-weight: 400;
   color: #ecb4a9;
 }
-.footer-socials a {
-  display: flex;
-}
 .footer-socials img {
   width: 25px;
-  margin-left: 2rem;
   transition: 0.2s;
+  margin-left: -5px;
 }
 .footer-socials a img:hover {
   transform: translateY(-5px);

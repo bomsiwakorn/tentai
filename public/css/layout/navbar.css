@@ -176,18 +176,24 @@ nav .theones-menus-moblie a {
   .hamberger-menu {
     display: block;
   }
+  .close-mark i {
+    padding: 0;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+  .close-mark i:hover {
+    color: #fff;
+  }
   .nav-moblie {
     display: block;
     position: fixed;
-    top: 70px;
+    top: 0;
     width: 100%;
     height: 100%;
     right: -1000px;
     opacity: 0.95;
     transition: 0.5s;
     padding: 3rem 0 0 5rem;
-  }
-  .nav-moblie-toggleclass {
-    right: 0;
   }
 }

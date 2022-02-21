@@ -3,12 +3,12 @@ class Footer extends HTMLElement {
     this.innerHTML = `
       <footer>
         <div class="container">
-          <div class="logo-mobile">
+          <a href="/" class="logo-mobile" style="text-decoration: none;">
             <div style="cursor:pointer">
-            <a href="/"><img src="./assets/home/logo1-footer.png" alt="logo" /></a>
-            <a href="/"><img src="./assets/home/logo2-footer.png" alt="logo" /></a>
+              <img class="me-3" src="./assets/home/logo1-footer.png" alt="logo" />
+              <img src="./assets/home/logo2-footer.png" alt="logo" />
             </div>
-          </div>
+          </a>
           <div class="wrapper-footer">
             <div class="logo-theones">
               <a href="/"><img src="./assets/home/logo1-footer.png" alt="logo" /></a>
@@ -19,25 +19,25 @@ class Footer extends HTMLElement {
               <li data-lang="ch"><a href="/projects.html"><div class="animated-line pos-25"></div><h5 class="mb-4"  onMouseOver="lineOnHover(25)" onMouseOut="lineOutHover(25)">项目介绍</h5></li>
               <li data-lang="en"><a href="/projects.html"><p class="mb-0">The One Estate Developer</p></a></li>
               <li data-lang="th"><a href="/projects.html"><p class="mb-0">เดอะ วัน เอสเตท ดีเวลลอปเม้นท์</p></a></li>
-              <li data-lang="ch"><a href="/projects.html"><p class="mb-0">The One Estate Developer</p></a></li>
+              <li data-lang="ch"><a href="/projects.html"><p class="mb-0">力萬房地产开发有限公司</p></a></li>
               <div class="services theones-menus">
                 <li data-lang="en"><a href="/projects.html"><div class="animated-line pos-27" style="bottom: -13px;"></div><p class="mb-0" onMouseOver="lineOnHover(27)" onMouseOut="lineOutHover(27)">Latest Projects</p></a></li>
                 <li data-lang="th"><a href="/projects.html"><div class="animated-line pos-28" style="bottom: -13px;"></div><p class="mb-0" onMouseOver="lineOnHover(28)" onMouseOut="lineOutHover(28)">โครงการล่าสุด</p></a></li>
-                <li data-lang="ch"><a href="/projects.html"><div class="animated-line pos-29" style="bottom: -13px;"></div><p class="mb-0" onMouseOver="lineOnHover(29)" onMouseOut="lineOutHover(29)">Latest Projects</p></a></li>
+                <li data-lang="ch"><a href="/projects.html"><div class="animated-line pos-29" style="bottom: -13px;"></div><p class="mb-0" onMouseOver="lineOnHover(29)" onMouseOut="lineOutHover(29)">最新项目</p></a></li>
                 <li data-lang="en"><a href="/projects.html#past-project"><div class="animated-line pos-30" style="bottom: -13px;"></div><p class="mb-0" onMouseOver="lineOnHover(30)" onMouseOut="lineOutHover(30)">Past Project</p></a></li>
                 <li data-lang="th"><a href="/projects.html#past-project"><div class="animated-line pos-31" style="bottom: -13px;"></div><p class="mb-0" onMouseOver="lineOnHover(31)" onMouseOut="lineOutHover(31)">โครงการที่ผ่านมา</p></a></li>
-                <li data-lang="ch"><a href="/projects.html#past-project"><div class="animated-line pos-32" style="bottom: -13px;"></div><p class="mb-0" onMouseOver="lineOnHover(32)" onMouseOut="lineOutHover(32)">Past Project</p></a></li>
+                <li data-lang="ch"><a href="/projects.html#past-project"><div class="animated-line pos-32" style="bottom: -13px;"></div><p class="mb-0" onMouseOver="lineOnHover(32)" onMouseOut="lineOutHover(32)">历史项目</p></a></li>
               </div>
                 <a data-lang="en" href="/projects.html"><p class="mb-0">Tenthai Development</p></a>
                 <a data-lang="th" href="/projects.html"><p class="mb-0">เท็นไทย ดีเวลลอปเม้นท์</p></a>
-                <a data-lang="ch" href="/projects.html"><p class="mb-0">Tenthai Development</p></a>
+                <a data-lang="ch" href="/projects.html"><p class="mb-0">天泰发展有限公司</p></a>
               <div class="services theones-menus">
                 <li data-lang="en"><a href="/projects.html"><div class="animated-line pos-33" style="bottom: -13px;"></div><p class="mb-0" onMouseOver="lineOnHover(33)" onMouseOut="lineOutHover(33)">Latest Projects</p></a></li>
                 <li data-lang="th"><a href="/projects.html"><div class="animated-line pos-34" style="bottom: -13px;"></div><p class="mb-0" onMouseOver="lineOnHover(34)" onMouseOut="lineOutHover(34)">โครงการล่าสุด</p></a></li>
-                <li data-lang="ch"><a href="/projects.html"><div class="animated-line pos-35" style="bottom: -13px;"></div><p class="mb-0" onMouseOver="lineOnHover(35)" onMouseOut="lineOutHover(35)">Latest Projects</p></a></li>
+                <li data-lang="ch"><a href="/projects.html"><div class="animated-line pos-35" style="bottom: -13px;"></div><p class="mb-0" onMouseOver="lineOnHover(35)" onMouseOut="lineOutHover(35)">最新项目</p></a></li>
                 <li data-lang="en"><a href="/projects.html#past-project"><div class="animated-line pos-36" style="bottom: -13px;"></div><p class="mb-0" onMouseOver="lineOnHover(36)" onMouseOut="lineOutHover(36)">Past Project</p></a></li>
                 <li data-lang="th"><a href="/projects.html#past-project"><div class="animated-line pos-37" style="bottom: -13px;"></div><p class="mb-0" onMouseOver="lineOnHover(37)" onMouseOut="lineOutHover(37)">โครงการที่ผ่านมา</p></a></li>
-                <li data-lang="ch"><a href="/projects.html#past-project"><div class="animated-line pos-38" style="bottom: -13px;"></div><p class="mb-0" onMouseOver="lineOnHover(38)" onMouseOut="lineOutHover(38)">Past Project</p></a></li>
+                <li data-lang="ch"><a href="/projects.html#past-project"><div class="animated-line pos-38" style="bottom: -13px;"></div><p class="mb-0" onMouseOver="lineOnHover(38)" onMouseOut="lineOutHover(38)">历史项目</p></a></li>
               </div>
             </ul>
             <ul class="services abouts ps-0">
@@ -46,10 +46,10 @@ class Footer extends HTMLElement {
               <li data-lang="ch" ><a href="/corporate.html"><div class="animated-line pos-41"></div><h5 class="mb-4" onMouseOver="lineOnHover(41)" onMouseOut="lineOutHover(41)">关于力萬</h5></a></li>
               <li data-lang="en" onMouseOver="lineOnHover(42)" onMouseOut="lineOutHover(42)"><a href="/corporate.html#history-company"><div class="animated-line pos-42" style="bottom: -13px;"></div><p class="mb-0">Background</p></a></li>
               <li data-lang="th" onMouseOver="lineOnHover(43)" onMouseOut="lineOutHover(43)"><a href="/corporate.html#history-company"><div class="animated-line pos-43" style="bottom: -13px;"></div><p class="mb-0">ประวัติความเป็นมา</p></a></li>
-              <li data-lang="ch" onMouseOver="lineOnHover(44)" onMouseOut="lineOutHover(44)"><a href="/corporate.html#history-company"><div class="animated-line pos-44" style="bottom: -13px;"></div><p class="mb-0">Background</p></a></li>
+              <li data-lang="ch" onMouseOver="lineOnHover(44)" onMouseOut="lineOutHover(44)"><a href="/corporate.html#history-company"><div class="animated-line pos-44" style="bottom: -13px;"></div><p class="mb-0">背景</p></a></li>
               <li data-lang="en" onMouseOver="lineOnHover(45)" onMouseOut="lineOutHover(45)"><a href="/corporate.html#vision"><div class="animated-line pos-45" style="bottom: -13px;"></div><p class="mb-0">Vision & VDO</p></a></li>
               <li data-lang="th" onMouseOver="lineOnHover(46)" onMouseOut="lineOutHover(46)"><a href="/corporate.html#vision"><div class="animated-line pos-46" style="bottom: -13px;"></div><p class="mb-0">วิสัยทัศน์และวิดีโอ</p></a></li>
-              <li data-lang="ch" onMouseOver="lineOnHover(47)" onMouseOut="lineOutHover(47)"><a href="/corporate.html#vision"><div class="animated-line pos-47" style="bottom: -13px;"></div><p class="mb-0">Vision & VDO</p></a></li>
+              <li data-lang="ch" onMouseOver="lineOnHover(47)" onMouseOut="lineOutHover(47)"><a href="/corporate.html#vision"><div class="animated-line pos-47" style="bottom: -13px;"></div><p class="mb-0">愿景 & 视频</p></a></li>
             </ul>
             <ul class="services footer-services ps-0">
             <li data-lang="en">
@@ -185,9 +185,9 @@ class Footer extends HTMLElement {
           </div>
           <div class="tel-mobile"><a href="tel:+66 2538 8019">+66 2538 8019</a></div>
           <ul class="footer-socials ps-0">
-            <a href=""><img src="./assets/home/facebook-pink.svg" alt="facebook" /></a>
-            <a href=""><img src="./assets/home/instagram-pink.svg" alt="instagram" /></a>
-            <a href="https://lin.ee/hlS0zzw"><img src="./assets/home/line-pink.svg" alt="line" /></a>
+            <a href="https://www.facebook.com/tenthai.info" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/explore/tags/tenthai/?hl=en" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://lin.ee/hlS0zzw" target="_blank"><img src="./assets/home/line-pink.svg" alt="line" /></a>
           </ul>
         </div>
         <div class="footer-underline"></div>

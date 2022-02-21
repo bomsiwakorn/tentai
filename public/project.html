@@ -32,7 +32,71 @@
     <navbar-page></navbar-page>
 
     <section id="banner">
-      <img src="./assets/project/banner.png" alt="Banner" />
+      <!-- <img src="./assets/projects/2.png" alt="Banner" /> -->
+      <div
+        id="carouselExampleIndicators"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="2000">
+            <div class="banner-img-1"></div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <div class="banner-img-2"></div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <div class="banner-img-3"></div>
+          </div>
+        </div>
+
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev"
+        >
+          <span
+            class="carousel-control-prev-icon btn-prev"
+            aria-hidden="true"
+          ></span>
+          <span class="visually-hidden btn-prev">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next"
+        >
+          <span
+            class="carousel-control-next-icon btn-next"
+            aria-hidden="true"
+          ></span>
+          <span class="visually-hidden btn-next">Next</span>
+        </button>
+      </div>
     </section>
 
     <section id="register">
@@ -47,7 +111,7 @@
             />
           </div>
           <div class="register-right">
-            <div class="heading-underline-right">
+            <div data-lang="en" class="heading-underline-right">
               ลงทะเบียนเพื่อรับสิทธิพิเศษ
               <span
                 data-aos="fade-left"
@@ -55,25 +119,75 @@
                 class="line"
               ></span>
             </div>
+            <div data-lang="th" class="heading-underline-right">
+              ลงทะเบียนเพื่อรับสิทธิพิเศษ
+              <span
+                data-aos="fade-left"
+                data-aos-duration="1700"
+                class="line"
+              ></span>
+            </div>
+            <div data-lang="ch" class="heading-underline-right">
+              注册获取优惠特权
+              <span
+                data-aos="fade-left"
+                data-aos-duration="1700"
+                class="line"
+              ></span>
+            </div>
             <form class="register-form">
-              <div class="form-item">
+              <div data-lang="en" class="form-item">
+                <label for="">Name</label>
+                <input type="text" />
+              </div>
+              <div data-lang="th" class="form-item">
                 <label for="">ชื่อ</label>
                 <input type="text" />
               </div>
-              <div class="form-item">
+              <div data-lang="ch" class="form-item">
+                <label for="">名</label>
+                <input type="text" />
+              </div>
+              <div data-lang="en" class="form-item">
+                <label for="">Surname</label>
+                <input type="text" />
+              </div>
+              <div data-lang="th" class="form-item">
                 <label for="">นามสกุล</label>
                 <input type="text" />
               </div>
-              <div class="form-item">
-                <label for="">เบอร์โทรศัพท์</label>
+              <div data-lang="ch" class="form-item">
+                <label for="">姓</label>
                 <input type="text" />
               </div>
-              <div class="form-item">
+              <div data-lang="en" class="form-item">
+                <label for="">E-mail</label>
+                <input type="text" />
+              </div>
+              <div data-lang="th" class="form-item">
                 <label for="">อีเมล</label>
                 <input type="text" />
               </div>
+              <div data-lang="ch" class="form-item">
+                <label for="">邮件</label>
+                <input type="text" />
+              </div>
+              <div data-lang="en" class="form-item">
+                <label for="">Phone</label>
+                <input type="text" />
+              </div>
+              <div data-lang="th" class="form-item">
+                <label for="">เบอร์โทรศัพท์</label>
+                <input type="text" />
+              </div>
+              <div data-lang="ch" class="form-item">
+                <label for="">咨询热线</label>
+                <input type="text" />
+              </div>
               <div class="form-submit">
-                <button type="submit">ส่ง</button>
+                <button data-lang="en" type="submit">Send</button>
+                <button data-lang="th" type="submit">ส่ง</button>
+                <button data-lang="ch" type="submit">发送</button>
               </div>
             </form>
           </div>
@@ -84,7 +198,9 @@
     <section id="project-idea">
       <img src="./assets/project/bg-idea.png" alt="Idea" />
       <div class="project-idea-wrapper">
-        <div class="heading-underline-short">แนวคิดโครงการ</div>
+        <div data-lang="en" class="heading-underline-short">Concept</div>
+        <div data-lang="th" class="heading-underline-short">แนวคิดโครงการ</div>
+        <div data-lang="ch" class="heading-underline-short">设计理念</div>
         <h4>Luxury Loft Design with Private Lift</h4>
         <p>
           ดิยูนีค คอนโด เป็นอีกหนึ่งโครงการ บนทำเลเอกมัย-รามอินทรา
@@ -114,8 +230,24 @@
         <div class="project-info-wrapper">
           <div class="project-info-left">
             <div class="heading-box">
-              <div class="heading-underline">
+              <div data-lang="en" class="heading-underline">
+                Project Information
+                <span
+                  data-aos="fade-right"
+                  data-aos-duration="1700"
+                  class="line"
+                ></span>
+              </div>
+              <div data-lang="th" class="heading-underline">
                 ข้อมูลโครงการ
+                <span
+                  data-aos="fade-right"
+                  data-aos-duration="1700"
+                  class="line"
+                ></span>
+              </div>
+              <div data-lang="ch" class="heading-underline">
+                项目资料
                 <span
                   data-aos="fade-right"
                   data-aos-duration="1700"
@@ -124,14 +256,50 @@
               </div>
             </div>
             <div class="project-items-wrapper">
-              <div class="project-info-item">ชื่อโครงการ :</div>
-              <div class="project-info-item">เจ้าของโครงการ :</div>
-              <div class="project-info-item">ที่ตั้งโครงการ :</div>
-              <div class="project-info-item">พื้นที่โครงการ :</div>
-              <div class="project-info-item">ลักษณะโครงการ :</div>
-              <div class="project-info-item">ลักษณะอาคาร :</div>
-              <div class="project-info-item">พื้นที่ใช้สอย :</div>
-              <div class="project-info-item">จำนวนยูนิต :</div>
+              <div data-lang="en" class="project-info-item">Project Name :</div>
+              <div data-lang="th" class="project-info-item">ชื่อโครงการ :</div>
+              <div data-lang="ch" class="project-info-item">项目名称 :</div>
+              <div data-lang="en" class="project-info-item">Developer :</div>
+              <div data-lang="th" class="project-info-item">
+                เจ้าของโครงการ :
+              </div>
+              <div data-lang="ch" class="project-info-item">开发商 :</div>
+              <div data-lang="en" class="project-info-item">
+                Project Location :
+              </div>
+              <div data-lang="th" class="project-info-item">
+                ที่ตั้งโครงการ :
+              </div>
+              <div data-lang="ch" class="project-info-item">项目位置 :</div>
+              <div data-lang="en" class="project-info-item">
+                พื้นที่โครงการ :
+              </div>
+              <div data-lang="th" class="project-info-item">
+                พื้นที่โครงการ :
+              </div>
+              <div data-lang="ch" class="project-info-item">
+                พื้นที่โครงการ :
+              </div>
+              <div data-lang="en" class="project-info-item">
+                ลักษณะโครงการ :
+              </div>
+              <div data-lang="th" class="project-info-item">
+                ลักษณะโครงการ :
+              </div>
+              <div data-lang="ch" class="project-info-item">项目特色 :</div>
+              <div data-lang="en" class="project-info-item">ลักษณะอาคาร :</div>
+              <div data-lang="th" class="project-info-item">ลักษณะอาคาร :</div>
+              <div data-lang="ch" class="project-info-item">大楼特色 :</div>
+              <div data-lang="en" class="project-info-item">Usable Area :</div>
+              <div data-lang="th" class="project-info-item">
+                พื้นที่ใช้สอย :
+              </div>
+              <div data-lang="ch" class="project-info-item">使用面积 :</div>
+              <div data-lang="en" class="project-info-item">
+                Number of Units :
+              </div>
+              <div data-lang="th" class="project-info-item">จำนวนยูนิต :</div>
+              <div data-lang="ch" class="project-info-item">总户数 :</div>
             </div>
           </div>
           <div class="download-file">
@@ -155,7 +323,11 @@
     <section id="facilities">
       <div class="container">
         <div class="facilities-wrapper">
-          <div class="heading-underline-short">สิ่งอำนวยความสะดวก</div>
+          <div data-lang="en" class="heading-underline-short">Facilities</div>
+          <div data-lang="th" class="heading-underline-short">
+            สิ่งอำนวยความสะดวก
+          </div>
+          <div data-lang="ch" class="heading-underline-short">配套设施</div>
           <p>
             ความเป็นส่วนตัวคือสิ่งที่เราให้ความสำคัญ The Unique Ekamai -
             Ramintra จึงเป็นคอนโดมิเนียม low-rise เพียงแห่งเดียวที่มี Private
@@ -323,7 +495,9 @@
       <div class="container">
         <div class="plan-wrapper">
           <div class="plan-heading">
-            <div class="heading-underline-short">แบบแปลน</div>
+            <div data-lang="en" class="heading-underline-short">Plan</div>
+            <div data-lang="th" class="heading-underline-short">แบบแปลน</div>
+            <div data-lang="ch" class="heading-underline-short">户型图</div>
           </div>
           <div class="plan-switch-wrapper">
             <button
@@ -331,15 +505,19 @@
               class="active"
               onclick="layoutBtnSwicth()"
             >
-              แผนผัง
+              <p class="mb-0" data-lang="en">Project Plan</p>
+              <p class="mb-0" data-lang="th">แผนผัง</p>
+              <p class="mb-0" data-lang="ch">规划设计图</p>
             </button>
             <button id="designSwicth" onclick="designBtnSwicth()">
-              แบบห้อง
+              <p class="mb-0" data-lang="en">Room Type</p>
+              <p class="mb-0" data-lang="th">แบบห้อง</p>
+              <p class="mb-0" data-lang="ch">样板图</p>
             </button>
           </div>
           <div class="layout-carousel-container">
             <div
-              id="carouselExampleControls"
+              id="layout-carousel"
               class="carousel slide"
               data-bs-ride="carousel"
             >
@@ -369,106 +547,55 @@
               <button
                 class="carousel-control-prev"
                 type="button"
-                data-bs-target="#carouselExampleControls"
+                data-bs-target="#layout-carousel"
                 data-bs-slide="prev"
               >
                 <span
                   class="carousel-control-prev-icon"
                   aria-hidden="true"
+                  style="background-color: #000; padding: 2rem 1rem"
                 ></span>
                 <span class="visually-hidden">Previous</span>
               </button>
               <button
                 class="carousel-control-next"
                 type="button"
-                data-bs-target="#carouselExampleControls"
+                data-bs-target="#layout-carousel"
                 data-bs-slide="next"
               >
                 <span
                   class="carousel-control-next-icon"
                   aria-hidden="true"
+                  style="background-color: #000; padding: 2rem 1rem"
                 ></span>
                 <span class="visually-hidden">Next</span>
               </button>
             </div>
           </div>
           <div class="design-carousel-container">
-            <!-- <div
-              id="carouselExampleControls"
-              class="carousel slide"
-              data-bs-ride="carousel"
-            >
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <img
-                    src="./assets/project/gallery1.png"
-                    class="d-block w-100"
-                    alt="Gallery"
-                  />
-                </div>
-                <div class="carousel-item">
-                  <img
-                    src="./assets/project/gallery1.png"
-                    class="d-block w-100"
-                    alt="Gallery"
-                  />
-                </div>
-                <div class="carousel-item">
-                  <img
-                    src="./assets/project/gallery1.png"
-                    class="d-block w-100"
-                    alt="Gallery"
-                  />
-                </div>
-              </div>
-              <button
-                class="carousel-control-prev"
-                type="button"
-                data-bs-target="#carouselExampleControls"
-                data-bs-slide="prev"
-              >
-                <span
-                  class="carousel-control-prev-icon"
-                  aria-hidden="true"
-                ></span>
-                <span class="visually-hidden">Previous</span>
-              </button>
-              <button
-                class="carousel-control-next"
-                type="button"
-                data-bs-target="#carouselExampleControls"
-                data-bs-slide="next"
-              >
-                <span
-                  class="carousel-control-next-icon"
-                  aria-hidden="true"
-                ></span>
-                <span class="visually-hidden">Next</span>
-              </button>
-            </div> -->
             <div
-              id="carouselExampleControls"
+              id="design-carousel"
               class="carousel slide"
               data-bs-ride="carousel"
             >
               <div class="carousel-inner">
                 <div class="carousel-item active">
                   <img
-                    src="./assets/project/bg-idea.png"
+                    src="./assets/project/gallery1.png"
                     class="d-block w-100"
                     alt="Gallery"
                   />
                 </div>
                 <div class="carousel-item">
                   <img
-                    src="./assets/project/bg-idea.png"
+                    src="./assets/project/gallery1.png"
                     class="d-block w-100"
                     alt="Gallery"
                   />
                 </div>
                 <div class="carousel-item">
                   <img
-                    src="./assets/project/bg-idea.png"
+                    src="./assets/project/gallery1.png"
                     class="d-block w-100"
                     alt="Gallery"
                   />
@@ -477,24 +604,26 @@
               <button
                 class="carousel-control-prev"
                 type="button"
-                data-bs-target="#carouselExampleControls"
+                data-bs-target="#design-carousel"
                 data-bs-slide="prev"
               >
                 <span
                   class="carousel-control-prev-icon"
                   aria-hidden="true"
+                  style="background-color: #000; padding: 2rem 1rem"
                 ></span>
                 <span class="visually-hidden">Previous</span>
               </button>
               <button
                 class="carousel-control-next"
                 type="button"
-                data-bs-target="#carouselExampleControls"
+                data-bs-target="#design-carousel"
                 data-bs-slide="next"
               >
                 <span
                   class="carousel-control-next-icon"
                   aria-hidden="true"
+                  style="background-color: #000; padding: 2rem 1rem"
                 ></span>
                 <span class="visually-hidden">Next</span>
               </button>
@@ -513,10 +642,12 @@
       </div>
       <div class="container">
         <div class="gallery-wrapper">
-          <div class="heading-underline-short">แกลเลอรี่</div>
+          <div data-lang="en" class="heading-underline-short">Gallery</div>
+          <div data-lang="th" class="heading-underline-short">แกลเลอรี่</div>
+          <div data-lang="ch" class="heading-underline-short">效果图</div>
           <div class="gallery-carousel-container">
             <div
-              id="carouselExampleControls"
+              id="gallery-carousel"
               class="carousel slide"
               data-bs-ride="carousel"
             >
@@ -546,31 +677,35 @@
               <button
                 class="carousel-control-prev"
                 type="button"
-                data-bs-target="#carouselExampleControls"
+                data-bs-target="#gallery-carousel"
                 data-bs-slide="prev"
               >
                 <span
                   class="carousel-control-prev-icon"
                   aria-hidden="true"
+                  style="background-color: #000; padding: 2rem 1rem"
                 ></span>
                 <span class="visually-hidden">Previous</span>
               </button>
               <button
                 class="carousel-control-next"
                 type="button"
-                data-bs-target="#carouselExampleControls"
+                data-bs-target="#gallery-carousel"
                 data-bs-slide="next"
               >
                 <span
                   class="carousel-control-next-icon"
                   aria-hidden="true"
+                  style="background-color: #000; padding: 2rem 1rem"
                 ></span>
                 <span class="visually-hidden">Next</span>
               </button>
             </div>
           </div>
-          <div class="heading-underline-short">วิดีโอ</div>
-          <div class="gallery-carousel-container">
+          <div data-lang="en" class="heading-underline-short">VDO</div>
+          <div data-lang="th" class="heading-underline-short">วิดีโอ</div>
+          <div data-lang="ch" class="heading-underline-short">VDO</div>
+          <div class="gallery-carousel-container vdo-wrapper">
             <iframe
               width="100%"
               height="580"
@@ -594,7 +729,13 @@
       </div>
       <div class="container">
         <div class="project-location-wrapper">
-          <div class="heading-underline-short">ที่ตั้งโครงการ</div>
+          <div data-lang="en" class="heading-underline-short">
+            Project Location
+          </div>
+          <div data-lang="th" class="heading-underline-short">
+            ที่ตั้งโครงการ
+          </div>
+          <div data-lang="ch" class="heading-underline-short">项目位置</div>
           <p>
             The Unique Ekamai-Ramintra คอนโดมิเนียม low-rise 7 ชั้น 56 ยูนิต
             บนทำเลที่ดีที่สุดในซอยลาดพร้าว 87
@@ -620,11 +761,15 @@
     <section id="project-contact">
       <div class="container">
         <div class="project-contact-heading">
-          <div class="heading-underline-short">ติดต่อโครงการ</div>
+          <div data-lang="en" class="heading-underline-short">Contact</div>
+          <div data-lang="th" class="heading-underline-short">
+            ติดต่อโครงการ
+          </div>
+          <div data-lang="ch" class="heading-underline-short">联络我们</div>
         </div>
         <div class="project-contact-wrapper">
           <div class="project-contact-left">
-            <h3>บริษัทเท็น ไทย ดีเวลลอปเม้นท์ จำกัด</h3>
+            <h3>บริษัท เท็น ไทย ดีเวลลอปเม้นท์ จำกัด</h3>
             <p>
               403/76 ถนนสุคนธสวัสดิ์ แขวงลาดพร้าว เขตลาดพร้าว กรุงเทพฯ 10230
             </p>
@@ -642,27 +787,67 @@
           <div class="project-contact-right">
             <form action="">
               <div class="form-item-wrapper">
-                <div class="form-item">
+                <div data-lang="en" class="form-item">
+                  <label for="">Name</label>
+                  <input type="text" />
+                </div>
+                <div data-lang="th" class="form-item">
                   <label for="">ชื่อ</label>
                   <input type="text" />
                 </div>
-                <div class="form-item">
+                <div data-lang="ch" class="form-item">
+                  <label for="">名</label>
+                  <input type="text" />
+                </div>
+                <div data-lang="en" class="form-item">
+                  <label for="">Surname</label>
+                  <input type="text" />
+                </div>
+                <div data-lang="th" class="form-item">
                   <label for="">นามสกุล</label>
+                  <input type="text" />
+                </div>
+                <div data-lang="ch" class="form-item">
+                  <label for="">姓</label>
                   <input type="text" />
                 </div>
               </div>
               <div class="form-item-wrapper">
-                <div class="form-item">
+                <div data-lang="en" class="form-item">
+                  <label for="">Phone</label>
+                  <input type="text" />
+                </div>
+                <div data-lang="th" class="form-item">
                   <label for="">เบอร์โทรศัพท์</label>
                   <input type="text" />
                 </div>
-                <div class="form-item">
+                <div data-lang="ch" class="form-item">
+                  <label for="">咨询热线</label>
+                  <input type="text" />
+                </div>
+                <div data-lang="en" class="form-item">
+                  <label for="">E-mail</label>
+                  <input type="text" />
+                </div>
+                <div data-lang="th" class="form-item">
                   <label for="">อีเมล</label>
                   <input type="text" />
                 </div>
+                <div data-lang="ch" class="form-item">
+                  <label for="">邮件</label>
+                  <input type="text" />
+                </div>
               </div>
-              <div class="form-item">
+              <div data-lang="en" class="form-item">
+                <label for="">Your Message</label>
+                <textarea rows="3"></textarea>
+              </div>
+              <div data-lang="th" class="form-item">
                 <label for="">ข้อความ</label>
+                <textarea rows="3"></textarea>
+              </div>
+              <div data-lang="ch" class="form-item">
+                <label for="">Your Message</label>
                 <textarea rows="3"></textarea>
               </div>
               <div class="form-submit" style="text-align: left">

@@ -35,7 +35,9 @@
 
     <section id="banner">
       <div class="banner-bg">
-        <div class="banner-heading">ข่าวสาร</div>
+        <div data-lang="en" class="banner-heading">News</div>
+        <div data-lang="th" class="banner-heading">ข่าวสาร</div>
+        <div data-lang="ch" class="banner-heading">新闻资讯</div>
       </div>
     </section>
 
@@ -43,15 +45,21 @@
       <div class="container">
         <div class="opening-box">
           <div class="pagination">
-            <a href=""><<ย้อนกลับ</a>
+            <a data-lang="en" href=""><< Previous</a>
+            <a data-lang="th" href=""><< ย้อนกลับ</a>
+            <a data-lang="ch" href=""><< Previous</a>
           </div>
-          <div class="heading-box">
+          <div class="heading-box-th">
             <p class="heading-underline">งานเปิดตัวโครงการ</p>
-            <p class="heading-underline">Ken Attitude Rattanathibet</p>
           </div>
           <div class="pagination">
-            <a href="">ถัดไป>></a>
+            <a data-lang="en" href="">Next >></a>
+            <a data-lang="th" href="">ถัดไป >></a>
+            <a data-lang="ch" href="">Next >></a>
           </div>
+        </div>
+        <div class="heading-box-en">
+          <p class="heading-underline">Ken Attitude Rattanathibet</p>
         </div>
         <div class="underline"></div>
         <ul class="footer-socials pt-4" style="margin: 0 auto">
@@ -60,60 +68,98 @@
         </ul>
 
 
-      <div class="container">
-        <div class="opening-project-box">
-          <div class="productdetail-left">
-            <div class="swiper mySwiper2">
-              <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                  <img src="/public/assets/news/3.png" />
+      <section id="news-swipper-img">
+        <div class="container">
+          <div class="opening-project-box">
+            <div class="productdetail-left">
+              <div class="swiper mySwiper2">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <img src="./assets/home/news-1.png" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="./assets/home/news-2.png" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="./assets/home/news-1.png" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="./assets/home/news-2.png"" />
+                  </div>
+                  <!-- <div class="swiper-slide">
+                    <img src="/public/assets/news/3.png" />
+                  </div> -->
                 </div>
-                <div class="swiper-slide">
-                  <img src="/public/assets/news/3.png" />
-                </div>
-                <div class="swiper-slide">
-                  <img src="/public/assets/news/3.png" />
-                </div>
-                <div class="swiper-slide">
-                  <img src="/public/assets/news/3.png"" />
-                </div>
-                <div class="swiper-slide">
-                  <img src="/public/assets/news/3.png" />
-                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
               </div>
-              <div class="swiper-button-next"></div>
-              <div class="swiper-button-prev"></div>
-            </div>
-            <div class="swiper mySwiper" style="padding: 1.5rem 0">
-              <div
-                class="swiper-wrapper"
-                style="
-                  display: grid;
-                  grid-template-columns: repeat(5, 1fr);
-                  height: auto;
-                  padding-bottom: 1rem;
-                "
-              >
-                <div class="swiper-slide sub-image-detail">
-                  <img src="/public/assets/news/3.png" />
-                </div>
-                <div class="swiper-slide sub-image-detail">
-                  <img src="/public/assets/news/3.png" />
-                </div>
-                <div class="swiper-slide sub-image-detail">
-                  <img src="/public/assets/news/3.png" />
-                </div>
-                <div class="swiper-slide sub-image-detail">
-                  <img src="/public/assets/news/3.png" />
-                </div>
-                <div class="swiper-slide sub-image-detail">
-                  <img src="/public/assets/news/3.png" />
+              <div class="swiper mySwiper" style="padding: 1.5rem 0">
+                <div
+                  class="swiper-wrapper"
+                  style="
+                    display: grid;
+                    grid-template-columns: repeat(4, 1fr);
+                    height: auto;
+                    padding-bottom: 1rem;
+                  "
+                >
+                  <div class="swiper-slide sub-image-detail">
+                    <img src="./assets/home/news-1.png" />
+                  </div>
+                  <div class="swiper-slide sub-image-detail">
+                    <img src="./assets/home/news-2.png" />
+                  </div>
+                  <div class="swiper-slide sub-image-detail">
+                    <img src="./assets/home/news-1.png" />
+                  </div>
+                  <div class="swiper-slide sub-image-detail">
+                    <img src="./assets/home/news-2.png" />
+                  </div>
+                  <!-- <div class="swiper-slide sub-image-detail">
+                    <img src="/public/assets/news/3.png" />
+                  </div> -->
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
+      </section>
+
+      <section id="news-content">
+        <div class="container">
+          <div class="news-paragraph">
+            <p>The One estate development CO Ltd. together with Primo Realter CO Ltd. Opening “Ken Atitude Rattanathibet project” the most luxury condo on the chao phraya river view and only 100 meters near MRT phranangklao station start with 2.29 million baht, the first project under direct by Primo 
+              affiliated Origin Property who control the developer with value of budget more than 2,000 million baht.
+              </p>
+            <p>Mr. Chuen Sue Ping Board director of The One estate development CO Ltd. Reveal The One Estate Development CO Ltd. Together with Primo Realter CO Ltd. Open the Ken Attitude Rattanathibet-MRT phrananklao station the luxury condo on the chaophraya river view and close to MRT phrananklao station only 100 meters near, the best prize of condo on the nontburi district start with 2.29 million baht more than 3 unit of area, the most privilege for all investor cannot miss.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="news-info-video">
+        <div class="container">
+          <div class="vdo-wrapper">
+            <iframe
+              width="100%"
+              height="580"
+              src="https://www.youtube.com/embed/usVXKhYtHBc"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+        <div class="pagination mt-4">
+          <a data-lang="en" href="" class="me-5"><< Previous</a>
+          <a data-lang="th" href="" class="me-5"><< ย้อนกลับ</a>
+          <a data-lang="ch" href="" class="me-5"><< Previous</a>
+          <a data-lang="en" href="">Next >></a>
+          <a data-lang="th" href="">ถัดไป >></a>
+          <a data-lang="ch" href="">Next >></a>
+        </div>
+      </section>
     </section>
 
     <footer-page></footer-page>
