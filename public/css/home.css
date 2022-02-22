@@ -412,7 +412,7 @@ section.maps img {
 }
 .cookie-wrapper {
   display: flex;
-  /* justify-content: space-between; */
+  justify-content: space-between;
 }
 .cookie-heading h1 {
   padding-top: 1rem;
@@ -430,7 +430,7 @@ section.maps img {
   padding-bottom: 0.5rem;
 }
 .cookie-accept {
-  margin: auto;
+  /* margin: auto; */
 }
 
 .cookie-accept button {
@@ -455,6 +455,9 @@ section.maps img {
 @media only screen and (max-width: 650px) {
   .cookie-wrapper {
     flex-direction: column;
+  }
+  .cookie-accept {
+    margin: auto;
   }
   .cookie-accept button {
     margin-left: 0;
