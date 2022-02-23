@@ -410,14 +410,14 @@ section.maps img {
 .close-cookie i:hover {
   color: #dc8983;
 }
-.cookie-wrapper {
+.cookie-wrapper,
+.cookie-wrapper-1 {
   display: flex;
   justify-content: space-between;
 }
 .cookie-heading h1 {
   padding-top: 1rem;
   font-size: 20px;
-  padding-bottom: 1rem;
 }
 .cookie-content p {
   font-size: 12px;
@@ -428,6 +428,7 @@ section.maps img {
 }
 .cookie-content p {
   padding-bottom: 0.5rem;
+  padding-right: 1rem;
 }
 .cookie-accept {
   /* margin: auto; */
@@ -441,7 +442,7 @@ section.maps img {
   transition: all 0.3s;
   width: 150px;
   font-size: 12px;
-  margin-left: 2rem;
+  margin-left: 1rem;
 }
 
 .cookie-accept button:hover {
@@ -459,6 +460,7 @@ section.maps img {
   .cookie-accept {
     margin: auto;
   }
+
   .cookie-accept button {
     margin-left: 0;
     margin-bottom: 1rem;
