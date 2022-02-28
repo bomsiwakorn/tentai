@@ -71,124 +71,71 @@
           </div>
 
           <div data-lang="en" class="heading-underline-right">
-            <p id="filterItemAll-en" onclick="filterAllProject('en', 0)">ALL</p>
-            <p id="filterItemAll-en" onclick="filterAllProject('en', 1)">
+            <p
+              id="filterItemAll-en"
+              onclick="filterAllProject('en', 0),getAllProject()"
+            >
+              ALL
+            </p>
+            <p
+              id="filterItemAll-en"
+              onclick="filterAllProject('en', 1),getAllProject('The One Estate')"
+            >
               THE ONE ESTATE DEVELOPMENT
             </p>
-            <p id="filterItemAll-en" onclick="filterAllProject('en', 2)">
+            <p
+              id="filterItemAll-en"
+              onclick="filterAllProject('en', 2),getAllProject('Tenthai')"
+            >
               TENTHAI DEVELOPMENT
             </p>
           </div>
 
           <div data-lang="th" class="heading-underline-right">
-            <p id="filterItemAll-th" onclick="filterAllProject('th', 0)">
+            <p
+              id="filterItemAll-th"
+              onclick="filterAllProject('th', 0),getAllProject()"
+            >
               ทั้งหมด
             </p>
-            <p id="filterItemAll-th" onclick="filterAllProject('th', 1)">
+            <p
+              id="filterItemAll-th"
+              onclick="filterAllProject('th', 1),getAllProject('The One Estate')"
+            >
               เดอะ วัน เอสเตท ดีเวลลอปเม้นท์
             </p>
-            <p id="filterItemAll-th" onclick="filterAllProject('th', 2)">
+            <p
+              id="filterItemAll-th"
+              onclick="filterAllProject('th', 2),getAllProject('Tenthai')"
+            >
               เท็นไทย ดีเวลลอปเม้นท์
             </p>
           </div>
 
           <div data-lang="ch" class="heading-underline-right">
-            <p id="filterItemAll-ch" onclick="filterAllProject('ch', 0)">
+            <p
+              id="filterItemAll-ch"
+              onclick="filterAllProject('ch', 0),getAllProject()"
+            >
               所有
             </p>
-            <p id="filterItemAll-ch" onclick="filterAllProject('ch', 1)">
+            <p
+              id="filterItemAll-ch"
+              onclick="filterAllProject('ch', 1),getAllProject('The One Estate')"
+            >
               力萬房地产开发有限公司
             </p>
-            <p id="filterItemAll-ch" onclick="filterAllProject('ch', 2)">
+            <p
+              id="filterItemAll-ch"
+              onclick="filterAllProject('ch', 2),getAllProject('Tenthai')"
+            >
               天泰发展有限公司
             </p>
           </div>
         </div>
         <div class="vertical-line"></div>
         <div class="container">
-          <div class="all-project-items-wrapper">
-            <a href="/project.html" class="project-item">
-              <div class="project-item-img">
-                <img src="./assets/projects/2.png" alt="Project" />
-              </div>
-              <div class="project-item-info">
-                <div class="project-name">BIBURY VILLAGE</div>
-                <div class="project-by">โดย The One Estate</div>
-              </div>
-            </a>
-            <a href="/project.html" class="project-item">
-              <div class="project-item-img">
-                <img src="./assets/projects/2.png" alt="Project" />
-              </div>
-              <div class="project-item-info">
-                <div class="project-name">KEN ATTITUDE RATTANATHIBET</div>
-                <div class="project-by">โดย The One Estate</div>
-              </div>
-            </a>
-            <a href="/project.html" class="project-item">
-              <div class="project-item-img">
-                <img src="./assets/projects/3.png" alt="Project" />
-              </div>
-              <div class="project-item-info">
-                <div class="project-name">The UNIQUE</div>
-                <div class="project-by">โดย Tenthai</div>
-              </div>
-            </a>
-            <a href="/project.html" class="project-item">
-              <div class="project-item-img">
-                <img src="./assets/projects/2.png" alt="Project" />
-              </div>
-              <div class="project-item-info">
-                <div class="project-name">BIBURY VILLAGE</div>
-                <div class="project-by">โดย The One Estate</div>
-              </div>
-            </a>
-            <a href="/project.html" class="project-item">
-              <div class="project-item-img">
-                <img src="./assets/projects/2.png" alt="Project" />
-              </div>
-              <div class="project-item-info">
-                <div class="project-name">KEN ATTITUDE RATTANATHIBET</div>
-                <div class="project-by">โดย The One Estate</div>
-              </div>
-            </a>
-            <a href="/project.html" class="project-item">
-              <div class="project-item-img">
-                <img src="./assets/projects/3.png" alt="Project" />
-              </div>
-              <div class="project-item-info">
-                <div class="project-name">The UNIQUE</div>
-                <div class="project-by">โดย Tenthai</div>
-              </div>
-            </a>
-            <a href="/project.html" class="project-item">
-              <div class="project-item-img">
-                <img src="./assets/projects/2.png" alt="Project" />
-              </div>
-              <div class="project-item-info">
-                <div class="project-name">BIBURY VILLAGE</div>
-                <div class="project-by">โดย The One Estate</div>
-              </div>
-            </a>
-            <a href="/project.html" class="project-item">
-              <div class="project-item-img">
-                <img src="./assets/projects/2.png" alt="Project" />
-              </div>
-              <div class="project-item-info">
-                <div class="project-name">KEN ATTITUDE RATTANATHIBET</div>
-                <div class="project-by">โดย The One Estate</div>
-              </div>
-            </a>
-            <a href="/project.html" class="project-item">
-              <div class="project-item-img">
-                <img src="./assets/projects/3.png" alt="Project" />
-              </div>
-              <div class="project-item-info">
-                <div class="project-name">The UNIQUE</div>
-                <div class="project-by">โดย Tenthai</div>
-              </div>
-            </a>
-          </div>
+          <div class="all-project-items-wrapper"></div>
 
           <div class="view-more-btn">
             <a data-lang="en" href="">See more >></a>
@@ -229,37 +176,64 @@
             </div>
           </div>
           <div data-lang="en" class="heading-underline-right">
-            <p id="filterItemPast-en" onclick="filterPastProject('en', 0)">
+            <p
+              id="filterItemPast-en"
+              onclick="filterPastProject('en', 0),getPastProject()"
+            >
               All
             </p>
-            <p id="filterItemPast-en" onclick="filterPastProject('en', 1)">
+            <p
+              id="filterItemPast-en"
+              onclick="filterPastProject('en', 1),getPastProject('The One Estate')"
+            >
               THE ONE ESTATE DEVELOPMENT
             </p>
-            <p id="filterItemPast-en" onclick="filterPastProject('en', 2)">
+            <p
+              id="filterItemPast-en"
+              onclick="filterPastProject('en', 2),getPastProject('Tenthai')"
+            >
               TENTHAI DEVELOPMENT
             </p>
           </div>
 
           <div data-lang="th" class="heading-underline-right">
-            <p id="filterItemPast-th" onclick="filterPastProject('th', 0)">
+            <p
+              id="filterItemPast-th"
+              onclick="filterPastProject('th', 0),getPastProject()"
+            >
               ทั้งหมด
             </p>
-            <p id="filterItemPast-th" onclick="filterPastProject('th', 1)">
+            <p
+              id="filterItemPast-th"
+              onclick="filterPastProject('th', 1),getPastProject('The One Estate')"
+            >
               เดอะ วัน เอสเตท ดีเวลลอปเม้นท์
             </p>
-            <p id="filterItemPast-th" onclick="filterPastProject('th', 2)">
+            <p
+              id="filterItemPast-th"
+              onclick="filterPastProject('th', 2),getPastProject('Tenthai')"
+            >
               เท็นไทย ดีเวลลอปเม้นท์
             </p>
           </div>
 
           <div data-lang="ch" class="heading-underline-right">
-            <p id="filterItemPast-ch" onclick="filterPastProject('ch', 0)">
+            <p
+              id="filterItemPast-ch"
+              onclick="filterPastProject('ch', 0),getPastProject()"
+            >
               所有
             </p>
-            <p id="filterItemPast-ch" onclick="filterPastProject('ch', 1)">
+            <p
+              id="filterItemPast-ch"
+              onclick="filterPastProject('ch', 1),getPastProject('The One Estate')"
+            >
               力萬房地产开发有限公司
             </p>
-            <p id="filterItemPast-ch" onclick="filterPastProject('ch', 2)">
+            <p
+              id="filterItemPast-ch"
+              onclick="filterPastProject('ch', 2),getPastProject('Tenthai')"
+            >
               天泰发展有限公司
             </p>
           </div>
@@ -267,89 +241,7 @@
         <div class="vertical-line"></div>
 
         <div class="container">
-          <div class="past-project-items-wrapper">
-            <a href="/project.html" class="project-item">
-              <div class="project-item-img">
-                <img src="./assets/projects/2.png" alt="Project" />
-              </div>
-              <div class="project-item-info">
-                <div class="project-name">BIBURY VILLAGE</div>
-                <div class="project-by">โดย The One Estate</div>
-              </div>
-            </a>
-            <a href="/project.html" class="project-item">
-              <div class="project-item-img">
-                <img src="./assets/projects/2.png" alt="Project" />
-              </div>
-              <div class="project-item-info">
-                <div class="project-name">KEN ATTITUDE RATTANATHIBET</div>
-                <div class="project-by">โดย The One Estate</div>
-              </div>
-            </a>
-            <a href="/project.html" class="project-item">
-              <div class="project-item-img">
-                <img src="./assets/projects/3.png" alt="Project" />
-              </div>
-              <div class="project-item-info">
-                <div class="project-name">The UNIQUE</div>
-                <div class="project-by">โดย Tenthai</div>
-              </div>
-            </a>
-            <a href="/project.html" class="project-item">
-              <div class="project-item-img">
-                <img src="./assets/projects/2.png" alt="Project" />
-              </div>
-              <div class="project-item-info">
-                <div class="project-name">BIBURY VILLAGE</div>
-                <div class="project-by">โดย The One Estate</div>
-              </div>
-            </a>
-            <a href="/project.html" class="project-item">
-              <div class="project-item-img">
-                <img src="./assets/projects/2.png" alt="Project" />
-              </div>
-              <div class="project-item-info">
-                <div class="project-name">KEN ATTITUDE RATTANATHIBET</div>
-                <div class="project-by">โดย The One Estate</div>
-              </div>
-            </a>
-            <a href="/project.html" class="project-item">
-              <div class="project-item-img">
-                <img src="./assets/projects/3.png" alt="Project" />
-              </div>
-              <div class="project-item-info">
-                <div class="project-name">The UNIQUE</div>
-                <div class="project-by">โดย Tenthai</div>
-              </div>
-            </a>
-            <a href="/project.html" class="project-item">
-              <div class="project-item-img">
-                <img src="./assets/projects/2.png" alt="Project" />
-              </div>
-              <div class="project-item-info">
-                <div class="project-name">BIBURY VILLAGE</div>
-                <div class="project-by">โดย The One Estate</div>
-              </div>
-            </a>
-            <a href="/project.html" class="project-item">
-              <div class="project-item-img">
-                <img src="./assets/projects/2.png" alt="Project" />
-              </div>
-              <div class="project-item-info">
-                <div class="project-name">KEN ATTITUDE RATTANATHIBET</div>
-                <div class="project-by">โดย The One Estate</div>
-              </div>
-            </a>
-            <a href="/project.html" class="project-item">
-              <div class="project-item-img">
-                <img src="./assets/projects/3.png" alt="Project" />
-              </div>
-              <div class="project-item-info">
-                <div class="project-name">The UNIQUE</div>
-                <div class="project-by">โดย Tenthai</div>
-              </div>
-            </a>
-          </div>
+          <div class="past-project-items-wrapper"></div>
 
           <div class="view-more-btn">
             <a data-lang="en" href="">See more >></a>
@@ -383,5 +275,202 @@
       type="text/javascript"
       src="https://unpkg.com/i18n-language@1.0.4/i18n-language.js"
     ></script>
+    <script>
+      const allProject = [
+        {
+          id: 1,
+          url: "{url}project.html?id={id}",
+          image: "{url}media/{resize}",
+          project_name: "BIBURY VILLAGE",
+          project_by: "The One Estate",
+        },
+        {
+          id: 2,
+          url: "{url}project.html?id={id}",
+          image: "{url}media/{resize}",
+          project_name: "KEN ATTITUDE RATTANATHIBET",
+          project_by: "The One Estate",
+        },
+        {
+          id: 3,
+          url: "{url}project.html?id={id}",
+          image: "{url}media/{resize}",
+          project_name: "The UNIQUE",
+          project_by: "Tenthai",
+        },
+        {
+          id: 4,
+          url: "{url}project.html?id={id}",
+          image: "{url}media/{resize}",
+          project_name: "BIBURY VILLAGE",
+          project_by: "The One Estate",
+        },
+        {
+          id: 5,
+          url: "{url}project.html?id={id}",
+          image: "{url}media/{resize}",
+          project_name: "KEN ATTITUDE RATTANATHIBET",
+          project_by: "The One Estate",
+        },
+        {
+          id: 6,
+          url: "{url}project.html?id={id}",
+          image: "{url}media/{resize}",
+          project_name: "The UNIQUE",
+          project_by: "Tenthai",
+        },
+        {
+          id: 7,
+          url: "{url}project.html?id={id}",
+          image: "{url}media/{resize}",
+          project_name: "BIBURY VILLAGE",
+          project_by: "The One Estate",
+        },
+        {
+          id: 8,
+          url: "{url}project.html?id={id}",
+          image: "{url}media/{resize}",
+          project_name: "KEN ATTITUDE RATTANATHIBET",
+          project_by: "The One Estate",
+        },
+        {
+          id: 9,
+          url: "{url}project.html?id={id}",
+          image: "{url}media/{resize}",
+          project_name: "The UNIQUE",
+          project_by: "Tenthai",
+        },
+      ];
+      function getAllProject(filter = "") {
+        const allProjectWrapper = document.querySelector(
+          ".all-project-items-wrapper"
+        );
+        let projectFilter = [];
+        if (filter) {
+          projectFilter = allProject.filter(
+            (project) => project.project_by === filter
+          );
+        } else {
+          projectFilter = allProject;
+        }
+        allProjectWrapper.innerHTML = "";
+        for (let i = 0; i < projectFilter.length; i++) {
+          const url = projectFilter[i].url;
+          const image = projectFilter[i].image;
+          const project_name = projectFilter[i].project_name;
+          const project_by = projectFilter[i].project_by;
+          allProjectWrapper.innerHTML += `
+            <a href="${url}" class="project-item">
+              <div class="project-item-img">
+                <img src="${image}" alt="Project" />
+              </div>
+              <div class="project-item-info">
+                <div class="project-name">${project_name}</div>
+                <div class="project-by">โดย ${project_by}</div>
+              </div>
+            </a>
+          `;
+        }
+      }
+      getAllProject();
+
+      const pastProject = [
+        {
+          id: 1,
+          url: "{url}project.html?id={id}",
+          image: "{url}media/{resize}",
+          project_name: "BIBURY VILLAGE",
+          project_by: "The One Estate",
+        },
+        {
+          id: 2,
+          url: "{url}project.html?id={id}",
+          image: "{url}media/{resize}",
+          project_name: "KEN ATTITUDE RATTANATHIBET",
+          project_by: "The One Estate",
+        },
+        {
+          id: 3,
+          url: "{url}project.html?id={id}",
+          image: "{url}media/{resize}",
+          project_name: "The UNIQUE",
+          project_by: "Tenthai",
+        },
+        {
+          id: 4,
+          url: "{url}project.html?id={id}",
+          image: "{url}media/{resize}",
+          project_name: "BIBURY VILLAGE",
+          project_by: "The One Estate",
+        },
+        {
+          id: 5,
+          url: "{url}project.html?id={id}",
+          image: "{url}media/{resize}",
+          project_name: "KEN ATTITUDE RATTANATHIBET",
+          project_by: "The One Estate",
+        },
+        {
+          id: 6,
+          url: "{url}project.html?id={id}",
+          image: "{url}media/{resize}",
+          project_name: "The UNIQUE",
+          project_by: "Tenthai",
+        },
+        {
+          id: 7,
+          url: "{url}project.html?id={id}",
+          image: "{url}media/{resize}",
+          project_name: "BIBURY VILLAGE",
+          project_by: "The One Estate",
+        },
+        {
+          id: 8,
+          url: "{url}project.html?id={id}",
+          image: "{url}media/{resize}",
+          project_name: "KEN ATTITUDE RATTANATHIBET",
+          project_by: "The One Estate",
+        },
+        {
+          id: 9,
+          url: "{url}project.html?id={id}",
+          image: "{url}media/{resize}",
+          project_name: "The UNIQUE",
+          project_by: "Tenthai",
+        },
+      ];
+      function getPastProject(filter = "") {
+        const pastProjectWrapper = document.querySelector(
+          ".past-project-items-wrapper"
+        );
+        let projectFilter = [];
+        if (filter) {
+          projectFilter = pastProject.filter(
+            (project) => project.project_by === filter
+          );
+        } else {
+          projectFilter = pastProject;
+        }
+        pastProjectWrapper.innerHTML = "";
+        for (let i = 0; i < projectFilter.length; i++) {
+          const url = projectFilter[i].url;
+          const image = projectFilter[i].image;
+          const project_name = projectFilter[i].project_name;
+          const project_by = projectFilter[i].project_by;
+          pastProjectWrapper.innerHTML += `
+            <a href="${url}" class="project-item">
+              <div class="project-item-img">
+                <img src="${image}" alt="Project" />
+              </div>
+              <div class="project-item-info">
+                <div class="project-name">${project_name}</div>
+                <div class="project-by">โดย ${project_by}</div>
+              </div>
+            </a>
+          `;
+        }
+      }
+      getPastProject();
+    </script>
   </body>
 </html>
