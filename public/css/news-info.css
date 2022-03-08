@@ -143,6 +143,7 @@
 }
 
 .news-paragraph p {
+  padding: 0 8rem;
   font-size: 15px;
   color: #fff;
 }
@@ -159,6 +160,9 @@
 @media only screen and (max-width: 991px) {
   .opening-project-box {
     padding: 2rem 0rem;
+  }
+  .news-paragraph p {
+    padding: 0;
   }
   .vdo-wrapper {
     width: auto;

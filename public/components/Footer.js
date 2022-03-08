@@ -10,9 +10,6 @@ class Footer extends HTMLElement {
             </div>
           </a>
           <div class="wrapper-footer">
-            <div class="logo-theones">
-              <a href="/"><img src="./assets/home/logo1-footer.png" alt="logo" /></a>
-            </div>
             <ul class="services theones ps-0">
               <li data-lang="en"><a href="/projects.html"><div class="animated-line pos-26"></div><h5 class="mb-4"  onMouseOver="lineOnHover(26)" onMouseOut="lineOutHover(26)">PROJECTS</h5></li>
               <li data-lang="th"><a href="/projects.html"><div class="animated-line pos-24"></div><h5 class="mb-4"  onMouseOver="lineOnHover(24)" onMouseOut="lineOutHover(24)">โครงการ</h5></li>
@@ -149,6 +146,7 @@ class Footer extends HTMLElement {
             </ul>
             <div class="footer-horizontal-line"></div>
             <div class="logo-tenthai">
+              <a href="/"><img src="./assets/home/logo1-footer.png" alt="logo" /></a>
               <a href="/"><img src="./assets/home/logo2-footer.png" alt="logo" /></a>
               <a href="tel:+66 2538 8019">+66 2538 8019</a>
             </div>
