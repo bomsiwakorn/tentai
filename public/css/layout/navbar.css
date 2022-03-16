@@ -2,7 +2,7 @@ nav {
   width: 100%;
   /* position: fixed; */
   position: relative;
-  z-index: 999;
+  z-index: 995;
 }
 .nav-top {
   position: fixed;

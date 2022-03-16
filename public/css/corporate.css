@@ -307,7 +307,7 @@
   padding-left: 2rem;
   padding-bottom: 2rem;
 }
-.exp-item:last-child {
+.last-exp-item {
   border-left: 2px solid transparent;
 }
 .exp-item:after {

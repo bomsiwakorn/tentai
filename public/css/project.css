@@ -93,7 +93,7 @@
   text-align: center;
 }
 #project-idea img {
-  border: 5px solid #dc8983;
+  border: 2px solid #dc8983;
   height: 600px;
   width: 100%;
 }
@@ -174,7 +174,7 @@
   line-height: 2;
 }
 .facilities-items-wrapper {
-  width: 80%;
+  width: 90%;
   margin: 4rem auto 0 auto;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
@@ -367,6 +367,7 @@
     width: 100%;
   }
   .facilities-items-wrapper {
+    width: 100%;
     grid-template-columns: repeat(3, 1fr);
   }
   .project-contact-wrapper {

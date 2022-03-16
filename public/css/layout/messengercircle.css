@@ -1,0 +1,17 @@
+.MessagerCircle {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  margin: 0 2rem 5rem 0;
+  outline: none;
+  border: none;
+  background: #dc8983;
+  border-radius: 100%;
+  width: 60px;
+  height: 60px;
+  z-index: 995;
+}
+.MessagerCircle i {
+  font-size: 2.5rem;
+  color: #fff;
+}

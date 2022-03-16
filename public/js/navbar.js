@@ -25,20 +25,28 @@ function projectToggle(idx) {
   }
 }
 
-function acitveMenu(lang, index) {
-  const menuItem = document.querySelectorAll("#menuItem-project");
-  console.log(menuItem);
-  console.log(window.location);
-  // for (let i = 0; i < menuItem.length; i++) {
-  //   menuItem[i].style.color = "#dc8983";
-  // }
-  // for (let i = 0; i < 3; i++) {
-  //   if (i === index) {
-  //     menuItem[index].style.color = "#dc8983";
-  //   } else {
-  //     menuItem[i].style.color = "#fff";
-  //   }
-  // }
+function acitveMenu() {
+  let pathName = window.location.pathname.split("/")[1].split(".")[0];
+
+  if (pathName === undefined) {
+    return;
+  }
+  let menuItem = document.querySelectorAll(`.menuItem-${pathName}`);
+  let menuItemProject = document.querySelectorAll(`.menuItem-projects`);
+  let menuItemCareer = document.querySelectorAll(`.menuItem-career`);
+  let menuItemNews = document.querySelectorAll(`.menuItem-news`);
+  for (let i = 0; i < menuItem.length; i++) {
+    menuItem[i].style.color = "#dc8983";
+  }
+  for (let i = 0; i < menuItemProject.length; i++) {
+    if (pathName === "project") {
+      menuItemProject[i].style.color = "#dc8983";
+    } else if (pathName === "career-form" || pathName === "career-completed") {
+      menuItemCareer[i].style.color = "#dc8983";
+    } else if (pathName === "news-info") {
+      menuItemNews[i].style.color = "#dc8983";
+    }
+  }
 }
 acitveMenu();
 
