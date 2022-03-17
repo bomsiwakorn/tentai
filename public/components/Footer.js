@@ -14,7 +14,7 @@ class Footer extends HTMLElement {
               <li data-lang="en"><a href="/projects.html"><div class="animated-line pos-26"></div><h5 class="mb-4"  onMouseOver="lineOnHover(26)" onMouseOut="lineOutHover(26)">PROJECTS</h5></li>
               <li data-lang="th"><a href="/projects.html"><div class="animated-line pos-24"></div><h5 class="mb-4"  onMouseOver="lineOnHover(24)" onMouseOut="lineOutHover(24)">โครงการ</h5></li>
               <li data-lang="ch"><a href="/projects.html"><div class="animated-line pos-25"></div><h5 class="mb-4"  onMouseOver="lineOnHover(25)" onMouseOut="lineOutHover(25)">项目介绍</h5></li>
-              <li data-lang="en"><a href="/projects.html"><p class="mb-0">The One Estate Developer</p></a></li>
+              <li data-lang="en"><a href="/projects.html"><p class="mb-0">The One Estate Development</p></a></li>
               <li data-lang="th"><a href="/projects.html"><p class="mb-0">เดอะ วัน เอสเตท ดีเวลลอปเม้นท์</p></a></li>
               <li data-lang="ch"><a href="/projects.html"><p class="mb-0">力萬房地产开发有限公司</p></a></li>
               <div class="services theones-menus">
@@ -51,7 +51,7 @@ class Footer extends HTMLElement {
             <ul class="services footer-services ps-0">
             <li data-lang="en">
                 <a href="/after-sale.html">
-                  <div class="animated-line pos-48"></div><h5 onMouseOver="lineOnHover(48)" onMouseOut="lineOutHover(48)">AFTER SALE SERVICE</h5>
+                  <div class="animated-line pos-48"></div><h5 onMouseOver="lineOnHover(48)" onMouseOut="lineOutHover(48)">AFTER SALES SERVICE</h5>
                 </a>
               </li>
               <li data-lang="th">
@@ -140,7 +140,7 @@ class Footer extends HTMLElement {
               </li>
               <li data-lang="en">
                 <a href="/map.html">
-                  <div class="animated-line pos-65"></div><h5 onMouseOver="lineOnHover(65)" onMouseOut="lineOutHover(65)">OUR LOCATION</h5>
+                  <div class="animated-line pos-65"></div><h5 onMouseOver="lineOnHover(65)" onMouseOut="lineOutHover(65)">PROJECTS LOCATION</h5>
                 </a>
               </li>
             </ul>
@@ -159,7 +159,7 @@ class Footer extends HTMLElement {
               <li data-lang="ch" onMouseOver="lineOnHover(69)" onMouseOut="lineOutHover(69)"><a href="/corporate.html"><div class="animated-line pos-69" style="bottom: -13px;"></div>关于力萬</a></li>
               <li data-lang="th" onMouseOver="lineOnHover(70)" onMouseOut="lineOutHover(70)"><a href="/corporate.html"><div class="animated-line pos-70" style="bottom: -13px;"></div>เกี่ยวกับองค์กร</a></li>
               <li data-lang="en" onMouseOver="lineOnHover(71)" onMouseOut="lineOutHover(71)"><a href="/corporate.html"><div class="animated-line pos-71" style="bottom: -13px;"></div>CORPORATE</a></li>
-              <li data-lang="en" onMouseOver="lineOnHover(72)" onMouseOut="lineOutHover(72)"><a href="/after-sale.html"><div class="animated-line pos-72" style="bottom: -13px;"></div>AFTER SALE SERVICE</a></li>
+              <li data-lang="en" onMouseOver="lineOnHover(72)" onMouseOut="lineOutHover(72)"><a href="/after-sale.html"><div class="animated-line pos-72" style="bottom: -13px;"></div>AFTER SALES SERVICE</a></li>
               <li data-lang="th" onMouseOver="lineOnHover(73)" onMouseOut="lineOutHover(73)"><a href="/after-sale.html"><div class="animated-line pos-73" style="bottom: -13px;"></div>บริการหลังการขาย</a></li>
               <li data-lang="ch" onMouseOver="lineOnHover(74)" onMouseOut="lineOutHover(74)"><a href="/after-sale.html"><div class="animated-line pos-74" style="bottom: -13px;"></div>售后服务</a></li>
               <li data-lang="en" onMouseOver="lineOnHover(75)" onMouseOut="lineOutHover(75)"><a href="/news.html"><div class="animated-line pos-75" style="bottom: -13px;"></div>NEWS</a></li>
@@ -176,7 +176,7 @@ class Footer extends HTMLElement {
               <li data-lang="en" onMouseOver="lineOnHover(84)" onMouseOut="lineOutHover(84)"><a href="/contact.html"><div class="animated-line pos-84" style="bottom: -13px;"></div>CONTACT</a></li>
               <li data-lang="th" onMouseOver="lineOnHover(85)" onMouseOut="lineOutHover(85)"><a href="/contact.html"><div class="animated-line pos-85" style="bottom: -13px;"></div>ติดต่อเรา</a></li>
               <li data-lang="ch" onMouseOver="lineOnHover(86)" onMouseOut="lineOutHover(86)"><a href="/contact.html"><div class="animated-line pos-86" style="bottom: -13px;"></div>联系我们</a></li>
-              <li data-lang="en" onMouseOver="lineOnHover(87)" onMouseOut="lineOutHover(87)"><a href="/map.html"><div class="animated-line pos-87" style="bottom: -13px;"></div>OUR LOCATION</a></li>
+              <li data-lang="en" onMouseOver="lineOnHover(87)" onMouseOut="lineOutHover(87)"><a href="/map.html"><div class="animated-line pos-87" style="bottom: -13px;"></div>PROJECTS LOCATION</a></li>
               <li data-lang="th" onMouseOver="lineOnHover(88)" onMouseOut="lineOutHover(88)"><a href="/map.html"><div class="animated-line pos-88" style="bottom: -13px;"></div>ทำเลโครงการ</a></li>
               <li data-lang="ch" onMouseOver="lineOnHover(89)" onMouseOut="lineOutHover(89)"><a href="/map.html"><div class="animated-line pos-89" style="bottom: -13px;"></div>项目地图</a></li>
             </ul>
