@@ -46,15 +46,18 @@
 .profile-info-position,
 .profile-info-company {
   color: #fff;
-  font-size: 14px;
-  font-weight: 300;
+  font-size: 15px;
+  font-weight: 200;
+}
+.profile-info-company {
+  padding-top: 8px;
 }
 .profile-info-wrapper button {
   background: #dc8983;
   border: 1px solid #dc8983;
   outline: none;
   color: #fff;
-  font-size: 14px;
+  font-size: 15px;
   padding: 4px 1rem;
   transition: 0.4s;
   margin-top: 2rem;
@@ -106,9 +109,10 @@
   color: #fff;
   font-weight: 200;
   margin-top: 4rem;
-  width: 550px;
+  width: 400px;
   line-height: 2;
   font-size: 15px;
+  padding-right: 1rem;
 }
 .history-company-wrapper-2 {
   display: grid;
@@ -279,8 +283,8 @@
 .profile-more-position,
 .profile-more-company {
   color: #dc8983;
-  font-weight: 300;
-  font-size: 16px;
+  font-weight: 200;
+  font-size: 15px;
   margin-top: 1rem;
 }
 .profile-more-edu-wrapper {
@@ -292,7 +296,7 @@
 }
 .profile-more-edu-wrapper p {
   color: #e8e7e5;
-  font-weight: 300;
+  font-weight: 200;
   font-size: 15px;
   line-height: 1.6;
 }
@@ -329,8 +333,8 @@
 }
 .exp-item p {
   color: #e8e7e5;
-  font-weight: 300;
-  font-size: 16px;
+  font-weight: 200;
+  font-size: 15px;
   margin-bottom: 0;
 }
 

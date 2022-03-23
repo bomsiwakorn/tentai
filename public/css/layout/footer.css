@@ -25,7 +25,7 @@ footer {
   justify-content: space-between;
 }
 .footer-news {
-  width: 130px;
+  width: 153px;
 }
 .footer-services {
   width: 170px;
@@ -228,7 +228,7 @@ footer {
     width: 185px;
   }
   .services-2 {
-    width: 135px;
+    width: 166px;
   }
 }
 @media only screen and (max-width: 575px) {

@@ -41,7 +41,7 @@ class Navbar extends HTMLElement {
         <li data-lang="en"><a href="/corporate.html" class="menuItem-corporate">CORPORATE</a></li>
         <li data-lang="th"><a href="/corporate.html" class="menuItem-corporate">เกี่ยวกับองค์กร</a></li>
         <li data-lang="ch"><a href="/corporate.html" class="menuItem-corporate">关于力萬</a></li>
-        <li data-lang="en"><a href="/after-sale.html" class="menuItem-after-sale">AFTER SALE SERVICE</a></li>
+        <li data-lang="en"><a href="/after-sale.html" class="menuItem-after-sale">AFTER SALES SERVICE</a></li>
         <li data-lang="th"><a href="/after-sale.html" class="menuItem-after-sale">บริการหลังการขาย</a></li>
         <li data-lang="ch"><a href="/after-sale.html" class="menuItem-after-sale">售后服务</a></li>
         <li data-lang="en"><a href="/news.html" class="menuItem-news">NEWS</a></li>
@@ -88,7 +88,7 @@ class Navbar extends HTMLElement {
       </li>
       <div class="projects-box" id="projects-box">
         <a data-lang="en" href="/projects.html"
-          ><p class="mb-0">The One Estate Developer</p></a
+          ><p class="mb-0">The One Estate Development</p></a
         >
         <a data-lang="th" href="/projects.html"
           ><p class="mb-0">เดอะ วัน เอสเตท ดีเวลลอปเม้นท์</p></a
@@ -136,7 +136,7 @@ class Navbar extends HTMLElement {
       </div>
       <li data-lang="th"><a href="/corporate.html">เกี่ยวกับองค์กร</a></li>
       <li data-lang="ch"><a href="/corporate.html">关于力萬</a></li>
-      <li data-lang="en"><a href="/after-sale.html">AFTER SALE SERVICE</a></li>
+      <li data-lang="en"><a href="/after-sale.html">AFTER SALES SERVICE</a></li>
       <li data-lang="th"><a href="/after-sale.html">บริการหลังการขาย</a></li>
       <li data-lang="ch"><a href="/after-sale.html">售后服务</a></li>
       <li data-lang="en"><a href="/news.html">NEWS</a></li>

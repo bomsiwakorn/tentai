@@ -29,7 +29,7 @@
   color: #fff;
   width: 550px;
   line-height: 2;
-  font-weight: 300;
+  font-weight: 200;
 }
 .google-map-address {
   filter: grayscale(10%) invert(90%) contrast(88%);

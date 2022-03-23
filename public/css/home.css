@@ -77,7 +77,7 @@ header.banner {
 .banner-img-3 {
   width: 100vw;
   height: 96vh;
-  background-position: center;
+  background-position: center !important;
   background-repeat: no-repeat;
   background-size: cover;
 }
