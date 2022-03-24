@@ -18,13 +18,13 @@
   background-size: cover;
 }
 .banner-img-1 {
-  background-image: url("../assets/projects/2.png");
+  background-image: url('../assets/projects/2.png');
 }
 .banner-img-2 {
-  background-image: url("../assets/home/banner2.jpg");
+  background-image: url('../assets/home/banner2.jpg');
 }
 .banner-img-3 {
-  background-image: url("../assets/home/banner3.jpg");
+  background-image: url('../assets/home/banner3.jpg');
 }
 #banner img {
   height: 100vh;
@@ -91,11 +91,20 @@
 #project-idea {
   position: relative;
   text-align: center;
-}
-#project-idea img {
-  border: 2px solid #dc8983;
+  background: url('../assets/project/bg-idea.png');
   height: 600px;
-  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#project-idea:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border: 2px solid #dc8983;
 }
 .project-idea-wrapper {
   width: 90%;
