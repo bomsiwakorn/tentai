@@ -151,7 +151,6 @@
 .download-file {
   margin: 0 auto;
   padding-top: 1rem;
-  display: none;
 }
 .download-file a {
   text-decoration: none;
@@ -164,6 +163,7 @@
   margin-bottom: 1.5rem;
 }
 .download-file a p {
+  text-align: center;
   color: #dc8983;
   font-size: 15px;
 }
@@ -347,7 +347,8 @@
   .register-wrapper {
     grid-template-columns: 1fr;
   }
-  .register-right {
+  .register-left {
+    grid-row: 2/3;
     padding-top: 2rem;
   }
   .heading-underline-right {
