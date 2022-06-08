@@ -146,8 +146,8 @@ class Footer extends HTMLElement {
             </ul>
             <div class="footer-horizontal-line"></div>
             <div class="logo-tenthai">
-              <a href="/"><img src="./assets/home/logo1-footer.png" alt="logo" /></a>
-              <a href="/"><img src="./assets/home/logo2-footer.png" alt="logo" /></a>
+              <a href="https://www.theoneestate.co.th/projects.html?action=curone#cur"><img src="./assets/home/logo1-footer.png" alt="logo" /></a>
+              <a href="https://www.theoneestate.co.th/projects.html?action=curten#cur"><img src="./assets/home/logo2-footer.png" alt="logo" /></a>
               <a href="tel:+66 2538 8019">+66 2538 8019</a>
             </div>
           </div>
@@ -194,8 +194,8 @@ class Footer extends HTMLElement {
           Designed by <a href="http://belongto.com" target="_blank">Belong-To</a>
         </p>
       </footer>
-    `;
+    `
   }
 }
 
-customElements.define("footer-page", Footer);
+customElements.define('footer-page', Footer)

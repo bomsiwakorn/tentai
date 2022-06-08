@@ -78,8 +78,8 @@ header.banner {
   width: 100vw;
   height: 96vh;
   background-position: center !important;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
 }
 .banner-img-1 {
   background-image: url("../assets/home/banner1.png");
@@ -429,9 +429,6 @@ section.maps img {
 .cookie-content p {
   padding-bottom: 0.5rem;
   padding-right: 1rem;
-}
-.cookie-accept {
-  /* margin: auto; */
 }
 
 .cookie-accept button {

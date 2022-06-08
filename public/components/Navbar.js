@@ -7,10 +7,7 @@ class Navbar extends HTMLElement {
       <div class="wrapper-nav-top">
           <a href="/" class="logo">
             <div class="logo-items">
-              <img src="./assets/home/logo1-nav.png" alt="logo" />
-            </div>
-            <div class="logo-items ms-4">
-              <img src="./assets/home/logo2-nav.png" alt="logo" />
+              <img src="./assets/home/logo-group.jpg" alt="logo" />
             </div>
           </a>
         <div class="home">
@@ -19,9 +16,9 @@ class Navbar extends HTMLElement {
             <li data-lang="th"><a href="/">หน้าหลัก</a></li>
             <li data-lang="ch"><a href="/">首页</a></li>
           </ul>
-  
+
           <select class="dropdown-language" id="change-language">
-            <option value="en" selected="selected" >EN</option>
+            <option value="en" selected="selected">EN</option>
             <option value="th">TH</option>
             <option value="ch">CN</option>
           </select>
